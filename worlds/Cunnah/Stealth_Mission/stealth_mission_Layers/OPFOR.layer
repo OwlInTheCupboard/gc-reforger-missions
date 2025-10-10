@@ -18,6 +18,14 @@ SCR_ScenarioFrameworkTriggerEntity {
   }
  }
 }
+GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
+ coords 7804.398 255.602 4024.705
+ angleY -109.667
+}
+GenericEntity : "{13891AA1F5833C4A}Prefabs/Props/Civilian/Notebook_01_Double.et" {
+ coords 7804.51 255.602 4024.319
+ angleY -104.492
+}
 $grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
  {
   coords 7804.617 254.712 4024.733
@@ -36,6 +44,10 @@ $grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/Cha
   angleX 3.071
   angleY -10.765
  }
+}
+StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ coords 7808.29 254.697 4024.385
+ angleY -38.216
 }
 GenericEntity : "{1BE2B6FF4806EB3E}Prefabs/Props/Civilian/Guitar_01/Guitar_01.et" {
  coords 7811.173 254.908 4018.796
@@ -193,12 +205,26 @@ $grp GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/Lamp
     m_eInitialLightState LIT
    }
   }
-  coords 7958.147 251.466 4046.89
+  coords 7958.147 251.471 4046.89
   angleY -43.089
  }
  {
-  coords 7803.848 255.608 4024.906
-  angleY 118.614
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7803.976 255.609 4024.673
+  angleY 81.248
+ }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7808.82 255.604 4024.496
+  angleY -60.745
  }
 }
 $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.et" {
@@ -214,7 +240,7 @@ $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.
   coords 7842.194 254.647 4037.418
   angleY 57.927
   m_aUnitPrefabSlots {
-   "{5436629450D8387A}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_SL.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et" "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et" "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et" "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
   }
   m_aStaticWaypoints {
    "mountain_base_patrol_cycle"
@@ -229,7 +255,7 @@ $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.
   coords 7809.327 254.531 4018.891
   angleY 57.641
   m_aUnitPrefabSlots {
-   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+   "{4E48B7A198FA4E92}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman_relaxed.et"
   }
   m_aStaticWaypoints {
    "animation_waypoint"
@@ -244,7 +270,7 @@ $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.
   coords 7812.164 254.531 4015.282
   angleY 57.641
   m_aUnitPrefabSlots {
-   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+   "{4E48B7A198FA4E92}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman_relaxed.et"
   }
   m_aStaticWaypoints {
    "animation_waypoint2"
@@ -259,7 +285,7 @@ $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.
   coords 7810.209 254.531 4015.975
   angleY 57.641
   m_aUnitPrefabSlots {
-   "{DCB41B3746FDD1BE}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman.et"
+   "{4E48B7A198FA4E92}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman_relaxed.et"
   }
   m_aStaticWaypoints {
    "animation_waypoint3"
@@ -280,9 +306,9 @@ $grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.
   }
  }
 }
-StaticModelEntity : "{3FBCCB3371A2F77B}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Typewriter_USSR_01.et" {
- coords 7804.316 254.709 4024.527
- angleY 58.866
+StaticModelEntity : "{764414C0E2EF983E}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02.et" {
+ coords 7804.504 254.703 4024.157
+ angleY 56.135
 }
 TILW_PrefabSpawnerEntity BMP_1_Spawner : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  coords 8365.001 162.981 3685.403
@@ -305,6 +331,10 @@ TILW_PrefabSpawnerEntity BMP_1_Spawner : "{7F10372CF1CA1175}Prefabs/Utils/TILW_P
    }
   }
  }
+}
+GenericEntity : "{8144766E629D507B}Prefabs/Props/PersonalBelongings/Notebooks/Notebook_01_Personal_USSR.et" {
+ coords 7808.298 255.596 4024.558
+ angleY 117.122
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 7871.207 256.588 4015.376
@@ -339,8 +369,9 @@ $grp GenericEntity : "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned
   components {
    SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
     m_EffectConfig SCR_BarrageEffectsModule "{5CAAAC876B00D6FB}" {
-     m_fMinBarrageDelay 10
-     m_fMaxBarrageDelay 20
+     m_fMaxProjectileDelay 5
+     m_fMinBarrageDelay 2
+     m_fMaxBarrageDelay 5
      m_bIsLooping 1
     }
    }
@@ -351,9 +382,9 @@ $grp GenericEntity : "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned
 GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
  coords 7958.523 250.534 4046.678
 }
-StaticModelEntity : "{ACB6EFBD551A30FE}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_USSR_01.et" {
- coords 7808.147 254.703 4024.322
- angleY -31.836
+GenericEntity : "{ABA12EC2F6D0F778}Prefabs/Props/Military/Compositions/USSR/RadioStation_USSR.et" {
+ coords 7808.128 255.596 4024.079
+ angleY -13.831
 }
 $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
  T72A_base1 {
@@ -376,6 +407,10 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
 SCR_AIGroup : "{C7095C066BFA5DC9}Prefabs/Groups/BLUFOR/British Forces/2024/UKSF/SAS/P/Group_UK_2024_SAS_Team_P.et" {
  coords 7886.99 263.62 3872.842
 }
+StaticModelEntity : "{C99D1B2E817E12D9}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02_cabinet.et" {
+ coords 7805.185 254.699 4022.852
+ angleY 51.005
+}
 GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
  components {
   SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
@@ -384,9 +419,17 @@ GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
  }
  coords 7811.54 254.531 4016.585
 }
+StaticModelEntity : "{DA242761FD59A978}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_USSR_01.et" {
+ coords 7804.641 254.696 4027.296
+ angleY -29.209
+}
 GenericEntity : "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et" {
  coords 5864.636 87.802 5317.303
  angleY 48.782
+}
+GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {
+ coords 7804.223 255.602 4024.171
+ angleY 48.639
 }
 $grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {
  Ural4320_ZU1 {
