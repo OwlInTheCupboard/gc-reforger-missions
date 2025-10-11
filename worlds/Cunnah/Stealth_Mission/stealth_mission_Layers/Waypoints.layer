@@ -1,0 +1,320 @@
+$grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.et" {
+ BMP_1_Patrol_1 {
+  coords 8125.731 219.555 4108.573
+ }
+ BMP_1_Patrol_2 {
+  coords 7610.12 163.907 4534.077
+ }
+ BMP_1_Patrol_3 {
+  coords 7485.666 137.966 4730.887
+ }
+ BMP_1_Patrol_4 {
+  coords 7693.785 133.286 4818.082
+ }
+ mountain_base_patrol_1 {
+  coords 7851.504 254.707 4043.727
+  m_aSettings {
+   SCR_AIGroupFormationSetting "{668528112E304B6E}" {
+    m_eFormation Column
+   }
+   SCR_AICharacterStanceSetting "{66852811747D1382}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+  }
+ }
+ mountain_base_patrol_2 {
+  coords 7886.135 255.959 4050.47
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_3 {
+  coords 7949.003 251.23 4049.57
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_4 {
+  coords 7897.661 256.628 4036.936
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_5 {
+  coords 7846.979 256.774 3979.423
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_6 {
+  coords 7780.109 256.405 3918.216
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_7 {
+  coords 7656.528 247.325 3852.214
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_8 {
+  coords 7647.548 230.92 3940.638
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_9 {
+  coords 7749.946 246.637 3968.864
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ mountain_base_patrol_10 {
+  coords 7823.585 256.652 3996.383
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{66852811996C3554}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{66852811EDCDDF04}" {
+    m_eFormation Column
+   }
+  }
+ }
+ BMP_1_Patrol_5 {
+  coords 7578.07 80.315 5565.271
+ }
+ BMP_1_Patrol_6 {
+  coords 7524.52 83.176 5562.547
+ }
+ BMP_1_Patrol_7 {
+  coords 7609.085 77.652 5462.197
+ }
+}
+$grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.et" {
+ base_perimeter_patrol2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7519.958 165.346 4356.333
+  angleY 10.169
+  m_aUnitPrefabSlots {
+   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
+  }
+ }
+ base_perimeter_patrol3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7402.001 163.425 4262.962
+  angleY -168.18
+  m_aUnitPrefabSlots {
+   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
+  }
+ }
+ base_perimeter_patrol4 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupSettingsComponent "{6260EB4E8D5C6608}" {
+    m_aDefaultSettings {
+     SCR_AICharacterLightInteractionSetting "{6694E5ADBB930C01}" {
+      m_eCause SAFE
+      m_bAllowInteraction 1
+     }
+    }
+   }
+  }
+  coords 7495.851 165.751 4239.454
+  angleY -168.18
+  m_aUnitPrefabSlots {
+   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
+  }
+ }
+ base_perimeter_patrol5 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7508.841 170.025 4337.445
+  angleY 86.036
+  m_aUnitPrefabSlots {
+   "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et"
+  }
+  m_bSnapToTerrain 0
+ }
+}
+$grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
+ BMP_1_Patrol_Cycle {
+  coords 7582.915 138.265 4750.118
+  CycleWaypoints {
+   "BMP_1_Patrol_1" "BMP_1_Patrol_2" "BMP_1_Patrol_3" "BMP_1_Patrol_4" "BMP_1_Patrol_5" "BMP_1_Patrol_6" "BMP_1_Patrol_7" "BMP_1_Patrol_4" "BMP_1_Patrol_3" "BMP_1_Patrol_2" "BMP_1_Patrol_1"
+  }
+ }
+ mountain_base_patrol_cycle {
+  coords 7834.522 257.178 3989.768
+  CycleWaypoints {
+   "mountain_base_patrol_1" "mountain_base_patrol_2" "mountain_base_patrol_4" "mountain_base_patrol_3" "mountain_base_patrol_4" "mountain_base_patrol_5" "mountain_base_patrol_6" "mountain_base_patrol_7" "mountain_base_patrol_8" "mountain_base_patrol_9" "mountain_base_patrol_10"
+  }
+ }
+ base_perimeter_patrol_cycle {
+  coords 7624.043 166.843 4252.754
+  CycleWaypoints {
+   "base_perimeter_waypoint_1" "base_perimeter_waypoint_3" "base_perimeter_waypoint_4" "base_perimeter_waypoint_2" "base_perimeter_waypoint_7" "base_perimeter_waypoint_9"
+  }
+ }
+}
+$grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et" {
+ base_perimeter_waypoint_1 {
+  coords 7644.341 167.194 4319.213
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{6694E5A9954A7B0F}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{6694E5A9E5BE12E2}" {
+    m_eFormation Column
+   }
+  }
+ }
+ base_perimeter_waypoint_3 {
+  coords 7419.384 161.878 4388.139
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{6694E5A9954A7B0F}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{6694E5A9E5BE12E2}" {
+    m_eFormation Column
+   }
+  }
+ }
+ base_perimeter_waypoint_4 {
+  coords 7363.817 163.628 4275.381
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{6694E5A9954A7B0F}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{6694E5A9E5BE12E2}" {
+    m_eFormation Column
+   }
+  }
+ }
+ base_perimeter_waypoint_7 {
+  coords 7503.104 166.879 4179.392
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{6694E5A9954A7B0F}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{6694E5A9E5BE12E2}" {
+    m_eFormation Column
+   }
+  }
+ }
+ base_perimeter_waypoint_9 {
+  coords 7594.775 166.84 4154.822
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{6694E5A9954A7B0F}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{6694E5A9E5BE12E2}" {
+    m_eFormation Column
+   }
+  }
+ }
+ base_perimeter_waypoint_2 {
+  coords 7499.458 165.85 4229.11
+  AIBehaviorTreeMoveTo "{62D36413D46F02A6}AI/BehaviorTrees/Waypoints/WP_Patrol.bt"
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AICharacterStanceSetting "{6694E5A9954A7B0F}" {
+    m_eCause SAFE
+    m_eStance STAND
+   }
+   SCR_AIGroupFormationSetting "{6694E5A9E5BE12E2}" {
+    m_eFormation Column
+   }
+  }
+ }
+}

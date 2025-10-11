@@ -1,3 +1,25 @@
+$grp GenericEntity : "{004CF4342B828772}worlds/Cunnah/Prefabs/Props/Fluorescent_Tube_Lit.et" {
+ {
+  Flags 525315
+  coords 7397.282 3.346 4299.833
+  angleX -7.082
+  angleY 115.238
+ }
+ {
+  Flags 525315
+  coords 7394.186 3.346 4293.265
+  angleX -7.082
+  angleY 115.238
+ }
+}
+GenericEntity : "{03DE957D8161212B}Prefabs/Props/Civilian/Notebook_01_Open.et" {
+ coords 7804.398 255.602 4024.705
+ angleY -109.667
+}
+GenericEntity : "{13891AA1F5833C4A}Prefabs/Props/Civilian/Notebook_01_Double.et" {
+ coords 7804.51 255.602 4024.319
+ angleY -104.492
+}
 $grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/ChairMilitary_USSR_01.et" {
  {
   coords 7560.826 166.156 4266.529
@@ -7,10 +29,76 @@ $grp StaticModelEntity : "{172DD50ACF177B9E}Prefabs/Props/Military/Furniture/Cha
   coords 7562.922 166.156 4266.551
   angleY 32.44
  }
+ {
+  coords 7804.617 254.712 4024.733
+  angleY 55.306
+ }
+ {
+  coords 7807.927 254.719 4024.73
+  angleY -43.604
+ }
+ {
+  coords 7809.325 254.531 4017.347
+  angleY -100.777
+ }
+ {
+  coords 7811.154 254.531 4018.982
+  angleX 3.071
+  angleY -10.765
+ }
+}
+StaticModelEntity : "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et" {
+ coords 7808.29 254.697 4024.385
+ angleY -38.216
+}
+GenericEntity : "{1BE2B6FF4806EB3E}Prefabs/Props/Civilian/Guitar_01/Guitar_01.et" {
+ coords 7811.173 254.908 4018.796
+ angleX 57.297
 }
 Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
  coords 7558.211 166.156 4266.052
  angleY 10.726
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 7516.33 82.442 5575.111
+ angleY -47.031
+}
+$grp GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/LampKerosene_01_military_USSR.et" {
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7812.018 254.545 4011.127
+ }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7958.147 251.471 4046.89
+  angleY -43.089
+ }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7803.976 255.609 4024.673
+  angleY 81.248
+ }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7808.82 255.604 4024.496
+  angleY -60.745
+ }
 }
 $grp StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet_foundation.et" {
  {
@@ -21,6 +109,10 @@ $grp StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/Te
   coords 7865.1 256.297 4024.993
   angleY -136.84
  }
+}
+GenericEntity : "{2F2BBFDA3A2C73D4}Prefabs/Props/Civilian/RadioSmall_01_black.et" {
+ coords 7512.602 171.025 4338.394
+ angleY -145.518
 }
 GenericEntity : "{451BE00A37C69679}Prefabs/Structures/Military/Radar/ApproachRadar_TPN19_01/ApproachRadar_TPN19_01_generator.et" {
  coords 7856.293 256.515 4004.228
@@ -50,6 +142,14 @@ GenericEntity : "{60AA21344D68BACE}Prefabs/Structures/Military/CamoNets/Soviet/C
  coords 7960.823 250.49 4049.981
  angleY -99.819
 }
+GenericEntity : "{666D9AE790BA141C}Prefabs/Props/Civilian/Typewriter_01/Typewriter_01_Base.et" {
+ coords 7509.793 170.931 4336.296
+ angleY -65.26
+}
+StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+ coords 7514.639 83.078 5567.353
+ angleY -45.528
+}
 $grp StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/TentSmallUSSR_01/TentSmallUSSR_01.et" {
  {
   coords 7806.442 254.531 4017.807
@@ -76,6 +176,14 @@ $grp StaticModelEntity : "{75A7C06222E6218B}Prefabs/Structures/Military/Camps/Te
   angleY 54.898
  }
 }
+StaticModelEntity : "{764414C0E2EF983E}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02.et" {
+ coords 7804.504 254.703 4024.157
+ angleY 56.135
+}
+GenericEntity : "{8144766E629D507B}Prefabs/Props/PersonalBelongings/Notebooks/Notebook_01_Personal_USSR.et" {
+ coords 7808.298 255.596 4024.558
+ angleY 117.122
+}
 $grp Vehicle : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
  Ural4320_transport_CIV_base1 {
   coords 7876.287 256.286 4034.55
@@ -94,6 +202,29 @@ $grp GameEntity : "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01
   coords 7562.87 166.656 4266.617
  }
 }
+GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ coords 7958.523 250.534 4046.678
+}
+GenericEntity : "{ABA12EC2F6D0F778}Prefabs/Props/Military/Compositions/USSR/RadioStation_USSR.et" {
+ coords 7808.128 255.596 4024.079
+ angleY -13.831
+}
+StaticModelEntity : "{C99D1B2E817E12D9}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02_cabinet.et" {
+ coords 7805.185 254.699 4022.852
+ angleY 51.005
+}
+GameEntity : "{D9842C11742C00CF}Prefabs/Props/Civilian/Fireplace_01.et" {
+ components {
+  SCR_FireplaceComponent "{5876E7F288BF5C8E}" {
+   m_eInitialLightState LIT
+  }
+ }
+ coords 7811.54 254.531 4016.585
+}
+StaticModelEntity : "{DA242761FD59A978}Prefabs/Compositions/Misc/SubCompositions/Furniture/Bed_Blankets_USSR_01.et" {
+ coords 7804.641 254.696 4027.296
+ angleY -29.209
+}
 GenericEntity burning_barrel : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/BarrelMetal_01_rust.et" {
  coords 7561.828 166.156 4265.362
  {
@@ -108,4 +239,114 @@ GenericEntity burning_barrel : "{DF3EF41CE4D441DE}Prefabs/Props/Industrial/Barre
    scale 0.415
   }
  }
+}
+$grp GenericEntity : "{DF9B306707F2BD15}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_02.et" {
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6694E5AF17A527F4}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{51611E400CB6FB8A}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover_emissive.emat"
+     }
+    }
+   }
+  }
+  coords 7509.479 173.285 4337.851
+  angleY 15
+  {
+   LightEntity {
+    coords 0.016 -0.435 -0.006
+    angleY -15
+    Color 0.8889 1 0.8889 1
+    LV 3.5
+    Radius 21.21
+    LensFlareType Disabled
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6694E5AF17A527F4}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{51611E400CB6FB8A}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover_emissive.emat"
+     }
+    }
+   }
+  }
+  coords 7503.104 173.285 4332.924
+  angleY 15
+  {
+   LightEntity {
+    coords 0.016 -0.435 -0.006
+    angleY -15
+    Color 0.8889 1 0.8889 1
+    LV 3.5
+    Radius 21.21
+    LensFlareType Disabled
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6694E5AF17A527F4}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{51611E400CB6FB8A}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover_emissive.emat"
+     }
+    }
+   }
+  }
+  coords 7501.788 173.285 4328.5
+  angleY 15
+  {
+   LightEntity {
+    coords 0.016 -0.435 -0.006
+    angleY -15
+    Color 0.8889 1 0.8889 1
+    LV 3.5
+    Radius 21.21
+    LensFlareType Disabled
+   }
+  }
+ }
+ {
+  components {
+   MeshObject "{5872F0EB7FA40561}" {
+    Materials {
+     MaterialAssignClass "{6694E5AF17A527F4}" {
+      SourceMaterial "LampFluorescent_01_cover"
+      AssignedMaterial "{51611E400CB6FB8A}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover_emissive.emat"
+     }
+    }
+   }
+  }
+  coords 7504.361 173.285 4337.248
+  angleY 15
+  {
+   LightEntity {
+    coords 0.016 -0.435 -0.006
+    angleY -15
+    Color 0.8889 1 0.8889 1
+    LV 3.5
+    Radius 21.21
+    LensFlareType Disabled
+   }
+  }
+ }
+}
+SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ coords 7523.214 82.95 5566.052
+ angleY -34.977
+}
+GenericEntity : "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et" {
+ coords 5864.636 87.802 5317.303
+ angleY 48.782
+}
+GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {
+ coords 7804.223 255.602 4024.171
+ angleY 48.639
 }

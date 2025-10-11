@@ -1,0 +1,61 @@
+GenericEntity : "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" {
+ components {
+  MeshObject "{5968D9C73C08706E}" {
+   Object "{3BBDBC37E8C27129}Assets/Items/Equipment/Accessories/Pouch_ALICE_200rnd_M249/Pouch_ALICE_200rnd_M249_Item.xob"
+  }
+  SCR_ExplosiveChargeInventoryItemComponent "{5AA692DC30B9C62B}" {
+   Attributes SCR_ItemAttributeCollection "{60D6BB563667D737}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{5F10E041E86255CD}" {
+     Weight 4
+    }
+   }
+  }
+  SCR_ExplosiveTriggerComponent "{5AA692DC30B9C65A}" {
+   PROJECTILE_EFFECTS {
+    ExplosionEffect "{5F10E04100CCC508}" {
+     EffectPrefab "{2EE77FA6C9097717}Prefabs/Weapons/Warheads/Warhead_Mine_M15AT.et"
+    }
+   }
+  }
+ }
+ coords 7590.517 166.156 4249.446
+}
+$grp GenericEntity : "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned_MortarBarrage_Larger.et" {
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5CAAAC876B00D6FB}" {
+     m_bIsLooping 1
+    }
+   }
+  }
+  coords 5914.26 103.78 4984.444
+ }
+ {
+  components {
+   SCR_EffectsModuleComponent "{5CA2DE492D8BBCF5}" {
+    m_EffectConfig SCR_BarrageEffectsModule "{5CAAAC876B00D6FB}" {
+     m_fMaxProjectileDelay 5
+     m_fMinBarrageDelay 2
+     m_fMaxBarrageDelay 5
+     m_bIsLooping 1
+    }
+   }
+  }
+  coords 5971.259 91.436 5406.877
+ }
+}
+$grp GenericEntity : "{BD99D23D65BCC92D}worlds/Cunnah/Prefabs/Items/Equipment/Weapons/Explosives/sachel_charge.et" {
+ {
+  coords 7589.745 166.156 4249.271
+ }
+ {
+  coords 7591.349 166.156 4249.313
+ }
+ {
+  coords 7591.208 166.156 4250.353
+ }
+}
+GenericEntity : "{CE0AF733722B3978}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/BlastingMachine_M34.et" {
+ coords 7589.942 166.156 4248.144
+}

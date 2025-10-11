@@ -1,0 +1,26 @@
+GenericEntity : "{DF9B306707F2BD15}Prefabs/Props/Furniture/LampFluorescent/LampFluorescent_02.et" {
+ ID "51F8C8429876E51B"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Materials {
+    MaterialAssignClass "{6694E5AF17A527F4}" {
+     SourceMaterial "LampFluorescent_01_cover"
+     AssignedMaterial "{51611E400CB6FB8A}Assets/Props/Furniture/LampFluorescent_02/Data/LampFluorescent_02_cover_emissive.emat"
+    }
+   }
+  }
+ }
+ coords 7509.479 173.285 4337.851
+ angleY 15
+ {
+  LightEntity {
+   ID "6694E5BA8171FD26"
+   coords 0.016 -0.435 -0.006
+   angleY -15
+   Color 0.8889 1 0.8889 1
+   LV 3.5
+   Radius 21.21
+   LensFlareType Disabled
+  }
+ }
+}

@@ -1,4 +1,12 @@
 SCR_AIWorld : "{70CCCF16487C927F}Prefabs/AI/SCR_AIWorld_Eden.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A297F9E52831}" {
+    }
+   }
+  }
+ }
  coords 7628.28 75.214 5438.135
 }
 PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
@@ -7,18 +15,38 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  components {
   SCR_InitWeatherComponent "{61B68227C35BFE9A}" {
-   m_sInitialStartingWeatherId "Clear"
+   m_sInitialStartingWeatherId "Cloudy"
    m_iSetWeatherConstant 1
   }
   SCR_TimeAndWeatherHandlerComponent "{5EE3229927D4D2F5}" {
-   m_iStartingHours 4
-   m_iStartingMinutes 30
+   m_iStartingHours 20
+   m_iStartingMinutes 50
    m_aStartingWeatherAndTime {
     SCR_TimeAndWeatherState "{6685281961B4B471}" {
-     m_sWeatherPresetName "Clear"
+     m_sWeatherPresetName "Cloudy"
     }
    }
+   m_bUseSpecifiedDate 1
+   m_iSetDay 12
+   m_iSetYear 1983
   }
  }
  coords 7627.977 75.236 5438.261
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 8634.799 121.268 2904.046
+ m_missionEvents {
+  TILW_MissionEvent "{6694A3D4F8D13594}" {
+   m_name "spotted"
+   m_instructions {
+    TILW_SendMessageInstruction "{6694A3D4C171464B}" {
+     m_executionDelay 0
+     m_messageTitle "SPOTTED!"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6694A3D4C9A03A4F}" {
+    m_flagName "spotted"
+   }
+  }
+ }
 }

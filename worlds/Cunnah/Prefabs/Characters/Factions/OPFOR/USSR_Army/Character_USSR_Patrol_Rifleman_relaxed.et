@@ -4,6 +4,17 @@ SCR_ChimeraCharacter : "{3ECA3A935BC069B9}Prefabs/Characters/Factions/OPFOR/USSR
   CharacterWeaponManagerComponent "{5C9CA676383262FD}" {
    DefaultWeaponIndex 0
   }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    PerceptionComponent "{54A2CBC75F06064B}" {
+     SensorsList {
+      EarsSensor "{520EA1D2DB109AA9}" {
+       MaxRange 1
+      }
+     }
+    }
+   }
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "#AR-Role_Rifleman"

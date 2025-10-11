@@ -1,29 +1,33 @@
 [EntityEditorProps(category: "GameScripted/Triggers", description: "The CN_AIStateChangeTrigger is a custom trigger designed to be used with the TILW_MissionFrameworkEntity.")]
-class CN_AIThreatStateTriggerEntityClass : TILW_BaseTriggerEntityClass
+class CN_SpottedTriggerEntityClass : TILW_BaseTriggerEntityClass
 {
 }
 
-class CN_AIThreatStateTriggerEntity : TILW_BaseTriggerEntity
+class CN_SpottedTriggerEntity : TILW_BaseTriggerEntity
 {
-	[Attribute("2", UIWidgets.ComboBox, "Minimum threat state to trigger", enums: ParamEnumArray.FromEnum(EAIThreatState), category: "Trigger Condition")]
-	protected EAIThreatState m_minTriggerState;
-	
-	[Attribute("", UIWidgets.Auto, "Which faction can trigger this?", category: "Trigger Condition")]
+	[Attribute("", UIWidgets.Auto, "Faction that can trigger this.", category: "Trigger Filter")]
 	protected string m_ownerFactionKey;
 	
 	[Attribute("", UIWidgets.ResourceAssignArray, "Any of these faction keys will be completely ignored by the trigger.", category: "Trigger Filter")]
 	protected ref array<string> m_ignoredFactions;
 	
+	protected ref array<SCR_ChimeraCharacter> m_alerted = {};
+	protected bool m_hasTarget = false;
+	
 	override bool EvaluateCondition()
-	{
-		if (m_specialCount <= 0)
-			return false;
+	{	
+		bool current = m_hasTarget;
+		m_hasTarget = false;
 		
-		return true;
+		Print(current);
+		
+		return current;
 	}
 	
 	override bool TotalFilter(SCR_ChimeraCharacter cc)
 	{
+		if (!cc)
+			return false;
 		if (IsEntityDestroyed(cc))
 			return false;
 		if (!IsWithinShape(cc.GetOrigin()))
@@ -54,13 +58,8 @@ class CN_AIThreatStateTriggerEntity : TILW_BaseTriggerEntity
 		if (!info)
 			return false;
 		
-		SCR_AIThreatSystem threatSystem = info.GetThreatSystem();
-		if (!threatSystem)
-			return false;
-		
-		EAIThreatState state = threatSystem.GetState();
-		if (state < m_minTriggerState)
-			return false;
+		if (info.m_Perception.GetTargetCount(ETargetCategory.ENEMY) > 0)
+			m_hasTarget = true;
 		
 		return true;
 	}
