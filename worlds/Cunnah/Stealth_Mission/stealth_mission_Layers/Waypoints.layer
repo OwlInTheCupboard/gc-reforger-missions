@@ -3,7 +3,7 @@ $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.
   coords 8125.731 219.555 4108.573
  }
  BMP_1_Patrol_2 {
-  coords 7610.12 163.907 4534.077
+  coords 7616.53 163.936 4538.91
  }
  BMP_1_Patrol_3 {
   coords 7485.666 137.966 4730.887
@@ -140,76 +140,8 @@ $grp SCR_AIWaypoint : "{22A875E30470BD4F}Prefabs/AI/Waypoints/AIWaypoint_Patrol.
  BMP_1_Patrol_7 {
   coords 7609.085 77.652 5462.197
  }
-}
-$grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.et" {
- base_perimeter_patrol2 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Column"
-   }
-   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
-    DefaultFormation "Column"
-   }
-  }
-  coords 7519.958 165.346 4356.333
-  angleY 10.169
-  m_aUnitPrefabSlots {
-   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
-  }
- }
- base_perimeter_patrol3 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Column"
-   }
-   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
-    DefaultFormation "Column"
-   }
-  }
-  coords 7402.001 163.425 4262.962
-  angleY -168.18
-  m_aUnitPrefabSlots {
-   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
-  }
- }
- base_perimeter_patrol4 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Column"
-   }
-   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
-    DefaultFormation "Column"
-   }
-   SCR_AIGroupSettingsComponent "{6260EB4E8D5C6608}" {
-    m_aDefaultSettings {
-     SCR_AICharacterLightInteractionSetting "{6694E5ADBB930C01}" {
-      m_eCause SAFE
-      m_bAllowInteraction 1
-     }
-    }
-   }
-  }
-  coords 7495.851 165.751 4239.454
-  angleY -168.18
-  m_aUnitPrefabSlots {
-   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
-  }
- }
- base_perimeter_patrol5 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Column"
-   }
-   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
-    DefaultFormation "Column"
-   }
-  }
-  coords 7508.841 170.025 4337.445
-  angleY 86.036
-  m_aUnitPrefabSlots {
-   "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et"
-  }
-  m_bSnapToTerrain 0
+ ambient_truck_move {
+  coords 8823.688 94.674 2744.719
  }
 }
 $grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.et" {
@@ -229,6 +161,36 @@ $grp AIWaypointCycle : "{35BD6541CBB8AC08}Prefabs/AI/Waypoints/AIWaypoint_Cycle.
   coords 7624.043 166.843 4252.754
   CycleWaypoints {
    "base_perimeter_waypoint_1" "base_perimeter_waypoint_3" "base_perimeter_waypoint_4" "base_perimeter_waypoint_2" "base_perimeter_waypoint_7" "base_perimeter_waypoint_9"
+  }
+ }
+ base_ground_crew_fixing_cycle {
+  coords 7491.648 165.633 4226.28
+  CycleWaypoints {
+   "base_ground_crew_fixing_1" "base_ground_crew_fixing_2"
+  }
+ }
+}
+$grp SCR_TimedWaypoint : "{531EC45063C1F57B}Prefabs/AI/Waypoints/AIWaypoint_Wait.et" {
+ base_ground_crew_fixing_1 {
+  coords 7480.802 165.5 4222.484
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupCharactersMovementSpeedSetting "{6698DA32DEE56335}" {
+   }
+  }
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
+   m_holdingTime 30
+  }
+ }
+ base_ground_crew_fixing_2 {
+  coords 7519.427 166.925 4228.744
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupCharactersMovementSpeedSetting "{6698DA3323A39A9C}" {
+   }
+  }
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60D91039CD461DCD}" {
+   m_holdingTime 10
   }
  }
 }
@@ -316,5 +278,55 @@ $grp SCR_AIWaypoint : "{750A8D1695BD6998}Prefabs/AI/Waypoints/AIWaypoint_Move.et
     m_eFormation Column
    }
   }
+ }
+ base_officers_leave_2 {
+  coords 7615.811 163.958 4538.039
+ }
+ base_officers_leave_3 {
+  coords 8816.689 95.614 2779.05
+ }
+}
+SCR_BoardingEntityWaypoint base_tank_activation_1 : "{8AD8C82346156494}Prefabs/AI/Waypoints/AIWaypoint_GetInSelected.et" {
+ coords 7586.16 166.156 4254.781
+ m_BoardingParameters SCR_AIBoardingWaypointParameters "{60D10A783DE1D8F4}" {
+  m_bIsCargoAllowed 0
+ }
+ m_EntityWaypointParameters SCR_AIEntityWaypointParameters "{60D10A783D086D37}" {
+  m_sEntityName "base_active_tank"
+ }
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ laruns_defend_1 {
+  coords 7521.442 82.623 5569.897
+ }
+ laruns_defend_2 {
+  coords 7636.556 73.801 5561.727
+ }
+ laruns_defend_3 {
+  coords 7565.971 93.066 5463.51
+ }
+}
+SCR_EntityWaypoint ambient_truck_follow : "{A0509D3C4DD4475E}Prefabs/AI/Waypoints/AIWaypoint_Follow.et" {
+ coords 6437.181 19.252 4564.881
+ m_EntityWaypointParameters SCR_AIEntityWaypointParameters "{60D91038885C820A}" {
+  m_sEntityName "ambient_truck_1"
+ }
+}
+SCR_BoardingTimedWaypoint base_officers_leave_1 : "{B049D4C74FBC0C4D}Prefabs/AI/Waypoints/AIWaypoint_GetInNearest.et" {
+ coords 7472.292 166.48 4279.198
+ CompletionRadius 5
+}
+SCR_SearchAndDestroyWaypoint base_tank_activation_2 : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 7503.982 165.751 4288.544
+ CompletionRadius 50
+ m_TimedWaypointParameters SCR_AITimedWaypointParameters "{60DAE2484F999078}" {
+  m_holdingTime -1
+ }
+}
+SCR_SuppressWaypoint mountain_suppress : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {
+ coords 7910.77 256.43 3981.697
+ CompletionRadius 1
+ m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+  m_holdingTime 999999
  }
 }

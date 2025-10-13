@@ -99,6 +99,31 @@ $grp GameEntity : "{2CB0AA2A87842C18}Prefabs/Props/Civilian/LampKerosene_01/Lamp
   coords 7808.82 255.604 4024.496
   angleY -60.745
  }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7521.892 167.932 4229.349
+  angleY -82.37
+ }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7890.468 258.441 3976.24
+ }
+ {
+  components {
+   SCR_LampComponent "{5D2AB5C8865F22C4}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7908.491 256.566 3981.157
+ }
 }
 $grp StaticModelEntity : "{2D303C505CC6576A}Prefabs/Structures/Military/Camps/TentUSSR_01/TentUSSR_01_camonet_foundation.et" {
  {
@@ -142,6 +167,35 @@ GenericEntity : "{60AA21344D68BACE}Prefabs/Structures/Military/CamoNets/Soviet/C
  coords 7960.823 250.49 4049.981
  angleY -99.819
 }
+$grp GameEntity : "{616F4E93658E5A3A}Prefabs/Props/Military/Generators/GeneratorFloodlight_USSR_01.et" {
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7491.319 165.5 4207.597
+  angleY -38.049
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7449.775 165.5 4220.647
+  angleY 66.634
+ }
+ {
+  components {
+   SCR_BaseInteractiveLightComponent "{5882B9E6B4EFC9DF}" {
+    m_eInitialLightState LIT
+   }
+  }
+  coords 7479.225 165.544 4240.403
+  angleY -163.539
+ }
+}
 GenericEntity : "{666D9AE790BA141C}Prefabs/Props/Civilian/Typewriter_01/Typewriter_01_Base.et" {
  coords 7509.793 170.931 4336.296
  angleY -65.26
@@ -184,6 +238,26 @@ GenericEntity : "{8144766E629D507B}Prefabs/Props/PersonalBelongings/Notebooks/No
  coords 7808.298 255.596 4024.558
  angleY 117.122
 }
+$grp GenericEntity : "{8963CD1DC1CDB614}Prefabs/Props/Civilian/BeerBottle_01_brown.et" {
+ {
+  coords 7908.671 257.446 3982.362
+ }
+ {
+  coords 7908.942 257.446 3981.817
+ }
+ {
+  coords 7908.961 257.446 3981.7
+ }
+ {
+  coords 7908.704 257.446 3982.113
+ }
+ {
+  coords 7908.688 257.446 3982.239
+ }
+ {
+  coords 7908.97 257.446 3981.593
+ }
+}
 $grp Vehicle : "{A2E23CB8DDCFE82E}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_base.et" {
  Ural4320_transport_CIV_base1 {
   coords 7876.287 256.286 4034.55
@@ -202,8 +276,13 @@ $grp GameEntity : "{A7E6D7ECD5F684D7}Prefabs/Characters/HeadGear/Helmet_SSh68_01
   coords 7562.87 166.656 4266.617
  }
 }
-GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
- coords 7958.523 250.534 4046.678
+$grp GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Group_Crate_01.et" {
+ {
+  coords 7958.523 250.534 4046.678
+ }
+ {
+  coords 7909.039 256.514 3982.071
+ }
 }
 GenericEntity : "{ABA12EC2F6D0F778}Prefabs/Props/Military/Compositions/USSR/RadioStation_USSR.et" {
  coords 7808.128 255.596 4024.079
@@ -338,12 +417,8 @@ $grp GenericEntity : "{DF9B306707F2BD15}Prefabs/Props/Furniture/LampFluorescent/
   }
  }
 }
-SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
- coords 7523.214 82.95 5566.052
- angleY -34.977
-}
 GenericEntity : "{F0C80F54A089F40B}Prefabs/Vehicles/Airplanes/FA18A/CAS_Spawner_GBU12.et" {
- coords 5864.636 87.802 5317.303
+ coords 4194.608 62.453 5882.335
  angleY 48.782
 }
 GenericEntity : "{F76340CCD79DCC5A}Prefabs/Props/Civilian/RadioSmall_01_red.et" {

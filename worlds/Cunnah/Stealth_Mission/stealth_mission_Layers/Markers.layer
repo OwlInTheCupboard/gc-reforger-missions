@@ -1,3 +1,45 @@
+$grp GenericEntity : "{051A6522307D9476}Prefabs/Compositions/Misc/FreeRoamBuilding/ACE_TrenchHalf_01_long.et" {
+ {
+  coords 7582.545 80.359 5628.845
+  angleY 34.667
+ }
+ {
+  coords 7580.121 80.359 5630.521
+  angleY 29.233
+ }
+ {
+  coords 7595.813 80.217 5622.354
+  angleY 36.035
+ }
+ {
+  coords 7592.631 80.368 5623.525
+ }
+ {
+  coords 7508.147 83.613 5560.902
+  angleY -60.103
+  {
+   StaticModelEntity {
+    ID "64973CD9C12E2DA5"
+    coords 2.493 -0.437 4.006
+   }
+  }
+ }
+ {
+  coords 7506.915 83.98 5557.875
+  angleY -86.96
+  angleZ 6.332
+  {
+   StaticModelEntity {
+    ID "64973CD9C12E2DA5"
+    coords 4.058 0.011 2.104
+   }
+  }
+ }
+}
+Vehicle UAZ2 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 7557.669 82.726 5505.542
+ angleY -131.671
+}
 $grp GenericEntity : "{29D1F359C80F7873}Prefabs/World/Locations/Eden/Levie.et" {
  QRF_Label {
   components {
@@ -468,6 +510,66 @@ $grp GenericEntity : "{29D1F359C80F7873}Prefabs/World/Locations/Eden/Levie.et" {
   }
   coords 7627.938 247.024 3874.316
  }
+}
+GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
+ coords 7651.601 70.192 5567.111
+ angleX 14.165
+ angleY -102.193
+}
+$grp Vehicle : "{4BFB3CA9E83385D2}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered_CIV_base.et" {
+ Ural4320_transport_covered_CIV_base1 {
+  coords 7560.821 82.454 5541.075
+  angleY 45.686
+ }
+ Ural4320_transport_covered_CIV_base2 {
+  coords 7558.112 82.491 5544.53
+  angleY 47.873
+ }
+}
+$grp GenericEntity : "{72BEEF40AF179763}Prefabs/Weapons/Warheads/Explosions/Explosion_Tnt_Large.et" {
+ {
+  coords 7579.949 84.001 5583.86
+ }
+ {
+  coords 7580.533 84.001 5583.816
+ }
+ {
+  coords 7563.824 86.289 5471.778
+ }
+ {
+  coords 7563.615 86.289 5473.134
+ }
+ {
+  coords 7577.504 80.601 5586.234
+ }
+ {
+  coords 7577.945 80.601 5586.405
+ }
+ {
+  coords 7521.135 80.844 5623.955
+ }
+ {
+  coords 7521.526 80.844 5625.024
+ }
+ {
+  coords 7619.59 80.094 5598.139
+ }
+ {
+  coords 7612.191 80.093 5600.349
+ }
+ {
+  coords 7651.096 75.993 5532.46
+ }
+ {
+  coords 7511.487 83.771 5509.313
+ }
+ {
+  coords 7512.17 83.771 5509.102
+ }
+}
+StaticModelEntity : "{732A335C72D8ADE2}Prefabs/Props/Military/Sandbags/Sandbag_01_bunker_burlap_foundation.et" {
+ coords 7649.808 71.926 5560.597
+ angleY 65.766
 }
 $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
  danger_area_1 {
@@ -1119,27 +1221,19 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
   }
  }
 }
+GenericEntity : "{AE300E34EA8FF40C}Prefabs/Props/Wrecks/Ural4320_wreck_static.et" {
+ coords 7560.602 79.91 5574.712
+ angleX -2.042
+ angleY -81.231
+ angleZ -1.772
+}
+GenericEntity : "{AE57C45CB32D6168}Prefabs/Props/Wrecks/M113_wreck_static.et" {
+ coords 7681.012 63.332 5619.415
+ angleX 22.216
+ angleY -95.631
+ angleZ -0.697
+}
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
- BLUFOR_Start_1 {
-  coords 8138.411 46.101 5247.697
-  angleY 90
-  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "inf"
-  m_fWorldSize 100
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
- BLUFOR_Start_2 {
-  coords 7940.451 261.841 3758.132
-  angleY 90
-  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
-  m_sImageSetGlow ""
-  m_sQuadName "recon"
-  m_fWorldSize 100
-  m_bVisibleForEmptyFaction 1
-  m_bShowForAnyFaction 1
- }
  OPFOR_Tanks_Pos {
   coords 7576.366 166.159 4242.017
   angleY 90
@@ -1235,7 +1329,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "mech_inf"
+  m_sQuadName "motor_inf"
   m_fWorldSize 50
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -1269,7 +1363,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "mech_inf"
+  m_sQuadName "motor_inf"
   m_fWorldSize 50
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -1337,7 +1431,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "undefined"
+  m_sQuadName "inf"
   m_fWorldSize 50
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -1359,7 +1453,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
      m_sImageSetGlow ""
      m_MarkerColor 0 0 0 1
      m_sQuadName "dot-2"
-     m_fWorldSize 50
+     m_fWorldSize 48
      m_bVisibleForEmptyFaction 1
      m_bShowForAnyFaction 1
     }
@@ -1371,7 +1465,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "undefined"
+  m_sQuadName "inf"
   m_fWorldSize 50
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -1393,7 +1487,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
      m_sImageSetGlow ""
      m_MarkerColor 0 0 0 1
      m_sQuadName "dot-2"
-     m_fWorldSize 50
+     m_fWorldSize 48
      m_bVisibleForEmptyFaction 1
      m_bShowForAnyFaction 1
     }
@@ -1405,7 +1499,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "undefined"
+  m_sQuadName "inf"
   m_fWorldSize 50
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -1427,7 +1521,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
      m_sImageSetGlow ""
      m_MarkerColor 0 0 0 1
      m_sQuadName "dot-2"
-     m_fWorldSize 50
+     m_fWorldSize 48
      m_bVisibleForEmptyFaction 1
      m_bShowForAnyFaction 1
     }
@@ -1439,7 +1533,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "undefined"
+  m_sQuadName "inf"
   m_fWorldSize 50
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -1461,7 +1555,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
      m_sImageSetGlow ""
      m_MarkerColor 0 0 0 1
      m_sQuadName "dot-2"
-     m_fWorldSize 50
+     m_fWorldSize 48
      m_bVisibleForEmptyFaction 1
      m_bShowForAnyFaction 1
     }
@@ -1473,7 +1567,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   angleY 90
   m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
   m_sImageSetGlow ""
-  m_sQuadName "undefined"
+  m_sQuadName "inf"
   m_fWorldSize 50
   m_bVisibleForEmptyFaction 1
   m_bShowForAnyFaction 1
@@ -1495,7 +1589,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
      m_sImageSetGlow ""
      m_MarkerColor 0 0 0 1
      m_sQuadName "dot-2"
-     m_fWorldSize 50
+     m_fWorldSize 48
      m_bVisibleForEmptyFaction 1
      m_bShowForAnyFaction 1
     }
@@ -1521,6 +1615,140 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
     m_sQuadName "circle"
     m_fWorldSize 70
     m_sDescription "OP SUNRISE"
+    m_bVisibleForEmptyFaction 1
+    m_bShowForAnyFaction 1
+   }
+  }
+ }
+ OPFOR_QRF_Tank {
+  coords 6900 79.763 4900
+  angleY 90
+  m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "armor"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  {
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    size_6 {
+     coords -60 0 -15
+     angleY 0
+     m_sImageSetGlow ""
+     m_MarkerColor 0 0 0 1
+     m_sQuadName "dot"
+     m_fWorldSize 100
+     m_bVisibleForEmptyFaction 1
+     m_bShowForAnyFaction 1
+    }
+    size_15 {
+     coords -60 0 15
+     angleY -90
+     m_sImageSetGlow ""
+     m_MarkerColor 0 0 0 1
+     m_sQuadName "dot"
+     m_fWorldSize 100
+     m_bVisibleForEmptyFaction 1
+     m_bShowForAnyFaction 1
+    }
+   }
+  }
+ }
+ OPFOR_QRF_inf {
+  coords 6900 79.763 5050
+  angleY 90
+  m_sImageSet "{8D15AE151C8F3A5C}UI/Textures/GPSMarkers/opfor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "mech_inf"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  {
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    size_16 {
+     coords -60 0 0
+     angleY 0
+     m_sImageSetGlow ""
+     m_MarkerColor 0 0 0 1
+     m_sQuadName "dot"
+     m_fWorldSize 100
+     m_bVisibleForEmptyFaction 1
+     m_bShowForAnyFaction 1
+    }
+    size_25 {
+     coords -60 0 30
+     angleY -90
+     m_sImageSetGlow ""
+     m_MarkerColor 0 0 0 1
+     m_sQuadName "dot"
+     m_fWorldSize 100
+     m_bVisibleForEmptyFaction 1
+     m_bShowForAnyFaction 1
+    }
+    size_26 {
+     coords -60 0 -30
+     angleY -90
+     m_sImageSetGlow ""
+     m_MarkerColor 0 0 0 1
+     m_sQuadName "dot"
+     m_fWorldSize 100
+     m_bVisibleForEmptyFaction 1
+     m_bShowForAnyFaction 1
+    }
+   }
+  }
+ }
+ BLUFOR_MAIN {
+  coords 8159.188 36.485 5282.12
+  angleY 90
+  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "inf"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  {
+   $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    size_27 {
+     coords -50 0 -15
+     angleY 0
+     m_sImageSetGlow ""
+     m_MarkerColor 0 0 0 1
+     m_sQuadName "dot"
+     m_fWorldSize 100
+     m_bVisibleForEmptyFaction 1
+     m_bShowForAnyFaction 1
+    }
+    size_28 {
+     coords -50 0 15
+     angleY -90
+     m_sImageSetGlow ""
+     m_MarkerColor 0 0 0 1
+     m_sQuadName "dot"
+     m_fWorldSize 100
+     m_bVisibleForEmptyFaction 1
+     m_bShowForAnyFaction 1
+    }
+   }
+  }
+ }
+ BLUFOR_RECON {
+  coords 7943.445 259.55 3764.699
+  angleY 90
+  m_sImageSet "{BE63BEA2A547D44D}UI/Textures/GPSMarkers/blufor_ImageSet.imageset"
+  m_sImageSetGlow ""
+  m_sQuadName "recon"
+  m_fWorldSize 100
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+  {
+   PS_ManualMarker size_29 : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+    coords -50 0 0
+    angleY 0
+    m_sImageSetGlow ""
+    m_MarkerColor 0 0 0 1
+    m_sQuadName "dot"
+    m_fWorldSize 100
     m_bVisibleForEmptyFaction 1
     m_bShowForAnyFaction 1
    }

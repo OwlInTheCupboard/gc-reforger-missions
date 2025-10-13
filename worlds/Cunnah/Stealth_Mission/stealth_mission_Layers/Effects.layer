@@ -29,7 +29,13 @@ $grp GenericEntity : "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned
     }
    }
   }
-  coords 5914.26 103.78 4984.444
+  coords 4235.104 80.349 5595.552
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 -0.903 0
+   }
+  }
  }
  {
   components {
@@ -42,7 +48,13 @@ $grp GenericEntity : "{9A011A8BAA2E8351}worlds/James/OrbSturm/EffectModule_Zoned
     }
    }
   }
-  coords 5971.259 91.436 5406.877
+  coords 4301.23 50.71 5971.909
+  {
+   GenericEntity {
+    ID "616C96D8967A1736"
+    coords 0 -5.605 0.001
+   }
+  }
  }
 }
 $grp GenericEntity : "{BD99D23D65BCC92D}worlds/Cunnah/Prefabs/Items/Equipment/Weapons/Explosives/sachel_charge.et" {

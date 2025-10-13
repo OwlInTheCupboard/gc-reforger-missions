@@ -1,0 +1,35 @@
+$grp CN_SpottedTriggerEntity {
+ Base_Detection_Trigger {
+  coords 7503.432 166.165 4282.26
+  m_queryRadius 226.9
+  m_captureTime 5
+  m_ownerFactionKey "USSR"
+ }
+ Levie_Detection_Trigger {
+  coords 7478.904 138.871 4720.582
+  m_queryRadius 133.9
+  m_captureTime 5
+  m_ownerFactionKey "USSR"
+ }
+ Laruns_Detection_Trigger {
+  coords 7578.046 82.69 5528.886
+  m_queryRadius 133.9
+  m_captureTime 5
+  m_ownerFactionKey "USSR"
+ }
+}
+SCR_AIGroup base_tank_crew : "{C8622D0595B48437}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 7561.625 166.156 4263.708
+ angleY -42.293
+ m_aUnitPrefabSlots {
+  "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
+ }
+}

@@ -36,16 +36,33 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 8634.799 121.268 2904.046
  m_missionEvents {
-  TILW_MissionEvent "{6694A3D4F8D13594}" {
-   m_name "spotted"
+  TILW_MissionEvent "{6698DA27F1039C94}" {
+   m_name "Tank Activation"
    m_instructions {
-    TILW_SendMessageInstruction "{6694A3D4C171464B}" {
-     m_executionDelay 0
-     m_messageTitle "SPOTTED!"
+    TILW_AssignWaypointsInstruction "{6698DA27C9C0F66A}" {
+     m_executionDelay 10
+     m_groupName "base_tank_crew"
+     m_waypointNames {
+      "base_tank_activation_1" "base_tank_activation_2"
+     }
     }
    }
-   m_condition TILW_LiteralTerm "{6694A3D4C9A03A4F}" {
-    m_flagName "spotted"
+   m_condition TILW_LiteralTerm "{6698DA27CD8709A2}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{6698DA29D67FAEDD}" {
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{6698DA2E2325BDBE}" {
+     m_executionDelay 20
+     m_groupName "base_officers"
+     m_waypointNames {
+      "base_officers_leave_1" "base_officers_leave_2" "base_officers_leave_3"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{6698DA2E18215C13}" {
+    m_invertTerm 1
    }
   }
  }
