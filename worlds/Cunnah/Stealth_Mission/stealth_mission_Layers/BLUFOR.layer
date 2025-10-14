@@ -1,0 +1,107 @@
+$grp SCR_AIGroup : "{A1CCEF4C0411F787}Prefabs/Groups/BLUFOR/US/Navy/2006/SEALs/BDU/P/Group_SEAL_2009_BDU_Squad_1_P.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{669B5A5AAD6A2285}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8211.729 6.575 5380.312
+  angleY -157.285
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{B8C2BF6AE6FA17EC}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_SL.et" "{7FE489F54BC261BE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Medic.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{D54A4E75D47EB5FF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AR.et" "{BF05453B807CAD2F}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_TL.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{32091AAE64D7810B}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Sapper.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+  }
+  m_sCustomNameSet "Team 2"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{669B5A59938A86D4}" {
+   }
+  }
+  coords 8219.189 5.323 5375.755
+  angleY -157.285
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{21DC06F3FB1D267C}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_PL.et" "{CCB03E2CBACC1575}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_RTO.et" "{7FE489F54BC261BE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Medic.et" "{D54A4E75D47EB5FF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AR.et" "{BF05453B807CAD2F}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_TL.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{32091AAE64D7810B}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Sapper.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+  }
+  m_sCustomNameSet "Team 1 HQ"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{669B5A5A57A762CE}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8215.592 5.204 5377.598
+  angleY -157.285
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{B8C2BF6AE6FA17EC}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_SL.et" "{7FE489F54BC261BE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Medic.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{D54A4E75D47EB5FF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AR.et" "{BF05453B807CAD2F}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_TL.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{32091AAE64D7810B}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Sapper.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+  }
+  m_sCustomNameSet "Team 1"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{669B5A5AA46AFC11}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 8213.355 5.637 5378.391
+  angleY -157.285
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{B8C2BF6AE6FA17EC}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_SL.et" "{7FE489F54BC261BE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Medic.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{D54A4E75D47EB5FF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AR.et" "{BF05453B807CAD2F}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_TL.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{32091AAE64D7810B}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Sapper.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+  }
+  m_sCustomNameSet "Team 2 HQ"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{669B5A5AB8E029AE}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 8202.012 9.602 5389.417
+  angleY -157.285
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{B8C2BF6AE6FA17EC}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_SL.et" "{7FE489F54BC261BE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Medic.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{D54A4E75D47EB5FF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AR.et" "{BF05453B807CAD2F}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_TL.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{32091AAE64D7810B}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Sapper.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+  }
+  m_sCustomNameSet "Team 3"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{669B5A5ABF336238}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 8204.262 9.394 5386.857
+  angleY -157.285
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{B8C2BF6AE6FA17EC}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_SL.et" "{7FE489F54BC261BE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Medic.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{D54A4E75D47EB5FF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AR.et" "{BF05453B807CAD2F}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_TL.et" "{0DE227B4ADF7ABA3}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_AT.et" "{32091AAE64D7810B}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Sapper.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+  }
+  m_sCustomNameSet "Team 3 HQ"
+  m_bSetPlayable 1
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{669B5A59938A86D4}" {
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 7939.753 262.172 3758.372
+  angleY -143.604
+  m_faction "US"
+  m_aUnitPrefabSlots {
+   "{B8C2BF6AE6FA17EC}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_SL.et" "{CCB03E2CBACC1575}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_RTO.et" "{7FE489F54BC261BE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Medic.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et" "{BF05453B807CAD2F}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_TL.et" "{5C8482CF53F8CEE1}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Sniper.et" "{8581F01078820D01}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Spotter.et" "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+  }
+  m_bSetPlayable 1
+ }
+}

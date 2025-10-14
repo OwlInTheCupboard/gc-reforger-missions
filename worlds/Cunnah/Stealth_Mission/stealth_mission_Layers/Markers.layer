@@ -496,20 +496,6 @@ $grp GenericEntity : "{29D1F359C80F7873}Prefabs/World/Locations/Eden/Levie.et" {
   }
   coords 7258.487 145.431 4483.486
  }
- objective_2_label {
-  components {
-   SCR_EditableCommentComponent "{529AB059519FE609}" {
-    m_UIInfo SCR_EditableLinkedContentBrowserUIInfo "{5298E609432D192D}" {
-     Name "Objective Water-Bird"
-    }
-   }
-   SCR_MapDescriptorComponent "{527892B6ED748CEB}" {
-    DisplayName "OBJECTIVE WATER-BIRD"
-    MainType "Name Town"
-   }
-  }
-  coords 7627.938 247.024 3874.316
- }
 }
 GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
  coords 7651.601 70.192 5567.111

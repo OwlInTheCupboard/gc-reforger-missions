@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{C2A5519CD7F64928}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Base.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "RTO"
+    Icon "{B9F0BD39FF1881A3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_RadioOperator.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{9B6B61BB3FE3DFB0}Prefabs/Items/Equipment/Radios/Radio_ANPRC77.et"
+    }
+   }
+  }
+ }
+}

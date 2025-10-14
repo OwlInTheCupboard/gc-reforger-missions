@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{C2A5519CD7F64928}Prefabs/Characters/Factions/BLUFOR/US_Army/1986/Force Recon Marines (Woodland)/Character_US_Seals_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

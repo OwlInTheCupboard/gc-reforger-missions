@@ -26,20 +26,23 @@ GenericEntity Laruns_Defenders {
   }
  }
 }
-$grp Vehicle : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
- UAZ3 {
-  components {
-   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
-    m_bIsLocked 1
-   }
+PK_EntityDeleter {
+ coords 7525.971 165.33 4356.05
+ m_fRadius 4
+ m_excludePrefabsInList 1
+}
+Vehicle base_active_brdm : "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et" {
+ coords 7569 166.157 4261.858
+ angleY -163.363
+}
+Vehicle UAZ3 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
   }
-  coords 7493.869 164.664 4324.405
-  angleY 110.486
  }
- UAZ4 {
-  coords 7471.782 164.563 4279.576
-  angleY 97.238
- }
+ coords 7493.869 164.664 4324.405
+ angleY 110.486
 }
 $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.et" {
  mountain_base_patrol {
@@ -139,21 +142,6 @@ $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.
   }
   m_bSnapToTerrain 0
  }
- base_perimeter_patrol2 {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Column"
-   }
-   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
-    DefaultFormation "Column"
-   }
-  }
-  coords 7519.958 165.346 4356.333
-  angleY 10.169
-  m_aUnitPrefabSlots {
-   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
-  }
- }
  base_perimeter_patrol3 {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
@@ -207,21 +195,6 @@ $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.
    "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et"
   }
   m_bSnapToTerrain 0
- }
- base_officers {
-  components {
-   AIFormationComponent "{507E9DC12F541FE6}" {
-    DefaultFormation "Column"
-   }
-   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
-    DefaultFormation "Column"
-   }
-  }
-  coords 7469.176 165.687 4267.664
-  angleY 10.169
-  m_aUnitPrefabSlots {
-   "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et" "{5117311FB822FD1F}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Officer.et"
-  }
  }
  base_perimeter_patrol7 {
   components {
@@ -283,6 +256,42 @@ $grp SCR_AIGroup : "{30ED11AA4F0D41E5}Prefabs/Groups/OPFOR/Group_USSR_FireGroup.
    "mountain_suppress"
   }
  }
+ base_perimeter_patrol2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7490.671 165.748 4250.229
+  angleY 10.169
+  m_aUnitPrefabSlots {
+   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et" "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "base_road_patrol_cycle"
+  }
+ }
+ base_perimeter_patrol8 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+   SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7529.046 166.842 4227.309
+  angleY 10.169
+  m_aUnitPrefabSlots {
+   "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et" "{C33A250DFE6D3967}worlds/Cunnah/Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Patrol_Rifleman.et"
+  }
+  m_aStaticWaypoints {
+   "base_vehicle_patrol_cycle"
+  }
+ }
 }
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  BMP_1_Spawner {
@@ -322,7 +331,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "ambient_truck_move"
+      "ambient_truck_move_1"
      }
      m_waypointDelay 30
     }
@@ -344,8 +353,9 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
       }
      }
      m_waypointNames {
-      "ambient_truck_follow"
+      "ambient_truck_move_2"
      }
+     m_waypointDelay 30
     }
    }
   }
@@ -389,22 +399,72 @@ $grp Tank : "{BC07885176C7FF8A}Prefabs/Vehicles/Tracked/T-72A/T72A_base.et" {
   angleY -75.435
  }
  base_active_tank {
-  coords 7585.315 166.156 4251.872
+  coords 7583.697 166.156 4247.649
   angleY -75.435
+ }
+}
+SCR_AIGroup base_tank_crew : "{C8622D0595B48437}Prefabs/Groups/OPFOR/Group_USSR_AmmoTeam.et" {
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation "Line"
+  }
+  SCR_AIGroupMovementComponent "{6126A0E02097C7FF}" {
+   DefaultFormation "Line"
+  }
+ }
+ coords 7561.625 166.156 4263.708
+ angleY -42.293
+ m_aUnitPrefabSlots {
+  "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et" "{BA010C4C82F3DE92}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_CC.et"
  }
 }
 $grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
  Ural4320_transport_covered1 {
-  coords 7485.631 164.469 4335.973
-  angleY -163.028
+  coords 7561.813 167.71 4197.638
+  angleY 104.557
  }
  Ural4320_transport_covered2 {
-  coords 7481.035 164.469 4337.375
+  coords 7479.125 164.469 4337.958
   angleY -163.028
  }
- Ural4320_transport_covered3 {
-  coords 7476.088 164.469 4338.885
+ base_truck {
+  coords 7471.68 164.469 4340.23
   angleY -163.028
+ }
+}
+Vehicle RHIB_Gunboat4 : "{DDE009B6A29873EE}Prefabs/Vehicles/Naval/RHIB/RHIB_Gunboat.et" {
+ coords 8243.858 1.133 5388.717
+ angleX 16.018
+ angleY -179.547
+ angleZ -6.886
+}
+$grp SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ base_squad_1 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7393.51 162.369 4301.206
+  angleY 24.903
+ }
+ base_squad_2 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7410.606 162.369 4338.03
+  angleY 24.903
+ }
+ base_squad_3 {
+  components {
+   AIFormationComponent "{507E9DC12F541FE6}" {
+    DefaultFormation "Column"
+   }
+  }
+  coords 7427.896 162.369 4375.275
+  angleY 24.903
  }
 }
 $grp Vehicle : "{FD109F3702AAB392}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_ZU23.et" {

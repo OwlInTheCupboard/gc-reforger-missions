@@ -1,3 +1,25 @@
+GenericEntity Siren_Point_1 {
+ coords 7448.776 179.709 4325.928
+}
+GenericEntity : "{11B3A6066129ABD6}Prefabs/Sounds/Sources/SoundSource_Base.et" {
+ components {
+  SoundComponent "{56B7086A4B90F246}" {
+   Filenames {
+    "{76BB8DEAF958EE9D}Sounds/GMFX_Siren_Air_Raid.acp"
+   }
+   Events {
+    SoundEventInfoClass "{669C24D20BD5326E}" {
+     Name "SOUND_SIREN_GENERIC"
+    }
+   }
+   SoundPoints {
+    SoundPointInfo Siren_Point_1 {
+    }
+   }
+  }
+ }
+ coords 7464.722 171.962 4303.575
+}
 GenericEntity : "{33CBDE73AB48172A}Prefabs/Weapons/Explosives/DemoBlock_M112/DemoBlock_M112.et" {
  components {
   MeshObject "{5968D9C73C08706E}" {

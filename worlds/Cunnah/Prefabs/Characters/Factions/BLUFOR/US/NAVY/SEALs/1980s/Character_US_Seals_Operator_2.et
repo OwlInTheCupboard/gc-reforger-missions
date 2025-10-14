@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et" {
+ ID "52092032B0E62200"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et"
+    }
+   }
+  }
+ }
+}

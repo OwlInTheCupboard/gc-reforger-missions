@@ -55,10 +55,6 @@ GenericEntity : "{1BE2B6FF4806EB3E}Prefabs/Props/Civilian/Guitar_01/Guitar_01.et
  coords 7811.173 254.908 4018.796
  angleX 57.297
 }
-Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
- coords 7558.211 166.156 4266.052
- angleY 10.726
-}
 GenericEntity : "{2A27606856B8A914}Prefabs/Compositions/Slotted/SlotRoadLarge/Barricade_L_USSR_01.et" {
  coords 7516.33 82.442 5575.111
  angleY -47.031
@@ -287,6 +283,10 @@ $grp GenericEntity : "{A9CF5E8C5D91C476}Prefabs/Compositions/Misc/SubComposition
 GenericEntity : "{ABA12EC2F6D0F778}Prefabs/Props/Military/Compositions/USSR/RadioStation_USSR.et" {
  coords 7808.128 255.596 4024.079
  angleY -13.831
+}
+GenericEntity : "{C1977A326F2AA011}Prefabs/Structures/Signs/Military/SignCheckpoint_01_stop.et" {
+ coords 7908.471 256.551 3981.674
+ angleY -105.29
 }
 StaticModelEntity : "{C99D1B2E817E12D9}Prefabs/Props/Military/Furniture/TableMilitary_USSR_02_cabinet.et" {
  coords 7805.185 254.699 4022.852

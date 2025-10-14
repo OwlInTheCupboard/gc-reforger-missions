@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{C2A5519CD7F64928}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Base.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{60F6B2B4BAE04806}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{60F6B2B4B9D3CC9B}" {
+      m_sVariantPrefab "{69730B4DCBB0FBE0}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator_1.et"
+      m_bEnabled 1
+     }
+     SCR_EditableEntityVariant "{669B221E0B858C2E}" {
+      m_sVariantPrefab "{05273FAD777474CE}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator_2.et"
+     }
+     SCR_EditableEntityVariant "{669B5A507DF8AEDB}" {
+      m_sVariantPrefab "{16DBDCDE9CC449EF}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_Operator.et"
+     }
+    }
+   }
+  }
+ }
+}

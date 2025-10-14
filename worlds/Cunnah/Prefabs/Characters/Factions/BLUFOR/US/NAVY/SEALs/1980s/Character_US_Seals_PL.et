@@ -1,0 +1,10 @@
+SCR_ChimeraCharacter : "{B8C2BF6AE6FA17EC}worlds/Cunnah/Prefabs/Characters/Factions/BLUFOR/US/NAVY/SEALs/1980s/Character_US_Seals_SL.et" {
+ ID "52092032B0E62200"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Squad Leader (CO)"
+   }
+  }
+ }
+}
