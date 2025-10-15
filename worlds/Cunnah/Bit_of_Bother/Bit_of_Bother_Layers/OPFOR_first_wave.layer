@@ -1,0 +1,160 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ tech {
+  coords 5487.79 283.005 7067.187
+  angleX -10.92
+  angleY -64.676
+  angleZ 27.658
+  m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+  m_crewConfig TILW_CrewConfig "{669F258AC39FE4D6}" {
+   m_crewGroups {
+    TILW_CrewGroup "{669F258ACFE9938C}" {
+     m_crewStations {
+      TILW_CrewStation "{669F258ACDD42D42}" {
+       m_allowTurret 0
+       m_allowCargo 0
+       m_characters {
+        "{63892DDB3954C8A5}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_SL.et"
+       }
+      }
+      TILW_CrewStation "{669F258ACDEE3FEB}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{BE55A9A0C98F1337}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_Sapper.et"
+       }
+      }
+     }
+     m_entityName "tech_1"
+    }
+   }
+  }
+ }
+ {
+  coords 5323.854 172.845 6280.489
+  angleY -137.475
+  m_prefab "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+  m_crewConfig TILW_CrewConfig "{669F47FFFD62A056}" {
+   m_crewGroups {
+    TILW_CrewGroup "{669F47FFFCBEC566}" {
+     m_crewStations {
+      TILW_CrewStation "{669F47FFF9034173}" {
+       m_characters {
+        "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5336.756 171.708 6290.646
+  angleY -120.414
+  m_prefab "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+  m_crewConfig TILW_CrewConfig "{669F47FFFD62A056}" {
+   m_crewGroups {
+    TILW_CrewGroup "{669F47FFFCBEC566}" {
+     m_crewStations {
+      TILW_CrewStation "{669F47FFF9034173}" {
+       m_characters {
+        "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5353.645 170.196 6299.069
+  angleY -107.686
+  m_prefab "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+  m_crewConfig TILW_CrewConfig "{669F47FFFD62A056}" {
+   m_crewGroups {
+    TILW_CrewGroup "{669F47FFFCBEC566}" {
+     m_crewStations {
+      TILW_CrewStation "{669F47FFF9034173}" {
+       m_characters {
+        "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 5368.904 168.835 6307.07
+  angleY -107.686
+  m_prefab "{16C1F16C9B053801}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport.et"
+  m_crewConfig TILW_CrewConfig "{669F47FFFD62A056}" {
+   m_crewGroups {
+    TILW_CrewGroup "{669F47FFFCBEC566}" {
+     m_crewStations {
+      TILW_CrewStation "{669F47FFF9034173}" {
+       m_characters {
+        "{756CF0BB5ACB956E}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_SL.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{4897891FB9800F99}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Medic.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{194436870AE9258D}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman.et" "{E5F99A8C0A000A59}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner_RPD.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ Takistan_assault_1 {
+  coords 5352.239 327.174 6980.592
+  angleY -98.526
+ }
+ Takistan_assault_2 {
+  coords 5362.193 326.283 6982.472
+  angleY -98.526
+ }
+ Takistan_assault_3 {
+  coords 5375.21 325.053 6984.659
+  angleY -98.526
+ }
+ Takistan_Weapons_4 {
+  coords 5346.346 341.844 6953.903
+  m_aUnitPrefabSlots {
+   "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+  }
+ }
+ Takistan_Weapons_1 {
+  coords 5346.821 345.433 6945.964
+  m_aUnitPrefabSlots {
+   "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+  }
+ }
+ Takistan_Weapons_2 {
+  coords 5350.244 342.573 6952.194
+  m_aUnitPrefabSlots {
+   "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+  }
+ }
+ Takistan_Weapons_3 {
+  coords 5359.509 344.69 6948.247
+  m_aUnitPrefabSlots {
+   "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{1400710845635A54}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Machinegunner.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+  }
+ }
+ Takistan_Breachers2 {
+  coords 5115.423 373.416 7204.844
+  m_aUnitPrefabSlots {
+   "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+  }
+ }
+ Takistan_assault_7 {
+  coords 5111.364 376.293 7210.075
+  angleY -158.947
+ }
+ Takistan_assault_8 {
+  coords 5114.643 369.547 7219.661
+  angleY -158.947
+ }
+ Takistan_assault_9 {
+  coords 5119.166 367.299 7232.061
+  angleY -158.947
+ }
+}

@@ -1,0 +1,60 @@
+$grp Vehicle : "{07DD20EE2204BD41}Prefabs/Vehicles/Wheeled/LR_3Series/3Series_2Seat_Base.et" {
+ _Series_2Seat_Base1 {
+  coords 5103.82 326.119 6895.213
+  angleY 26.034
+ }
+ _Series_2Seat_Base2 {
+  coords 5101.511 326.305 6895.692
+  angleY 28.054
+ }
+}
+$grp SCR_AIGroup : "{23A62B4E23904C7F}Prefabs/Groups/BLUFOR/British Forces/1991 (Desert)/Fusiliers/Group_UK_1991_REG_DES_RifleSection_P.et" {
+ {
+  coords 5103.942 327.219 6946.328
+ }
+ {
+  coords 5106.287 327.219 6946.227
+ }
+ {
+  coords 5108.746 327.219 6946.301
+ }
+ {
+  coords 5092.93 327.219 6946.35
+ }
+ {
+  coords 5097.771 327.219 6946.35
+ }
+ {
+  coords 5095.538 327.219 6946.35
+ }
+}
+$grp SCR_AIGroup : "{69957A3545E20D7C}Prefabs/Groups/BLUFOR/British Forces/1991 (Desert)/Fusiliers/Group_UK_1991_REG_DES_RiflePHQ_P.et" {
+ {
+  coords 5101.667 327.219 6946.593
+ }
+ {
+  coords 5090.877 327.219 6946.593
+ }
+}
+$grp Vehicle : "{F9FD7E24B28538EE}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport_covered_UK.et" {
+ M923A1_transport_covered_UK5 {
+  coords 5068.744 327.219 6962.268
+  angleY -51.069
+ }
+ M923A1_transport_covered_UK4 {
+  coords 5073.661 327.259 6968.274
+  angleY -47.307
+ }
+ M923A1_transport_covered_UK3 {
+  coords 5071.131 327.219 6965.216
+  angleY -48.531
+ }
+ M923A1_transport_covered_UK2 {
+  coords 5112.603 326.252 6889.236
+  angleY 85.454
+ }
+ M923A1_transport_covered_UK1 {
+  coords 5114.624 326.952 6895.885
+  angleY 47.256
+ }
+}

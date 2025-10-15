@@ -1,0 +1,17 @@
+$grp SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ Takistan_assault_4 {
+  coords 4955.529 266.949 6775.184
+ }
+ Takistan_assault_5 {
+  coords 4977.722 266.763 6772.917
+ }
+ Takistan_Breachers {
+  coords 5023.21 308.344 6877.499
+  m_aUnitPrefabSlots {
+   "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+  }
+ }
+ Takistan_assault_6 {
+  coords 4931.587 267.647 6774.361
+ }
+}

@@ -1,8 +1,8 @@
 $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
- weapons_1_suppress_1 {
-  coords 5273.67 348.305 6924.754
+ NE_ridge_forced_move_1 {
+  coords 5311.719 353.013 6913.69
  }
- first_assault_1 {
+ NE_wall_forced_move_2 {
   coords 5136.828 327.218 6945.863
   CompletionRadius 1
   m_aSettings {
@@ -11,7 +11,7 @@ $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedM
    }
   }
  }
- first_assault_2 {
+ NE_wall_forced_move_1 {
   coords 5150.689 327.219 6933.911
   CompletionRadius 1
   m_aSettings {
@@ -20,7 +20,7 @@ $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedM
    }
   }
  }
- first_assault_3 {
+ NE_wall_forced_move_3 {
   coords 5119.313 327.218 6961.847
   CompletionRadius 1
   m_aSettings {
@@ -29,18 +29,48 @@ $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedM
    }
   }
  }
- tech_move_1 {
-  coords 5194.854 325.236 6979.334
+ NE_tech_forced_move_1 {
+  coords 5193.575 325.007 6983.577
  }
- breach_move_1 {
-  coords 5137.923 347.928 7054.795
+ NW_breach_forced_move_1 {
+  coords 5135.992 344.626 7030.308
+ }
+ SW_wall_forced_move_1 {
+  coords 5040.966 330.585 6923.354
+ }
+ SW_wall_forced_move_2 {
+  coords 5075.028 327.143 6903.834
+ }
+ SW_wall_forced_move_3 {
+  coords 5089.114 327.512 6895.303
+ }
+ NW_flank_forced_move_1 {
+  coords 5083.444 383.081 7112.273
+ }
+ NW_flank_forced_move_2 {
+  coords 4978.649 366.297 7029.521
+ }
+ NE_ridge_forced_move_3 {
+  coords 5303.146 349.055 6947.297
+ }
+ NE_ridge_forced_move_2 {
+  coords 5299.896 349.167 6885.917
  }
 }
-SCR_SearchAndDestroyWaypoint first_assault : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ NE_SBF_Defend {
+  coords 5274.476 348.353 6923.196
+  CompletionRadius 20
+ }
+ NW_SBF_defend {
+  coords 5088.431 382.046 7105.897
+ }
+}
+SCR_SearchAndDestroyWaypoint courtyard_assault : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
  coords 5100.684 327.219 6932.033
 }
 $grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {
- weapons_1_suppress_2 {
+ factory_suppress_2 {
   coords 5137.387 333.409 6925.744
   CompletionRadius 15
   m_fPriorityLevel 2000
@@ -49,7 +79,7 @@ $grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_S
   }
   m_fSuppressionHeight 0.5
  }
- weapons_1_suppress_3 {
+ factory_suppress_1 {
   coords 5129.208 327.727 6932.627
   CompletionRadius 15
   m_fPriorityLevel 2000
@@ -58,8 +88,8 @@ $grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_S
   }
   m_fSuppressionHeight 0.5
  }
- weapons_1_suppress_4 {
-  coords 5127.778 339.978 6932.451
+ factory_suppress_roof {
+  coords 5127.778 339.332 6932.451
   CompletionRadius 15
   m_fPriorityLevel 2000
   m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
@@ -67,7 +97,7 @@ $grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_S
   }
   m_fSuppressionHeight 0.5
  }
- breach_1 {
+ SW_wall_breach_suppress {
   coords 5056.476 327.206 6914.718
   CompletionRadius 5
   m_fPriorityLevel 2000
@@ -76,7 +106,7 @@ $grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_S
   }
   m_fSuppressionHeight 1
  }
- breach_2 {
+ NE_wall_breach_suppress {
   coords 5109.963 327.219 6970.138
   CompletionRadius 5
   m_fPriorityLevel 2000
@@ -84,5 +114,23 @@ $grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_S
    m_holdingTime 60
   }
   m_fSuppressionHeight 1
+ }
+ office_suppress_2 {
+  coords 5079.529 331.702 6918.765
+  CompletionRadius 15
+  m_fPriorityLevel 2000
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+   m_holdingTime 300
+  }
+  m_fSuppressionHeight 0.5
+ }
+ warehouse_suppress {
+  coords 5064.473 331.702 6938.852
+  CompletionRadius 15
+  m_fPriorityLevel 2000
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+   m_holdingTime 300
+  }
+  m_fSuppressionHeight 0.5
  }
 }

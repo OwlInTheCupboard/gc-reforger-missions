@@ -36,17 +36,223 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
  }
  coords 5284.376 349.702 6932.357
 }
-$grp SCR_AIGroup : "{23A62B4E23904C7F}Prefabs/Groups/BLUFOR/British Forces/1991 (Desert)/Fusiliers/Group_UK_1991_REG_DES_RifleSection_P.et" {
- {
-  coords 5098.685 327.219 6946.328
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 5172.034 327.076 6941.175
+ m_missionEvents {
+  TILW_MissionEvent "{669F47ECCF2AF121}" {
+   m_name "Time Line"
+   m_instructions {
+    TILW_SetFlagInstruction "{669F47ECD604A971}" {
+     m_flagName "first_wave_start"
+    }
+    TILW_SetFlagInstruction "{669F47E5ADE07E16}" {
+     m_executionDelay 120
+     m_flagName "second_wave_start"
+    }
+    TILW_SetFlagInstruction "{669F47F81E323EA5}" {
+     m_executionDelay 240
+     m_flagName "third_wave_start"
+    }
+   }
+   m_condition TILW_LiteralTerm "{669F47ECDF182CB7}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{669F47EDEFD3D385}" {
+   m_name "First Wave"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{669F47EC212682F5}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_1"
+     m_waypointNames {
+      "NE_ridge_forced_move_1" "factory_suppress_1"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{669F47EC1D5F87D2}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_2"
+     m_waypointNames {
+      "NE_ridge_forced_move_2" "factory_suppress_2"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{669F47EC1E58C6FB}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_3"
+     m_waypointNames {
+      "NE_ridge_forced_move_3" "factory_suppress_roof"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{669F47EC1F9D3D6A}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_4"
+     m_waypointNames {
+      "NE_ridge_forced_move_1" "NE_SBF_Defend"
+     }
+     m_clearExisting 1
+    }
+    TILW_AssignWaypointsInstruction "{669F47EC4B1448DA}" {
+     m_executionDelay 20
+     m_groupName "Takistan_Breachers2"
+     m_waypointNames {
+      "NW_breach_forced_move_1" "NE_wall_breach_suppress"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47ECB6A50EDB}" {
+     m_executionDelay 23
+     m_groupName "Takistan_assult_1"
+     m_waypointNames {
+      "NE_wall_forced_move_1" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47EC888346EC}" {
+     m_executionDelay 23
+     m_groupName "Takistan_assault_1"
+     m_waypointNames {
+      "NE_wall_forced_move_1" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47EC89374AA0}" {
+     m_executionDelay 23
+     m_groupName "Takistan_assault_2"
+     m_waypointNames {
+      "NE_wall_forced_move_2" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47EC8A48E557}" {
+     m_executionDelay 23
+     m_groupName "Takistan_assault_3"
+     m_waypointNames {
+      "NE_wall_forced_move_3" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E2C74F4CF7}" {
+     m_executionDelay 25
+     m_groupName "Takistan_assault_7"
+     m_waypointNames {
+      "NE_wall_forced_move_1" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E2CF87AD43}" {
+     m_executionDelay 25
+     m_groupName "Takistan_assault_8"
+     m_waypointNames {
+      "NE_wall_forced_move_2" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E2CE816DB4}" {
+     m_executionDelay 25
+     m_groupName "Takistan_assault_9"
+     m_waypointNames {
+      "NE_wall_forced_move_3" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47ECE2B409C6}" {
+     m_executionDelay 23
+     m_groupName "tech_1"
+     m_waypointNames {
+      "NE_tech_forced_move_1"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{669F47EDE947D60F}" {
+    m_flagName "first_wave_start"
+   }
+  }
+  TILW_MissionEvent "{669F47E736BD4E50}" {
+   m_name "Second Wave"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{669F47E7042E3D25}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_5"
+     m_waypointNames {
+      "NW_flank_forced_move_1" "factory_suppres_1"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E50439484C}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_6"
+     m_waypointNames {
+      "NW_flank_forced_move_1" "factory_suppres_2"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E507FA1612}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_7"
+     m_waypointNames {
+      "NW_flank_forced_move_1" "office_suppress_2"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E507440FB6}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Weapons_8"
+     m_waypointNames {
+      "NW_flank_forced_move_1" "NW_SBF_defend"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E56BF6DC19}" {
+     m_executionDelay 30
+     m_groupName "Takistan_Weapons_9"
+     m_waypointNames {
+      "NW_flank_forced_move_1" "NW_flank_forced_move_2" "office_suppress_2"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E541E43255}" {
+     m_executionDelay 30
+     m_groupName "Takistan_Weapons_10"
+     m_waypointNames {
+      "NW_flank_forced_move_1" "NW_flank_forced_move_2" "warehouse_suppress"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47E552A6831A}" {
+     m_executionDelay 30
+     m_groupName "Takistan_Weapons_11"
+     m_waypointNames {
+      "NW_flank_forced_move_1" "NW_flank_forced_move_2"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{669F47E730A574A0}" {
+    m_flagName "second_wave_start"
+   }
+  }
+  TILW_MissionEvent "{669F47F9816838AF}" {
+   m_name "Third Wave"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{669F47F99472AE73}" {
+     m_executionDelay 0
+     m_groupName "Takistan_Breachers"
+     m_waypointNames {
+      "SW_wall_breach_suppress"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47F9D810F4C6}" {
+     m_executionDelay 2
+     m_groupName "Takistan_assault_4"
+     m_waypointNames {
+      "SW_wall_forced_move_1" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47F807DE5F37}" {
+     m_executionDelay 2
+     m_groupName "Takistan_assault_5"
+     m_waypointNames {
+      "SW_wall_forced_move_2" "courtyard_assault"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{669F47F8072BAEE0}" {
+     m_executionDelay 2
+     m_groupName "Takistan_assault_6"
+     m_waypointNames {
+      "SW_wall_forced_move_3" "courtyard_assault"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{669F47F9E4FED27E}" {
+    m_flagName "third_wave_start"
+   }
+  }
  }
- {
-  coords 5103.082 327.219 6946.227
- }
- {
-  coords 5108.746 327.219 6946.301
- }
-}
-SCR_AIGroup : "{69957A3545E20D7C}Prefabs/Groups/BLUFOR/British Forces/1991 (Desert)/Fusiliers/Group_UK_1991_REG_DES_RiflePHQ_P.et" {
- coords 5093.002 327.219 6944.841
 }
