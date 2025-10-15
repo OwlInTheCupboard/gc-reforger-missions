@@ -1,0 +1,88 @@
+$grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedMove.et" {
+ weapons_1_suppress_1 {
+  coords 5273.67 348.305 6924.754
+ }
+ first_assault_1 {
+  coords 5136.828 327.218 6945.863
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupCharactersMovementSpeedSetting "{669F258B66ED9F2B}" {
+    m_eSpeed SPRINT
+   }
+  }
+ }
+ first_assault_2 {
+  coords 5150.689 327.219 6933.911
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupCharactersMovementSpeedSetting "{669F258B66ED9F2B}" {
+    m_eSpeed SPRINT
+   }
+  }
+ }
+ first_assault_3 {
+  coords 5119.313 327.218 6961.847
+  CompletionRadius 1
+  m_aSettings {
+   SCR_AIGroupCharactersMovementSpeedSetting "{669F258B66ED9F2B}" {
+    m_eSpeed SPRINT
+   }
+  }
+ }
+ tech_move_1 {
+  coords 5194.854 325.236 6979.334
+ }
+ breach_move_1 {
+  coords 5137.923 347.928 7054.795
+ }
+}
+SCR_SearchAndDestroyWaypoint first_assault : "{B3E7B8DC2BAB8ACC}Prefabs/AI/Waypoints/AIWaypoint_SearchAndDestroy.et" {
+ coords 5100.684 327.219 6932.033
+}
+$grp SCR_SuppressWaypoint : "{ED8277F35B46B4AA}Prefabs/AI/Waypoints/AIWaypoint_Suppress.et" {
+ weapons_1_suppress_2 {
+  coords 5137.387 333.409 6925.744
+  CompletionRadius 15
+  m_fPriorityLevel 2000
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+   m_holdingTime 300
+  }
+  m_fSuppressionHeight 0.5
+ }
+ weapons_1_suppress_3 {
+  coords 5129.208 327.727 6932.627
+  CompletionRadius 15
+  m_fPriorityLevel 2000
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+   m_holdingTime 300
+  }
+  m_fSuppressionHeight 0.5
+ }
+ weapons_1_suppress_4 {
+  coords 5127.778 339.978 6932.451
+  CompletionRadius 15
+  m_fPriorityLevel 2000
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+   m_holdingTime 300
+  }
+  m_fSuppressionHeight 0.5
+ }
+ breach_1 {
+  coords 5056.476 327.206 6914.718
+  CompletionRadius 5
+  m_fPriorityLevel 2000
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+   m_holdingTime 60
+  }
+  m_fSuppressionHeight 1
+ }
+ breach_2 {
+  coords 5109.963 327.219 6970.138
+  CompletionRadius 5
+  m_fPriorityLevel 2000
+  m_TimedWaypointParameters SCR_AITimedWaypointParameters "{6108B96202B3E10B}" {
+   m_holdingTime 60
+  }
+  m_fSuppressionHeight 1
+ }
+}
