@@ -1,0 +1,7 @@
+SCR_AIGroup : "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et" {
+ ID "0000000000000001"
+ coords 5115.423 373.416 7204.844
+ m_aUnitPrefabSlots {
+  "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et" "{AC48642EC0048861}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/Character_GC_INS_Afghan_Rifleman_RPO.et"
+ }
+}

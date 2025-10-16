@@ -1,0 +1,105 @@
+$grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
+ tech_spawner_1 {
+  coords 5487.79 283.005 7067.187
+  angleX -10.92
+  angleY -64.676
+  angleZ 27.658
+  m_prefab "{0B4DEA8078B78A9B}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM.et"
+  m_conditionFlag "spawn_first_wave"
+  m_crewConfig TILW_CrewConfig "{669F258AC39FE4D6}" {
+   m_crewGroups {
+    TILW_CrewGroup "{669F258ACFE9938C}" {
+     m_crewStations {
+      TILW_CrewStation "{669F258ACDD42D42}" {
+       m_allowTurret 0
+       m_allowCargo 0
+       m_characters {
+        "{63892DDB3954C8A5}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_SL.et"
+       }
+      }
+      TILW_CrewStation "{669F258ACDEE3FEB}" {
+       m_allowPilot 0
+       m_allowCargo 0
+       m_characters {
+        "{BE55A9A0C98F1337}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Character_GC_INSURGENT_Sapper.et"
+       }
+      }
+     }
+     m_entityName "tech_1"
+    }
+   }
+  }
+ }
+ assault_spawner_1 {
+  coords 5387.219 331.997 6971.776
+  angleY -105.338
+  m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_assault_1"
+  }
+ }
+ assualt_spawner_2 {
+  coords 5135.841 364.818 7202.541
+  angleY 169.314
+  m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_assault_2"
+  }
+ }
+ assualt_spawner_3 {
+  coords 5132.768 366.116 7202.386
+  angleY 169.314
+  m_prefab "{AD6A6865CC0F4D68}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/GC_INS_Afghan_Squad.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_assault_3"
+  }
+ }
+ weapons_spawner_1 {
+  coords 5363.823 345.343 6946.871
+  angleY -137.143
+  m_prefab "{782D932CB3990A90}worlds/Cunnah/Bit_of_Bother/Prefabs/Takistan_Weapons_RPO.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_Weapons_1"
+  }
+ }
+ weapons_spawner_2 {
+  coords 5362.181 344.903 6947.927
+  angleY -137.143
+  m_prefab "{782D932CB3990A90}worlds/Cunnah/Bit_of_Bother/Prefabs/Takistan_Weapons_RPO.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_Weapons_2"
+  }
+ }
+ weapons_spawner_3 {
+  coords 5365.834 345.744 6945.897
+  angleY -137.143
+  m_prefab "{782D932CB3990A90}worlds/Cunnah/Bit_of_Bother/Prefabs/Takistan_Weapons_RPO.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_Weapons_3"
+  }
+ }
+ weapons_spawner_4 {
+  coords 5367.712 346.179 6944.854
+  angleY -137.143
+  m_prefab "{782D932CB3990A90}worlds/Cunnah/Bit_of_Bother/Prefabs/Takistan_Weapons_RPO.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_Weapons_4"
+  }
+ }
+ breacher_spawner_1 {
+  coords 5129.082 367.708 7202.667
+  angleY 169.314
+  m_prefab "{2F7A5BD771A2DFA8}worlds/Cunnah/Bit_of_Bother/Prefabs/Takistan_RPO_Breachers.et"
+  m_conditionFlag "spawn_first_wave"
+  m_setEntityNames {
+   "Takistan_Breacher_1"
+  }
+ }
+}
