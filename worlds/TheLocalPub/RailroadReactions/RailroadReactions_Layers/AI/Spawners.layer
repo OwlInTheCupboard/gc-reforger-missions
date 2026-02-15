@@ -1,7 +1,7 @@
 $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpawner.et" {
  BRDM1 {
-  coords 6059.05 63.41 3519.71
-  angles 0 46.582 0
+  coords 6225.768 61.984 3849.45
+  angles 0 118.069 0
   m_prefab "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et"
   m_conditionFlag "SpawnQRF"
   m_crewConfig TILW_CrewConfig "{688952C88810512A}" {
@@ -34,7 +34,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  BRDM2 {
-  coords 4994.205 57.935 3713.364
+  coords 5445.154 56.879 4340.144
   angles 0 46.582 0
   m_prefab "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et"
   m_conditionFlag "SpawnQRF"
@@ -68,7 +68,7 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   }
  }
  BRDM3 {
-  coords 4330.202 55.192 3809.789
+  coords 5423.679 56.888 4301.277
   angles 0 17.649 0
   m_prefab "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et"
   m_conditionFlag "SpawnQRF"
@@ -189,6 +189,40 @@ $grp TILW_PrefabSpawnerEntity : "{7F10372CF1CA1175}Prefabs/Utils/TILW_PrefabSpaw
   m_waypointNames {
    "FM5"
    "M6"
+  }
+ }
+ BRDM4 {
+  coords 6178.181 61.531 3877.9
+  angles 0 115.656 0
+  m_prefab "{254289B9C09904AB}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2.et"
+  m_conditionFlag "SpawnQRF"
+  m_crewConfig TILW_CrewConfig "{688952C88810512A}" {
+   m_crewGroups {
+    TILW_CrewGroup "{688952C8894D1FAE}" {
+     m_crewStations {
+      TILW_CrewStation "{688952C943481D1B}" {
+       m_characters {
+        "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+       }
+      }
+      TILW_CrewStation "{688952CEAA0F287D}" {
+       m_characters {
+        "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+       }
+      }
+      TILW_CrewStation "{688952CEAB46C240}" {
+       m_characters {
+        "{2B97973CD921E6AC}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_AFRF_MSV_Flora_Crew.et"
+       }
+      }
+     }
+     m_waypointNames {
+      "FM3"
+      "M3"
+     }
+    }
+   }
+   m_noTurretDismount 1
   }
  }
 }

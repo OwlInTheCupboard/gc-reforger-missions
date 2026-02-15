@@ -1,3 +1,9 @@
+TILW_ExtractionTriggerEntity : "{192ABD6B9232E064}Prefabs/Logic/Triggers/TILW_ExtractionTrigger.et" {
+ coords 7136.985 55.566 7821.233
+ m_queryRadius 1000
+ m_factionKey "US"
+ m_ratioThreshold 0.8
+}
 GenericEntity AmmoCache : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/EquipmentBoxStack/USSR/EquipmentBoxStack_USSR_01_V6_covered.et" {
  components {
   SCR_DestructionMultiPhaseComponent "{58F89684469E44B1}" {
@@ -13,7 +19,6 @@ GenericEntity AmmoCache : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/Eq
      m_fFireMultiplier 0
     }
    }
-   m_bDestroyParentWhenDestroyed 1
    m_bDestroyChildrenWhenDestroyed 1
   }
   TILW_Flag_EntityDamage "{686D2B09D05A5E20}" {
@@ -26,6 +31,14 @@ GenericEntity AmmoCache : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/Eq
  coords 6417.467 59.367 5991.662
  angles 0 115.022 0
  {
+  GenericEntity {
+   ID "56E09476C0EC798D"
+   components {
+    SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+     m_bDestroyParentWhenDestroyed 1
+    }
+   }
+  }
   $grp GenericEntity : "{2660E3988DF90EBB}Prefabs/Props/Military/AmmoBoxes/FIA/EquipmentBoxWooden_Equipment_01_FIA.et" {
    {
     components {
@@ -42,6 +55,7 @@ GenericEntity AmmoCache : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/Eq
         m_fFireMultiplier 0
        }
       }
+      m_bDestroyParentWhenDestroyed 1
      }
      RplComponent "{5476B36C54387F41}" {
       Enabled 1
@@ -65,6 +79,7 @@ GenericEntity AmmoCache : "{5F76887813B86AD4}Prefabs/Props/Military/AmmoBoxes/Eq
         m_fFireMultiplier 0
        }
       }
+      m_bDestroyParentWhenDestroyed 1
      }
      RplComponent "{5476B36C54387F41}" {
       Enabled 1

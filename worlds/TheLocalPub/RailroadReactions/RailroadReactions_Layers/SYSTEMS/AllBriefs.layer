@@ -12,13 +12,15 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  MN {
   coords 3487.581 60.156 5603.973
   m_sTitle "Mission Notes"
-  m_sTextData "|END CONDITIONS|"\
-  "BLUFOR VICTORY: Kill at least 50% of OPFOR + destroy supply cache on the train."\
-  "OR"\
-  "Kill 95% of OPFOR"\
+  m_sTextData "|END CONDITIONS| "\
+  "BLUFOR VICTORY: }"\
+  "• Major: Destroy supply caches on the train + leave the AO with ≥80% of alive players."\
+  "• Regular: Destroy supply caches on the train + leave the AO with ≥60% of alive players."\
+  "• Minor: Destroy supply caches on the train + leave the AO with ≥40% of alive players."\
+  "• Pyrrhic: Destroy supply caches on the train + leave the AO with ≥26% of alive players."\
   ""\
   "OPFOR VICTORY:"\
-  "Kill 75% of BLUFOR causing them to become combat ineffective and withdraw."\
+  "• Kill 75% of BLUFOR causing them to become combat ineffective and withdraw."\
   ""\
   "|MISC|"\
   "Setup timer: Blufor = 6mins."\

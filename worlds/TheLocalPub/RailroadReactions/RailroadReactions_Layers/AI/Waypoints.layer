@@ -9,7 +9,7 @@ $grp SCR_AIWaypoint : "{06E1B6EBD480C6E0}Prefabs/AI/Waypoints/AIWaypoint_ForcedM
   coords 5410.309 56.564 4145.859
  }
  FM4 {
-  coords 5888.509 77.207 4100.841
+  coords 6053.714 64.651 4340.922
   CompletionRadius 300
  }
  FM5 {
