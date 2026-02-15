@@ -12,15 +12,13 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
  MN {
   coords 3487.581 60.156 5603.973
   m_sTitle "Mission Notes"
-  m_sTextData "|END CONDITIONS| "\
-  "BLUFOR VICTORY: }"\
-  "• Major: Destroy supply caches on the train + leave the AO with ≥80% of alive players."\
-  "• Regular: Destroy supply caches on the train + leave the AO with ≥60% of alive players."\
-  "• Minor: Destroy supply caches on the train + leave the AO with ≥40% of alive players."\
-  "• Pyrrhic: Destroy supply caches on the train + leave the AO with ≥26% of alive players."\
+  m_sTextData "|END CONDITIONS|"\
+  "BLUFOR VICTORY: Kill at least 50% of OPFOR + destroy supply cache on the train."\
+  "OR"\
+  "Kill 95% of OPFOR"\
   ""\
   "OPFOR VICTORY:"\
-  "• Kill 75% of BLUFOR causing them to become combat ineffective and withdraw."\
+  "Kill 75% of BLUFOR causing them to become combat ineffective and withdraw."\
   ""\
   "|MISC|"\
   "Setup timer: Blufor = 6mins."\
@@ -30,5 +28,16 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10
+ }
+ CL {
+  coords 3487.581 60.156 5603.973
+  m_sTitle "Changelog"
+  m_sTextData "Changed: "\
+  "• End conditions for BLUFOR are now about destroying the cache and leaving the area with % of troops alives, compared to destroying the cache and then having to kill 50% of the OPFOR team also which could cause a stalemate."\
+  "• Settings relating to the cache and damaging handling."\
+  "• AI placement closer to the AO so they can actually make it there sooner."
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+  m_iOrder 11
  }
 }
