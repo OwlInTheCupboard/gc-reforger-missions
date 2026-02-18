@@ -1,0 +1,21 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SUM {
+  coords 5150.438 91.099 78.09
+  m_sTitle "Summary"
+  m_sTextData "Gangster are at a lodge. Police are here to conduct a raid and stop the and their meeting."
+  m_bEmptyFactionVisibility 1
+ }
+ MN {
+  coords 5150.438 91.099 78.09
+  m_sTitle "Mission notes"
+  m_sTextData "<h1>End Conditions</h1>"\
+  "<h2>Blufor:</h2>"\
+  ""\
+  "<h2>Opfor:</h2> "\
+  ""\
+  "<h3>Notes:</h3>"\
+  ""
+  m_bEmptyFactionVisibility 1
+  m_bShowForAnyFaction 1
+ }
+}

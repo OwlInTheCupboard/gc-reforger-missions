@@ -1,0 +1,52 @@
+$grp Vehicle : "{90FB4A19890F9E5C}Prefabs/Vehicles/Naval/RHIB/RHIB_Transport.et" {
+ RHIB_Transport2 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61089C63B4E0BFEF}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{646A5602EA25A5E8}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{646A5602C2724B32}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{61089C63852D3EC7}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{61089C63859C44F7}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2278.941 50.082 421.415
+  angles 0 54.57 0
+ }
+ RHIB_Transport1 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
+    MultiSlots {
+     MultiSlotConfiguration "{61089C63B4E0BFEF}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{646A5602EA25A5E8}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{646A5602C2724B32}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{61089C63852D3EC7}" {
+      NumSlots 0
+     }
+     MultiSlotConfiguration "{61089C63859C44F7}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2285.986 50.082 410.475
+  angles 0 54.57 0
+ }
+}
