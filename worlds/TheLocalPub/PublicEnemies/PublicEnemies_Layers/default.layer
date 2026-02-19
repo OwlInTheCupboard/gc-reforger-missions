@@ -3,9 +3,22 @@ SCR_AIWorld : "{65DEC16960498027}Prefabs/AI/SCR_AIWorld_Ruha.et" {
 }
 PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
  coords 2449.438 53.039 572.537
+ SunDirectLightElevCurve {
+  SCR_Faction "{68A73D13C0414D66}" {
+  }
+ }
 }
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  coords 2449.227 50.082 596.014
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{68A73D13C0414D66}" : "{934A933E262AAE52}worlds/TheLocalPub/PublicEnemies/Configs/Factions/GC_Federal.conf" {
+    }
+   }
+  }
+ }
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 2446.021 51.354 573.464

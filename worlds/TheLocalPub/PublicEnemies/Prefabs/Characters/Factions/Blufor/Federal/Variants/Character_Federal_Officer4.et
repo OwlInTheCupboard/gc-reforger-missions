@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{6034B5A908C4A6E7}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Blufor/Federal/Character_Federal_Officer.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{458A4E8CD3590D92}Prefabs/Weapons/Shotguns/Remington 870/BC_Shotgun_Remington_870.et"
+  }
+ }
+}

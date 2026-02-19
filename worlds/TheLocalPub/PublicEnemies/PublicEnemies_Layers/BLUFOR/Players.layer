@@ -1,0 +1,17 @@
+SCR_AIGroup : "{05C8C3FD535E3087}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_CaptainTeam.et" {
+ coords 2304.414 56.667 360.558
+}
+$grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_StandardTeam.et" {
+ {
+  coords 2304.311 56.61 364.871
+ }
+ {
+  coords 2304.438 56.5 368.945
+ }
+}
+SCR_ChimeraCharacter : "{6034B5A908C4A6E7}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Blufor/Federal/Character_Federal_Officer.et" {
+ coords 2313.881 56.746 372.804
+}
+SCR_AIGroup : "{FAE41331EAAB0399}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_ChiefTeam.et" {
+ coords 2304.191 56.699 355.335
+}

@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{D4F90B3FDD0E636A}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Blufor/Federal/Character_Federal_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Captain"
+    Description "The middle man between juniors and seniors"
+    IconSetName "EditableEntity_Character_Leader_Squad"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E3E9CB8B5D3A37AB}Prefabs/Weapons/Rifles/Thompson M1928A1/BC_Rifle_Thompson_M1928A1.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A761027F6F677A}" {
+     TargetStorage "Vest/Vest_NAZ_base_CQB_Retex.et"
+     PrefabsToSpawn {
+      "{AFA22BD030DDBC13}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1928A1_45acp_Thompson_50rnd_Drum.et" "{AFA22BD030DDBC13}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1928A1_45acp_Thompson_50rnd_Drum.et"
+     }
+    }
+   }
+  }
+ }
+}
