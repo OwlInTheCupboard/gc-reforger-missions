@@ -5,6 +5,7 @@ SCR_ChimeraCharacter : "{D4F90B3FDD0E636A}worlds/TheLocalPub/PublicEnemies/Prefa
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Sergeant"
     Description "He's rough around the edges"
+    IconSetName "EditableEntity_Character_Leader_Team"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {

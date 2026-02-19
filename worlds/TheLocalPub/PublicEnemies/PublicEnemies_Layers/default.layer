@@ -11,10 +11,10 @@ PerceptionManager PerceptionManager2 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
 PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_GameMode_Lobby_GC.et" {
  coords 2449.227 50.082 596.014
  {
-  SCR_FactionManager {
+  SCR_FactionManager "68A7693736871E23" {
    ID "5ED9088735FF2D8B"
    Factions {
-    SCR_Faction "{68A73D13C0414D66}" : "{934A933E262AAE52}worlds/TheLocalPub/PublicEnemies/Configs/Factions/GC_Federal.conf" {
+    SCR_Faction "{68A76936E1E3F9CC}" : "{934A933E262AAE53}worlds/TheLocalPub/PublicEnemies/Configs/Factions/GC_Federal.conf" {
     }
    }
   }

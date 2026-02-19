@@ -1,17 +1,42 @@
 SCR_AIGroup : "{05C8C3FD535E3087}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_CaptainTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{68A76937FB85768D}" {
+   m_iSquadCallsign 2
+  }
+ }
  coords 2304.414 56.667 360.558
 }
 $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_StandardTeam.et" {
  {
+  components {
+   PS_GroupCallsignAssigner "{68A76937FDEF725B}" {
+    m_iSquadCallsign 3
+   }
+  }
   coords 2304.311 56.61 364.871
  }
  {
+  components {
+   PS_GroupCallsignAssigner "{68A76937F5CC5DF0}" {
+    m_iSquadCallsign 4
+   }
+  }
   coords 2304.438 56.5 368.945
  }
-}
-SCR_ChimeraCharacter : "{6034B5A908C4A6E7}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Blufor/Federal/Character_Federal_Officer.et" {
- coords 2313.881 56.746 372.804
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A76937F5CC5DF0}" {
+    m_iSquadCallsign 5
+   }
+  }
+  coords 2304.013 56.418 372.714
+ }
 }
 SCR_AIGroup : "{FAE41331EAAB0399}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_ChiefTeam.et" {
+ components {
+  PS_GroupCallsignAssigner "{68A769378C7C78A8}" {
+   m_iSquadCallsign 1
+  }
+ }
  coords 2304.191 56.699 355.335
 }

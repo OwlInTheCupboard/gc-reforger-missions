@@ -1,6 +1,17 @@
 SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
   FactionAffiliationComponent "{68A76104055C8F96}" {
    "faction affiliation" "GC_Federal"
   }
@@ -47,7 +58,7 @@ SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base
      }
     }
     ItemsInitConfigurationItem "{68A73D1F614BE567}" {
-     TargetStorage "Vest/Vest_P58_officer.et"
+     TargetStorage "Vest/Vest_NAZ_base_CQB_Retex.et"
      TargetPurpose 64
      PrefabsToSpawn {
       "{3A421547BC29F679}Prefabs/Items/Equipment/Flashlights/Flashlight_MX991/Flashlight_MX991.et"
