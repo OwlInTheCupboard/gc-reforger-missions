@@ -15,6 +15,11 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{68A76936E1E3F9CC}" : "{934A933E262AAE53}worlds/TheLocalPub/PublicEnemies/Configs/Factions/GC_Federal.conf" {
+     UIInfo SCR_FactionUIInfo "{528C961236B7DCD3}" {
+      Icon "{5E3906223DCDFAE7}worlds/TheLocalPub/PublicEnemies/UI/Textures/Flags/GC_Federal_flag.edds"
+     }
+    }
+    SCR_Faction "{68A9349EF459F058}" : "{CAACDEAAF4508D82}worlds/TheLocalPub/PublicEnemies/Configs/Factions/GC_Mobsters.conf" {
     }
    }
   }

@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{49AB5E51E174080E}Prefabs/Characters/Core/Character_Gangster_Base.et"
+ Name "{63F57EAA017D0AA2}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Opfor/Mobsters/Brown/Character_BrownMobster_Mobster.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

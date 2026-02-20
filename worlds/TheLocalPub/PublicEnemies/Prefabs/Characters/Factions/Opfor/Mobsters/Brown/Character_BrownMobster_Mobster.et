@@ -1,0 +1,25 @@
+SCR_ChimeraCharacter : "{8F51ED5F532BB1E1}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Opfor/Mobsters/Brown/Character_BrownMobster_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E3E9CB8B5D3A37AB}Prefabs/Weapons/Rifles/Thompson M1928A1/BC_Rifle_Thompson_M1928A1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{9A21918AC35AC182}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_buttpack.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A9349C41B7D27A}" {
+     TargetStorage "Vest/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{AFA22BD030DDBC13}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1928A1_45acp_Thompson_50rnd_Drum.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -13,7 +13,7 @@ SCR_ChimeraCharacter : "{D4F90B3FDD0E636A}worlds/TheLocalPub/PublicEnemies/Prefa
      }
      SCR_EditableEntityVariant "{68A76107F6A6A76B}" {
       m_sVariantPrefab "{95BF4C5C890A4A68}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Blufor/Federal/Variants/Character_Federal_Officer1.et"
-      m_iRandomizerWeight 4
+      m_iRandomizerWeight 3
      }
      SCR_EditableEntityVariant "{68A76107F6C187F3}" {
       m_sVariantPrefab "{702300A585EFDD03}worlds/TheLocalPub/PublicEnemies/Prefabs/Characters/Factions/Blufor/Federal/Variants/Character_Federal_Officer2.et"

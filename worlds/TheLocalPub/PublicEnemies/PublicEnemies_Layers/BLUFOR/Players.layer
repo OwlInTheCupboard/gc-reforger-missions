@@ -1,22 +1,21 @@
-SCR_ChimeraCharacter {
- coords 2314.988 56.761 375.24
-}
-SCR_AIGroup : "{05C8C3FD535E3087}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_CaptainTeam.et" {
+SCR_AIGroup : "{05C8C3FD535E3087}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Blufor/Group_Federal_CaptainTeam.et" {
  components {
   PS_GroupCallsignAssigner "{68A76937FB85768D}" {
    m_iSquadCallsign 2
   }
  }
- coords 2304.414 56.667 360.558
+ coords 2305.559 56.742 354.419
+ angles 0 53.139 0
 }
-$grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_StandardTeam.et" {
+$grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Blufor/Group_Federal_StandardTeam.et" {
  {
   components {
    PS_GroupCallsignAssigner "{68A76937FDEF725B}" {
     m_iSquadCallsign 3
    }
   }
-  coords 2304.311 56.61 364.871
+  coords 2301.742 56.567 358.948
+  angles 0 53.139 0
  }
  {
   components {
@@ -24,7 +23,8 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
     m_iSquadCallsign 4
    }
   }
-  coords 2304.438 56.5 368.945
+  coords 2298.502 56.329 363.222
+  angles 0 53.139 0
  }
  {
   components {
@@ -32,14 +32,16 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
     m_iSquadCallsign 5
    }
   }
-  coords 2304.013 56.418 372.714
+  coords 2294.66 55.993 368.353
+  angles 0 53.139 0
  }
 }
-SCR_AIGroup : "{FAE41331EAAB0399}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_ChiefTeam.et" {
+SCR_AIGroup : "{FAE41331EAAB0399}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Blufor/Group_Federal_ChiefTeam.et" {
  components {
   PS_GroupCallsignAssigner "{68A769378C7C78A8}" {
    m_iSquadCallsign 1
   }
  }
- coords 2304.191 56.699 355.335
+ coords 2315.292 56.699 368.609
+ angles 0 -121.67 0
 }
