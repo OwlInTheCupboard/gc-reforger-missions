@@ -2,7 +2,16 @@ SCR_ChimeraCharacter : "{6034B5A908C4A6E7}worlds/TheLocalPub/PublicEnemies/Prefa
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{8F5A4A44DD1D84D6}Prefabs/Weapons/Rifles/M1 Garand/BC_Rifle_M1_Garand.et"
+   WeaponTemplate "{458A4E8CD3590D92}Prefabs/Weapons/Shotguns/Remington 870/BC_Shotgun_Remington_870.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A73D15CA90BF5C}" {
+     PrefabsToSpawn {
+      "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et" "{B0DFDF7AAA9C5D39}Prefabs/Weapons/Magazines/BC_Shell_12ga_Buckshot.et"
+     }
+    }
+   }
   }
  }
 }

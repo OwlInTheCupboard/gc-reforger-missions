@@ -1,3 +1,6 @@
+SCR_ChimeraCharacter {
+ coords 2314.988 56.761 375.24
+}
 SCR_AIGroup : "{05C8C3FD535E3087}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Group_Federal_CaptainTeam.et" {
  components {
   PS_GroupCallsignAssigner "{68A76937FB85768D}" {

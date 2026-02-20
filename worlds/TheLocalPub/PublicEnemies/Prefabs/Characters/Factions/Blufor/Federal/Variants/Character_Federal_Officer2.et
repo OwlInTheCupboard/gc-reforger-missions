@@ -2,7 +2,16 @@ SCR_ChimeraCharacter : "{6034B5A908C4A6E7}worlds/TheLocalPub/PublicEnemies/Prefa
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{A314981748872A43}Prefabs/Weapons/Rifles/M1 Carbine/BC_Rifle_M1_Carbine.et"
+   WeaponTemplate "{8F5A4A44DD1D84D6}Prefabs/Weapons/Rifles/M1 Garand/BC_Rifle_M1_Garand.et"
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A73D15CA90BF5C}" {
+     PrefabsToSpawn {
+      "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et" "{6224DDAB578E96C0}Prefabs/Weapons/Magazines/M1 Garand/BC_Clip_8rnd_M1_Garand.et"
+     }
+    }
+   }
   }
  }
 }
