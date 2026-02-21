@@ -1,0 +1,18 @@
+SCR_AIWorld : "{3DE6090FC602E566}Prefabs/AI/SCR_AIWorld_Takistan.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{654CFBC97D6B1FBC}" {
+     NavmeshFile "{A7C786C8A4407E92}worlds/Navmesh/Takistan_Lowres.nmn"
+    }
+   }
+  }
+ }
+ coords 5919.909 109.313 11460.197
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2898.07 335.844 5447.844
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 5612.611 119.876 9702.546
+}
