@@ -26,14 +26,14 @@ SCR_ChimeraCharacter : "{D4F90B3FDD0E636A}worlds/TheLocalPub/PublicEnemies/Prefa
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{E3E9CB8B5D3A37AB}Prefabs/Weapons/Rifles/Thompson M1928A1/BC_Rifle_Thompson_M1928A1.et"
+   WeaponTemplate "{B6673927CF21BE87}Prefabs/Weapons/Rifles/Thompson M1A1/BC_Rifle_Thompson_M1A1.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A73D15CA90BF5C}" {
      TargetStorage "Vest/Vest_NAZ_base_CQB_Retex.et"
      PrefabsToSpawn {
-      "{AFA22BD030DDBC13}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1928A1_45acp_Thompson_50rnd_Drum.et" "{AFA22BD030DDBC13}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1928A1_45acp_Thompson_50rnd_Drum.et"
+      "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et" "{5C43D5083942A22B}Prefabs/Weapons/Magazines/Thompson/BC_Magazine_M1A1_45acp_Thompson_30rnd_Stick.et"
      }
     }
    }

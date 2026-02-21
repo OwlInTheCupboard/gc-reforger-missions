@@ -35,6 +35,24 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
   coords 2294.66 55.993 368.353
   angles 0 53.139 0
  }
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A76937F5CC5DF0}" {
+    m_iSquadCallsign 6
+   }
+  }
+  coords 2300.893 56.421 364.974
+  angles 0 53.139 0
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A76937F5CC5DF0}" {
+    m_iSquadCallsign 7
+   }
+  }
+  coords 2297.151 56.156 370.094
+  angles 0 53.139 0
+ }
 }
 SCR_AIGroup : "{FAE41331EAAB0399}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Blufor/Group_Federal_ChiefTeam.et" {
  components {

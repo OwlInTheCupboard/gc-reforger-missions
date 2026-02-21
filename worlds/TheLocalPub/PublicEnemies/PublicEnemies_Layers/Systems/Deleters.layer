@@ -25,4 +25,20 @@ $grp PK_EntityDeleter {
    ""
   }
  }
+ {
+  coords 2786.295 62.155 982.228
+  m_fRadius 5
+  m_prefabFilterList {
+   "{D6EC31A48403A52A}Prefabs/Vegetation/Bush/b_sambucus_nigra_1_collision.et"
+   "{A5DE58FC9FB6BA60}Prefabs/Vegetation/Bush/b_corylus_avellana_2_collision.et"
+   "{C98A6C1C2372354E}Prefabs/Vegetation/Bush/b_corylus_avellana_1_collision.et"
+   "{AF4BFBE29028A9FD}Prefabs/Vegetation/Bush/b_corylus_avellana_1l_collision.et"
+   "{0CA0547EB03759E1}Prefabs/Vegetation/Bush/b_rubus_idaeus_1s_collision.et"
+   "{124518D13290A687}Prefabs/Vegetation/Bush/b_salix_cinerea_0_collision.et"
+   "{23C0BE9D80929DBD}Prefabs/Vegetation/Bush/b_salix_cinerea_1w_collision.et"
+   "{BA785041AC632123}Prefabs/Vegetation/Bush/b_salix_cinerea_1_collision.et"
+   "{BAB8054438C72A04}Prefabs/Vegetation/Bush/b_sambucus_nigra_2.et"
+   "{AED5759B653DF6D0}Prefabs/Vegetation/Bush/b_rosa_canina_1s_collision.et"
+  }
+ }
 }
