@@ -178,9 +178,6 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
    m_MenuController SCR_RadialMenuController "{5C92B0326E1334FB}" {
    }
   }
-  SCR_RespawnSystemComponent "{56B2B4793051E7C9}" {
-   Enabled 1
-  }
   SCR_TextsTaskManagerComponent "{65D26A2BD9437584}" {
    m_aEntries {
     SCR_TextsTaskManagerEntry "{66087CBCDF4877FF}" {
@@ -452,7 +449,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
  }
  coords 11332.928 89.457 10508.188
  {
-  SCR_FactionManager {
+  SCR_FactionManager "68AC13B5EC2423F8" {
    ID "5ED9088735FF2D8B"
    Factions {
     SCR_Faction "{6893355199B1327F}" {
