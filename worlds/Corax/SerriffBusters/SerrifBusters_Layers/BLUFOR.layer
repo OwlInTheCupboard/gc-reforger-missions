@@ -8,6 +8,7 @@ SCR_AIGroup : "{0D0F5331CCF04C37}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/Group_S
  }
  coords 5081.329 689.164 6342.214
  angles 0 -104.661 0
+ m_bPlayable 1
 }
 SCR_AIGroup : "{353C630F00EBCDA5}Prefabs/Groups/BLUFOR/GC_SanSerriffe/53/P/Group_SanSerriffe_rifle_Section_P.et" {
  components {
