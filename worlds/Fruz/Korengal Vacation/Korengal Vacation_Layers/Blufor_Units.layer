@@ -3,14 +3,27 @@ SCR_AIGroup : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
+  PS_GroupCallsignAssigner "{68AE1D89EEFFF35E}" {
+   m_iSquadCallsign 6
+  }
  }
  coords 2361.708 164.049 1863.651
+ m_aUnitPrefabSlots {
+  "{D18131EDC15F76FC}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_PL_P.et"
+  "{FE6B45B02AA350D7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_PSG_P.et"
+  "{0968B9123279513A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_RTO_P.et"
+  "{6FE1861E4D73D425}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Medic_P.et"
+  "{4AE3849C53524844}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_Rifleman_DMR_P.et"
+  "{A49BA2FB1F8BD75F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_GL_P.et"
+ }
 }
 $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/Group_USA_2020_RifleSquad_P.et" {
  {
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{68AE1D89E5F2C38A}" {
    }
   }
   coords 2367.98 163.5 1865.652
@@ -31,6 +44,9 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantr
   components {
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
+   }
+   PS_GroupCallsignAssigner "{68AE1D89E09D5CB1}" {
+    m_iSquadCallsign 1
    }
   }
   coords 2367.948 163.95 1867.893
@@ -53,8 +69,11 @@ SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation "line"
   }
+  PS_GroupCallsignAssigner "{68AE1D89FAE13486}" {
+   m_iSquadCallsign 2
+  }
  }
- coords 2367.787 163.591 1870.298
+ coords 2367.787 163.53 1869.878
  angles 0 178.358 0
  m_aUnitPrefabSlots {
   "{DB2461A0774F857B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/2020/Army Infantry/P/Character_RHS_USA_SL_P.et"
