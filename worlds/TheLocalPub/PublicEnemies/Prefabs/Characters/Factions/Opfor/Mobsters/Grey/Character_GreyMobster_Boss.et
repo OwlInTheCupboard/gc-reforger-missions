@@ -5,9 +5,15 @@ SCR_ChimeraCharacter : "{4144099566E3DE33}worlds/TheLocalPub/PublicEnemies/Prefa
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Mob Boss"
     Description "Leader of the Grey Suited Grapplers"
-    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
-    IconSetName "EditableEntity_Character_Dead"
+    Icon "{1D2E80DB5E298437}worlds/TheLocalPub/PublicEnemies/UI/Textures/EditableEntities/Characters/Character_Mobster_Boss.edds"
+    IconSetName "player"
    }
+  }
+  TILW_Flag_EntityDamage "{68B091DD54C08228}" {
+   m_flagName "GreyBossDead"
+  }
+  TILW_SetNameComponent "{68ACFC6521EB16DD}" {
+   m_setName "GreyMobBoss"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{E3E9CB8B5D3A37AB}Prefabs/Weapons/Rifles/Thompson M1928A1/BC_Rifle_Thompson_M1928A1.et"

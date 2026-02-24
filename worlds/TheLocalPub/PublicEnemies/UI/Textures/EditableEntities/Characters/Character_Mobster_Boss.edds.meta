@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F7D2BE70DC726D97}worlds/TheLocalPub/PublicEnemies/UI/Textures/EditableEntities/Characters/Character_Mobster.edds"
+ Name "{1D2E80DB5E298437}worlds/TheLocalPub/PublicEnemies/UI/Textures/EditableEntities/Characters/Character_Mobster_Boss.edds"
  Configurations {
   PNGResourceClass PC : "{DC555BD399D92412}Configs/System/ResourceTypes/PC/TextureUnspecified.conf" {
   }

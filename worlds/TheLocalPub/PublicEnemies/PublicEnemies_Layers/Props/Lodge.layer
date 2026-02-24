@@ -630,24 +630,151 @@ $grp PolylineShapeEntity {
   }
  }
 }
+SplineShapeEntity {
+ coords 2754.882 58.899 1012.417
+ Points {
+  ShapePoint "{68B0E493C14440AF}" {
+   Position -0.107 -0.005 -0.508
+  }
+  ShapePoint "{68B0E493C144F204}" {
+   Position 2.868 0.973 6.026
+  }
+  ShapePoint "{68B0E493C79D0BCC}" {
+   Position 6.435 1.503 9.637
+  }
+  ShapePoint "{68B0E493C7379E5B}" {
+   Position 10.158 1.601 15.201
+  }
+  ShapePoint "{68B0E4923BEE6711}" {
+   Position 12.537 1.538 20.46
+  }
+  ShapePoint "{68B0E49238DB6FDB}" {
+   Position 12.627 1.112 29.349
+  }
+  ShapePoint "{68B0E49239C2B232}" {
+   Position 16.216 -1.068 35.358
+  }
+ }
+ {
+  RoadGeneratorEntity : "{F49A6A9439B063BB}Prefabs/WEGenerators/Roads/Dirt/RG_TrailGravel_01.et" {
+   coords 0 0 0
+   {
+    RoadEntity {
+     ID "5262CB47BB2B3833"
+     SplinePoints {
+      ShapePoint "{5256DA7852E4536F}" {
+       Position -0.107 -0.005 -0.508
+      }
+      ShapePoint "{5256DA7852E450A5}" {
+       Position 2.868 0.973 6.026
+      }
+      ShapePoint "{68B0E49227297CB8}" {
+       Position 6.435 1.503 9.637
+      }
+      ShapePoint "{68B0E49227297C76}" {
+       Position 10.158 1.601 15.201
+      }
+      ShapePoint "{68B0E49227297C35}" {
+       Position 12.537 1.538 20.46
+      }
+      ShapePoint "{68B0E49227297DFE}" {
+       Position 12.627 1.112 29.349
+      }
+      ShapePoint "{68B0E49227297DB9}" {
+       Position 16.216 -1.068 35.357
+      }
+     }
+     IsClosedSpline 0
+     Width 1.75
+     BeginningPiece none
+     EndPiece none
+    }
+   }
+  }
+ }
+}
 GenericEntity : "{05C216FAF8F7C8D9}Prefabs/Props/Civilian/BoatTrailer_01/BoatTrailer_01.et" {
  coords 2715.156 57.32 956.816
  angles 0 8.589 0
+}
+StaticModelEntity : "{09277B76FF010FCB}Prefabs/Structures/Infrastructure/Waterworks/Well_02/Well_02_blue.et" {
+ coords 2744.266 0 989.921
+ angles 0 -7.628 0
+}
+GenericEntity : "{0BCC0898D5A64D48}Prefabs/Props/Furniture/Chair_03/Chair_03_grey.et" {
+ coords 2745.986 58.685 984.273
+ angles 0 52.696 0
+}
+GenericEntity : "{248CBAD8E0E6FC6E}Prefabs/Compositions/Misc/SubCompositions/Barrel_Filled_02.et" {
+ coords 2744.072 58.437 984.28
+ angles 0 0 0
 }
 SCR_DestructibleBuildingEntity : "{2B165B5BF9FE270D}Prefabs/Structures/Infrastructure/Naval/Sheds/BoatShed_01/BoatShed_01.et" {
  coords 2687.211 3.416 929.073
  angles 0 -129.899 0
  {
   SCR_DestructibleBuildingEntity : "{9FF4F46027528F99}Prefabs/Structures/Infrastructure/Naval/Piers/Pier02 Wooden.et" {
-   coords -0.08 -0.649 -8.945
+   coords -0.503 -0.649 -8.937
    angles 0 -88.884 0
   }
  }
 }
+SCR_DestructibleBuildingEntity : "{3299E6F34CE40185}Prefabs/Structures/Agriculture/Greenhouse/Greenhouse_01/Greenhouse_01.et" {
+ coords 2765.475 0.019 977.459
+ angles 0 -61.016 0
+}
+$grp SCR_DestructibleEntity : "{32CDE9FE3FB35D51}Prefabs/Props/Garbage/Bins/BinStreet_01.et" {
+ {
+  coords 2714.026 57.645 967.325
+  angles 0 -121.23 0
+ }
+ {
+  coords 2792.828 61.844 982.499
+  angles 0 48.97 0
+ }
+}
+SCR_DestructibleEntity : "{33C0565C5FE1ED74}Prefabs/Props/Civilian/BenchStreet/BenchStreet_02.et" {
+ coords 2791.957 61.928 983.631
+ angles 0 39.251 0
+}
+$grp GenericEntity : "{3AB2B7156B3A0F3D}Prefabs/Props/Agriculture/MilkCan_01.et" {
+ {
+  coords 2744.618 58.438 984.047
+  angles 0 0 0
+ }
+ {
+  coords 2744.877 58.464 983.826
+  angles 79.306 0 0
+ }
+}
+GenericEntity : "{3B58A243F817AABB}Prefabs/Props/Furniture/Chair_03/Chair_03_red.et" {
+ coords 2746.177 58.703 986.108
+ angles 0 147.91 0
+}
+GenericEntity : "{49E2D1A3DE5ED007}Prefabs/Props/Agriculture/Beehive_01/Beehive_01_stack.et" {
+ coords 2753.458 59.526 946.421
+}
+GenericEntity : "{4BE33BD4C315C615}Prefabs/Props/Civilian/Ashtray_01_Full_base.et" {
+ coords 2747.754 59.507 985.107
+ angles 0 0 0
+}
+$grp GenericEntity : "{4D15B58E8889BE61}Prefabs/Structures/Recreation/Beach/ChangingCabin_01/ChangingCabin_01.et" {
+ {
+  coords 2716.824 57.83 979.161
+  angles 0 111.427 0
+ }
+ {
+  coords 2716.094 57.83 977.301
+  angles 0 111.427 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{52F1B4468BB8AE09}Prefabs/Structures/Infrastructure/Waterworks/Well_01/Well_01.et" {
+ coords 2802.394 0 1018.213
+}
 $grp StaticModelEntity : "{58BE74653674D0C0}PrefabLibrary/DefaultLibrary/Walls/Wooden/WoodenFence_04_Gate.et" {
  {
-  coords 2799.207 -0.061 986.413
-  angles 0 130.391 0
+  coords 2799.174 -0.06 986.441
+  angles 0 130.079 0
  }
  {
   coords 2704.727 0.755 1012.298
@@ -666,15 +793,112 @@ $grp StaticModelEntity : "{58BE74653674D0C0}PrefabLibrary/DefaultLibrary/Walls/W
   }
  }
 }
+$grp GenericEntity : "{5BAA975FE04E94EF}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/BenchStreet_01_green.et" {
+ {
+  coords 2735.51 58.526 973.942
+  angles 0 32.185 0
+ }
+ {
+  coords 2712.781 57.564 965.446
+  angles 0 -75.108 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{5E37989A2615F13F}Prefabs/Structures/Infrastructure/Power/Utility/ElectricCabinet_01/ElectricCabinet_01.et" {
+ {
+  coords 2763.459 0.046 984.236
+  angles 0 -58.327 0
+ }
+ {
+  coords 2733.763 0 941.081
+  angles 0 103.268 0
+ }
+ {
+  coords 2783.868 0.047 1014.864
+  angles 0 116.585 0
+ }
+}
+GenericEntity : "{645EFF51289096E0}Prefabs/Structures/Recreation/Beach/LatrineBeach_01/LatrineBeach_01_brown.et" {
+ coords 2764.859 61.144 987.48
+ angles 0 -56.668 0
+}
+GenericEntity : "{6DD0648BB7A52420}Prefabs/Props/Civilian/Wheelbarrow_01.et" {
+ coords 2746.501 58.438 982.404
+ angles 0 -51.214 0
+}
+GenericEntity : "{7030822F7A54F479}Prefabs/Props/Crates/CrateWooden_01_base.et" {
+ coords 2748.217 58.701 985.428
+ angles 0 34.95 0
+}
 SCR_DestructibleBuildingEntity : "{703E76F55690F375}Prefabs/Structures/Houses/Village/Single Floor Buildings/Small Cabin HouseV2.et" {
  coords 2788.053 -0.19 982.066
  angles 0 40.5 0
+}
+SCR_DestructibleEntity : "{71DC2766932435D9}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_end_V2.et" {
+ coords 2726.074 0.135 997.793
+ angles 0 119.64 0
+}
+GenericEntity : "{72E42BEAFED9B5A7}Prefabs/Props/Garbage/Bins/GarbageContainer_01.et" {
+ coords 2763.271 60.967 1020.101
+ angles 0 117.964 0
+}
+SCR_DestructibleBuildingEntity : "{7E73AD814785B16A}Prefabs/Structures/Agriculture/Hotbed/Hotbed_01/Hotbed_01_Half_Open.et" {
+ coords 2772.656 61.386 977.033
+ angles 0 -150.329 0
 }
 SCR_DestructibleEntity : "{8055E769FC548190}PrefabLibrary/DefaultLibrary/Walls/Net/NetFence_01_Pole.et" {
  coords 2796.711 -0.312 983.646
  angles 0 40.787 0
 }
+GenericEntity : "{9545DA837C6C4E3F}Prefabs/Props/Crates/Crate_01_yellow.et" {
+ coords 2747.285 58.689 987.664
+}
+SCR_DestructibleBuildingEntity : "{9562159FDE627B33}Prefabs/Structures/Recreation/Houses/Cottage_E_01/Cottage_E_01.et" {
+ coords 2770.53 0.5 1051.663
+ angles 0 137.587 0
+}
+$grp GenericEntity : "{A13BCC98B8C380C7}Prefabs/Compositions/Misc/SubCompositions/Decorations/Crate_Firewood_01.et" {
+ {
+  coords 2748.254 58.72 988.778
+  angles 0 33.993 0
+ }
+ {
+  coords 2747.884 58.678 988.247
+  angles 0 37.578 0
+ }
+}
+GenericEntity : "{A31E5B2DD8FBA845}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_USSR_01_ashtray.et" {
+ coords 2778.656 62.265 987.095
+}
+GenericEntity : "{B3E8911E396DE447}Prefabs/Props/Services/Fire/FireExtinguisherBox_01_Shovel.et" {
+ coords 2746.762 59.015 982.269
+ angles 72.079 -60 180
+ scale 1.5
+}
+GenericEntity : "{B724309521EEFC42}Prefabs/Props/Agriculture/WaterTank_01_v2.et" {
+ coords 2746.085 58.438 994.082
+ angles 0 -22.351 0
+}
+SCR_DestructibleBuildingEntity : "{C25857B8323C8D1C}Prefabs/Structures/Cultural/Fountains/Fountain_01_water_SUFFIX.et" {
+ coords 2743.941 0.355 971.661
+ angles 0 0 0
+}
+GenericEntity : "{C8A9F7FDDF3CE851}Prefabs/Compositions/Misc/SubCompositions/Decorations/Barrel_Radio_01.et" {
+ coords 2745.589 58.69 984.748
+ angles 0 -100.987 0
+}
+SCR_DestructibleEntity : "{C9DB1B802AA41FF8}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_8m_End_V2.et" {
+ coords 2720.316 0.284 986.258
+ angles -1.774 -65.445 -0.079
+ placement none
+}
+GenericEntity : "{D0B44EB8DBEDDA97}Prefabs/Props/Civilian/Bucket_02.et" {
+ coords 2745.292 58.438 989.95
+}
 GenericEntity : "{F513D99A28A5E5E3}Prefabs/Props/Recreation/Beach/PedalBoat_01/PedalBoat_01_blue.et" {
  coords 2697.17 49.946 940.76
  angles -10.134 -85.358 -1.274
+}
+GenericEntity : "{FBC8A28A5C908D2F}Prefabs/Props/Agriculture/Cartwheel_01.et" {
+ coords 2749.626 58.493 985.676
+ angles -15.924 -54.755 0
 }

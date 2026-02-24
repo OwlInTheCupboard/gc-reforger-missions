@@ -18,7 +18,7 @@ SCR_ChimeraCharacter : "{D4F90B3FDD0E636A}worlds/TheLocalPub/PublicEnemies/Prefa
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A73D1F614BE567}" {
      PrefabsToSpawn + {
-      "{06AE280848A84E47}Prefabs/Weapons/Magazines/Magazine_9x19_Welrod_6rnd.et"
+      "{06AE280848A84E47}Prefabs/Weapons/Magazines/Magazine_9x19_Welrod_6rnd.et" "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et" "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
      }
     }
     ItemsInitConfigurationItem "{68A76102472AA8DB}" {

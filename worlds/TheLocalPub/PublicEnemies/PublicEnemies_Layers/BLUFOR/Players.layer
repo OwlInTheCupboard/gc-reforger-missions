@@ -4,8 +4,8 @@ SCR_AIGroup : "{05C8C3FD535E3087}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Gro
    m_iSquadCallsign 2
   }
  }
- coords 2305.559 56.742 354.419
- angles 0 53.139 0
+ coords 858.648 64.665 358.027
+ angles 0 43.534 0
 }
 $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Blufor/Group_Federal_StandardTeam.et" {
  {
@@ -14,8 +14,8 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
     m_iSquadCallsign 3
    }
   }
-  coords 2301.742 56.567 358.948
-  angles 0 53.139 0
+  coords 854.429 65.05 361.989
+  angles 0 43.534 0
  }
  {
   components {
@@ -23,8 +23,8 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
     m_iSquadCallsign 4
    }
   }
-  coords 2298.502 56.329 363.222
-  angles 0 53.139 0
+  coords 850.521 65.363 365.662
+  angles 0 43.534 0
  }
  {
   components {
@@ -32,8 +32,8 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
     m_iSquadCallsign 5
    }
   }
-  coords 2294.66 55.993 368.353
-  angles 0 53.139 0
+  coords 845.877 65.64 370.08
+  angles 0 43.534 0
  }
  {
   components {
@@ -41,8 +41,8 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
     m_iSquadCallsign 6
    }
   }
-  coords 2300.893 56.421 364.974
-  angles 0 53.139 0
+  coords 856.254 65.535 364.303
+  angles 0 43.534 0
  }
  {
   components {
@@ -50,8 +50,8 @@ $grp SCR_AIGroup : "{35CB89A86E6851DB}worlds/TheLocalPub/PublicEnemies/Prefabs/A
     m_iSquadCallsign 7
    }
   }
-  coords 2297.151 56.156 370.094
-  angles 0 53.139 0
+  coords 851.711 65.834 368.726
+  angles 0 43.534 0
  }
 }
 SCR_AIGroup : "{FAE41331EAAB0399}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Groups/Blufor/Group_Federal_ChiefTeam.et" {
@@ -60,6 +60,6 @@ SCR_AIGroup : "{FAE41331EAAB0399}worlds/TheLocalPub/PublicEnemies/Prefabs/AI/Gro
    m_iSquadCallsign 1
   }
  }
- coords 2315.292 56.699 368.609
- angles 0 -121.67 0
+ coords 860.348 65.526 369.433
+ angles 0 -137.257 0
 }

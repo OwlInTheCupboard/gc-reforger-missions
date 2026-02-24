@@ -2,7 +2,7 @@ SCR_ChimeraCharacter : "{63F57EAA017D0AA2}worlds/TheLocalPub/PublicEnemies/Prefa
  ID "520EC961A090B1EE"
  components {
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{9655CB851205DF47}Prefabs/Weapons/Shotguns/Ithaca 37/BC_Shotgun_Ithaca_37.et"
+   WeaponTemplate "{9E8405BDD24BCF69}Prefabs/Weapons/Shotguns/Ithaca 37/BC_Shotgun_Ithaca_37_V2.et"
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {

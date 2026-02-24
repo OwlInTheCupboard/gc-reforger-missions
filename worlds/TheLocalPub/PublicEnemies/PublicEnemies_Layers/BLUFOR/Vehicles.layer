@@ -9,8 +9,8 @@ $grp Vehicle : "{62A7CA8FB8AC61F4}Prefabs/Vehicles/Wheeled/LR_3Series/Civvie/3Se
     }
    }
   }
-  coords 2314.186 57.193 352.997
-  angles 0 48.674 0
+  coords 2267.547 56.068 332.138
+  angles 0 48.791 0
  }
  _Series_SWB_Civvie_Randomised2 {
   components {
@@ -22,8 +22,8 @@ $grp Vehicle : "{62A7CA8FB8AC61F4}Prefabs/Vehicles/Wheeled/LR_3Series/Civvie/3Se
     }
    }
   }
-  coords 2316.744 57.334 350.095
-  angles 0 48.674 0
+  coords 2273.566 55.965 337.408
+  angles 0 48.791 0
  }
  _Series_SWB_Civvie_Randomised3 {
   components {
@@ -35,8 +35,8 @@ $grp Vehicle : "{62A7CA8FB8AC61F4}Prefabs/Vehicles/Wheeled/LR_3Series/Civvie/3Se
     }
    }
   }
-  coords 2319.659 57.446 347.071
-  angles 0 48.674 0
+  coords 2279.585 55.699 342.678
+  angles 0 48.791 0
  }
  _Series_SWB_Civvie_Randomised4 {
   components {
@@ -48,8 +48,8 @@ $grp Vehicle : "{62A7CA8FB8AC61F4}Prefabs/Vehicles/Wheeled/LR_3Series/Civvie/3Se
     }
    }
   }
-  coords 2321.953 57.591 344.019
-  angles 0 48.674 0
+  coords 2273.147 56.61 325.743
+  angles 0 48.791 0
  }
  _Series_SWB_Civvie_Randomised5 {
   components {
@@ -61,8 +61,8 @@ $grp Vehicle : "{62A7CA8FB8AC61F4}Prefabs/Vehicles/Wheeled/LR_3Series/Civvie/3Se
     }
    }
   }
-  coords 2324.969 57.704 340.979
-  angles 0 48.674 0
+  coords 2279.166 56.374 331.013
+  angles 0 48.791 0
  }
  _Series_SWB_Civvie_Randomised6 {
   components {
@@ -74,13 +74,119 @@ $grp Vehicle : "{62A7CA8FB8AC61F4}Prefabs/Vehicles/Wheeled/LR_3Series/Civvie/3Se
     }
    }
   }
-  coords 2327.795 57.779 338.29
-  angles 0 48.674 0
+  coords 2285.185 56.113 336.283
+  angles 0 48.791 0
+ }
+ _Series_SWB_Civvie_Randomised7 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 2265.753 56.32 324.849
+  angles 0 48.791 0
+ }
+ _Series_SWB_Civvie_Randomised8 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3489.523 57.531 1906.406
+  angles 0 -131.21 0
+ }
+ _Series_SWB_Civvie_Randomised9 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3484.112 57.531 1911.19
+  angles 0 -133.503 0
+ }
+ _Series_SWB_Civvie_Randomised10 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3490.083 57.5 1916.546
+  angles 0 -133.503 0
+ }
+ _Series_SWB_Civvie_Randomised11 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3494.704 57.5 1911.765
+  angles 0 -131.21 0
+ }
+ _Series_SWB_Civvie_Randomised12 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3495.947 57.5 1922.271
+  angles 0 -133.503 0
+ }
+ _Series_SWB_Civvie_Randomised13 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3499.867 57.5 1916.3
+  angles 0 -131.21 0
+ }
+ _Series_SWB_Civvie_Randomised14 {
+  components {
+   SCR_UniversalInventoryStorageComponent "{648B4DF41C28F11F}" {
+    MultiSlots {
+     MultiSlotConfiguration "{648B4DF41C28F112}" {
+      NumSlots 0
+     }
+    }
+   }
+  }
+  coords 3505.671 57.5 1922.727
+  angles 0 -131.21 0
  }
 }
 $grp Vehicle : "{90FB4A19890F9E5C}Prefabs/Vehicles/Naval/RHIB/RHIB_Transport.et" {
  RHIB_Transport2 {
   components {
+   PK_EntityProtectorComponent "{68ACB3032FB3BF12}" {
+   }
    SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
     MultiSlots {
      MultiSlotConfiguration "{61089C63B4E0BFEF}" {
@@ -106,6 +212,8 @@ $grp Vehicle : "{90FB4A19890F9E5C}Prefabs/Vehicles/Naval/RHIB/RHIB_Transport.et"
  }
  RHIB_Transport1 {
   components {
+   PK_EntityProtectorComponent "{68ACB3032A0D8A99}" {
+   }
    SCR_UniversalInventoryStorageComponent "{61089C63E6D802E9}" {
     MultiSlots {
      MultiSlotConfiguration "{61089C63B4E0BFEF}" {
