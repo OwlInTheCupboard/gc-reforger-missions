@@ -2,7 +2,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  EastInsert2 {
   coords 12107.935 2.156 10542.542
   angles 0 90 0
-  m_MarkerColor 0.561 0.439 0.071 1
+  m_MarkerColor 0 0 0 1
   m_sQuadName "entry-point-2"
   m_fWorldSize 50
   m_sDescription "East insert location"
@@ -13,7 +13,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  NorthInsert2 {
   coords 11904.633 3.438 10975.598
   angles 0 90 0
-  m_MarkerColor 0.561 0.439 0.071 1
+  m_MarkerColor 0 0 0 1
   m_sQuadName "entry-point-2"
   m_fWorldSize 50
   m_sDescription "North insert location"
@@ -35,7 +35,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  SouthInsert2 {
   coords 11901.983 5 10258.322
   angles 0 90 0
-  m_MarkerColor 0.561 0.439 0.071 1
+  m_MarkerColor 0 0 0 1
   m_sQuadName "entry-point-2"
   m_fWorldSize 50
   m_sDescription "South insert location"
@@ -46,7 +46,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
  WestInsert2 {
   coords 11505.257 78.807 10557.356
   angles 0 90 0
-  m_MarkerColor 0.561 0.439 0.071 1
+  m_MarkerColor 0 0 0 1
   m_sQuadName "entry-point-2"
   m_fWorldSize 50
   m_sDescription "West insert location"
