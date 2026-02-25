@@ -1,0 +1,173 @@
+GenericEntity BlueDoor : "{10C374FEF33ED4C6}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_B_LEFT_EXT_COV_M2_blue.et" {
+ components {
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   Enabled 0
+  }
+ }
+ coords 10646.276 164.15 9568.759
+ angles 0 90 0
+}
+SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/ApartmentBuilding_USSR_5I01.et" {
+ components {
+  PK_EntityProtectorComponent "{68B156113F09BCA9}" {
+  }
+ }
+ coords 10664.743 171.558 9594.987
+ angles 0 -178.957 0
+ {
+  $grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platform_10x10M.et" {
+   {
+    coords 52.377 -20.638 -15.276
+    angles 0 178.957 0
+    scale 10
+   }
+   {
+    coords -43.37 -20.639 -17.02
+    angles 0 178.957 0
+    scale 10
+   }
+   {
+    coords 50.618 -20.64 81.372
+    angles 0 178.957 0
+    scale 10
+   }
+   {
+    coords -45.129 -20.64 79.629
+    angles 0 178.957 0
+    scale 10
+   }
+  }
+  $grp GenericEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et" {
+   {
+    coords 99.188 -4.849 -64.547
+    angles 0 178.957 0
+   }
+   {
+    coords -85.205 -4.849 -67.904
+    angles 0 178.957 0
+   }
+   {
+    coords -1.001 -4.849 -64.426
+    angles 0 88.957 0
+   }
+   {
+    coords -4.608 -4.849 133.713
+    angles 0 88.957 0
+   }
+   {
+    coords 92.875 -4.849 135.487
+    angles 0 88.957 0
+   }
+   {
+    coords 97.482 -4.849 -62.633
+    angles 0 88.957 0
+   }
+   {
+    coords -87.01 -4.849 31.239
+    angles 0 178.957 0
+   }
+   {
+    coords 97.386 -4.849 34.437
+    angles 0 178.957 0
+   }
+   {
+    coords 92.875 -4.849 135.487
+    angles 0 88.957 0
+   }
+   {
+    coords -4.608 -4.849 133.713
+    angles 0 88.957 0
+   }
+  }
+ }
+}
+GenericEntity RedDoor : "{9EB592E7C7CD1C0F}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B.et" {
+ coords 10646.378 164.15 9558.702
+ angles 0 90 0
+ {
+  GenericEntity {
+   ID "59C89091104FD1AE"
+   components {
+    ActionsManagerComponent "{F32B667C3C823800}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}
+GenericEntity EquipmentBox : "{C2D5FBC0BB90544A}PrefabsEditable/Auto/Props/Military/AmmoBoxes/EquipmentBoxStack/E_EquipmentBoxStack_USSR_01_V2.et" {
+ components {
+  SCR_UniversalInventoryStorageComponent "{5476A2F100DF4EFF}" {
+   Enabled 1
+   UseCapacityCoefficient 0
+   MaxCumulativeVolume 1000000
+   MultiSlots {
+    MultiSlotConfiguration "{68B2F388C3CA7710}" {
+     SlotTemplate EquipmentStorageSlot Ladder {
+      Prefab "{62F304402A707F68}Prefabs/Items/Equipment/TacticalLadder/ACE_TacticalLadder.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{68B2F38933D8408F}" {
+     SlotTemplate EquipmentStorageSlot Charges {
+      Prefab "{97064F8597F2D7BF}Prefabs/Weapons/Explosives/DemoBlock_TSh400g/DemoBlock_TSh400g.et"
+     }
+     NumSlots 16
+    }
+    MultiSlotConfiguration "{68B2F3892DC34F2B}" {
+     SlotTemplate EquipmentStorageSlot clacker {
+      Prefab "{90976DC90A223095}Prefabs/Items/Equipment/Detonators/BlastingMachine_KPM_3U1/BlastingMachine_KPM_3U1.et"
+     }
+     NumSlots 8
+    }
+    MultiSlotConfiguration "{68B2F380888BB332}" {
+     SlotTemplate EquipmentStorageSlot Wirecutters {
+      Prefab "{42232FFE6E7AC415}Prefabs/Items/Core/Wirecutters/wirecutters.et"
+     }
+     NumSlots 10
+    }
+   }
+  }
+  ActionsManagerComponent "{5476B36C403D4CC0}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{5476B36C47B0461A}" {
+     Position PointInfo "{5476B36C45ADDA89}" {
+      Offset 0 0.8 0
+     }
+    }
+   }
+  }
+ }
+ coords 10669.535 164.152 9567.722
+}
+GenericEntity : "{C5E5467213DB03DA}PrefabsEditable/Auto/EffectsModuleEntities/E_EffectModule_DirectionArrow_Multiple.et" {
+ coords 10646.793 168 9566.056
+ angles -49.591 90 0
+}
+GenericEntity WhiteDoor : "{E2C75A974A146D9F}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_RIGHT_INT_COV_B.et" {
+ components {
+  DoorComponent "{221C667A9F7D4B69}" {
+   Enabled 1
+  }
+  ActionsManagerComponent "{F32B667C3C823800}" {
+   Enabled 0
+  }
+ }
+ coords 10646.442 164.15 9571.771
+ angles 0 -90 0
+}
+GenericEntity GreenDoor : "{FCDC72F096DACBDC}Prefabs/Structures/BuildingParts/Doors/DoorSet_LighthouseMedium_top.et" {
+ coords 10646.442 164.15 9563.748
+ angles 0 90 0
+ {
+  GenericEntity {
+   ID "568AF7121B9C4D00"
+   components {
+    ActionsManagerComponent "{F32B667C3C823800}" {
+     Enabled 0
+    }
+   }
+  }
+ }
+}

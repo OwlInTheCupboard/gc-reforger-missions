@@ -1,0 +1,23 @@
+PK_EntityDeleter {
+ coords 11777.702 14.095 10629.208
+ m_fRadius 40
+ m_prefabFilterList {
+  "{81D6F7E82EE599E4}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02.et"
+  "{40A572C0B332F1A0}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_1m.et"
+  "{9B7EDE0F53548C88}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_3m_Old.et"
+  "{AEB1A3D15A772F40}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_3m.et"
+  "{895C12D7154D9CE6}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_6m_Old.et"
+  "{47628891D5B44B63}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_6m.et"
+  "{19DBAA8E5A19F5CC}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_Corner_Narrow.et"
+  "{8E7FA9CB9DCB52DE}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_Corner_Wide.et"
+  "{5E657E157968B1A5}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_End.et"
+  "{B9CFA824C3EEA68D}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_Short.et"
+  "{7DD6D24A9BAE5A2D}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_2m.et"
+  "{0D7B49FDE9C42B41}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_2m_entry.et"
+  "{0D1B4093098A0F9E}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_4m.et"
+  "{EC8065202DC2A4F8}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_8m.et"
+  "{C9A6A89E58BE2A61}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/BenchStreet_01_red.et"
+  "{468473FA5BC4773A}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_gray.et"
+  "{C6FE7446304BA13E}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_blue.et"
+ }
+}

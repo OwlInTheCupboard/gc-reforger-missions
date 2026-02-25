@@ -1,0 +1,67 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ SIT {
+  coords 10648.492 0 8639.326
+  m_sTitle "Situation"
+  m_sTextData "<h2>PRELIMS</h2>"\
+  ""\
+  "<h2>LORE</h2>"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 1
+ }
+ EF {
+  coords 10648.492 0 8639.326
+  m_sTitle "Enemy forces"
+  m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>"\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
+ }
+ FF {
+  coords 10648.492 0 8639.326
+  m_sTitle "Friendly forces"
+  m_sTextData "<h2>COMPOSITION & DISPOSITION</h2>"\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 2
+ }
+ MIS {
+  coords 10648.492 0 8639.326
+  m_sTitle "Mission"
+  m_sTextData "<h2>MISSION STATEMENT</h2>"\
+  ""\
+  ""
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 3
+ }
+ MIS2 {
+  coords 10648.492 0 8639.326
+  m_sTitle "Comsig"
+  m_sTextData "<h2>CALLSIGNS</h2>"\
+  "• HQ - 221H"\
+  "• 1st Squad - 221"\
+  "• 2nd Squad - 222"\
+  "• 3rd Squad - 223"\
+  "• 4th Squad - 224"\
+  "• 5th Squad - 225"\
+  "• 6th Squad - 226"\
+  "• 7th Squad - 227"\
+  "• Sharpshooter Team - 228"\
+  ""\
+  "<h2>FREQ/CHAN</h2>"\
+  "• All callsigns - 40hz"
+  m_aVisibleForFactions {
+   "RHS_AFRF"
+  }
+  m_iOrder 4
+ }
+}

@@ -1,0 +1,305 @@
+Vehicle S105_randomized1 : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+   m_lockPilot 1
+   m_lockTurret 1
+   m_lockCargo 1
+  }
+  SCR_UniversalInventoryStorageComponent "{607097C4DCC32AFC}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6072948F3F668390}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 11810.014 12.615 10645.294
+ angles 0 73.721 0
+}
+GenericEntity : "{1638D1EB37F2D2F8}Prefabs/Structures/Wreck/old_moto.et" {
+ coords 11798.147 12.625 10649.106
+ angles 0 -16.767 0
+}
+GenericEntity : "{17141C691DCD56C1}Prefabs/Structures/Wreck/bluecar1.et" {
+ coords 11832.539 9.302 10703.621
+ angles 0 105.62 0
+}
+GenericEntity : "{1CACF9A5C3CBA652}Prefabs/Structures/Wreck/lada_old.et" {
+ coords 11802.633 12.733 10670.048
+ angles 0 71.759 0
+}
+$grp GenericEntity : "{26D1996382363D96}Prefabs/Structures/Wreck/old_bike.et" {
+ {
+  coords 11774.379 13.851 10661.424
+  angles 0 -18.41 10.273
+ }
+ {
+  coords 11792.193 14.219 10633.025
+  angles 0 70.581 0
+ }
+}
+SCR_DestructibleEntity : "{33788AFA51F4A4EC}Prefabs/Models/tem_bike2_red.et" {
+ coords 11789.23 14.188 10640.852
+ angles 0 -38.98 0
+}
+GenericEntity : "{36A03FA64BEEF78B}Prefabs/Structures/Wreck/uazminibus1.et" {
+ coords 11858.731 8.563 10608.535
+ angles 0 -145.207 0
+}
+GenericEntity : "{434199706D4BFC9E}Prefabs/Structures/Wreck/volha_old.et" {
+ coords 11762.868 14.534 10615.617
+ angles 0 -161.904 0
+}
+Vehicle S1203_cargo_randomized1 : "{5729759DD092B0F7}Prefabs/Vehicles/Wheeled/S1203/S1203_cargo_randomized.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+   m_lockPilot 1
+   m_lockTurret 1
+   m_lockCargo 1
+  }
+  SCR_UniversalInventoryStorageComponent "{607097C321D5128E}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6072948F4DEC1046}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 11810.109 12.261 10613.052
+ angles 0 163.968 0
+}
+Vehicle UAZ469_covered_CIV_Randomized1 : "{57A441224AC02CF3}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_covered_CIV_Randomized.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+   m_lockPilot 1
+   m_lockTurret 1
+   m_lockCargo 1
+  }
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5AD4F813E67ECB53}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 11858.14 8.588 10642.422
+ angles 0 -17.072 0
+}
+$grp GenericEntity : "{6E4573A4C194631F}Prefabs/Props/Military/RoadBlocks/Roadblock ConcreteBlock.et" {
+ {
+  coords 11863.72 -0.004 10630.385
+  angles 0 -106.078 0
+ }
+ {
+  coords 11861.883 -0.002 10636.206
+  angles 0 -106.078 0
+ }
+ {
+  coords 11864.298 0 10633.906
+  angles 0 -106.078 0
+ }
+ {
+  coords 11865.128 -0.002 10625.563
+  angles 0 -106.078 0
+ }
+ {
+  coords 11866.679 0.012 10620.182
+  angles 0 -106.078 0
+ }
+ {
+  coords 11868.25 0.012 10614.729
+  angles 0 -106.078 0
+ }
+ {
+  coords 11869.633 0.032 10609.932
+  angles 0 -106.078 0
+ }
+ {
+  coords 11875.178 -0.045 10598.813
+  angles 0 165.95 0
+ }
+ {
+  coords 11879.289 0.012 10600.219
+  angles 0 160.117 0
+ }
+ {
+  coords 11885.351 0.249 10611.025
+  angles 0 10.029 0
+ }
+ {
+  coords 11886.541 0.006 10606.466
+  angles 0 -36.322 0
+ }
+ {
+  coords 11882.959 0.059 10602.934
+  angles 0 -51.573 0
+ }
+ {
+  coords 11860.631 0.019 10640.807
+  angles 0 -106.078 0
+ }
+ {
+  coords 11859.249 -0.003 10645.602
+  angles 0 -106.078 0
+ }
+ {
+  coords 11857.739 0.005 10650.841
+  angles 0 -106.078 0
+ }
+ {
+  coords 11856.392 -0.022 10655.518
+  angles 0 -106.078 0
+ }
+ {
+  coords 11855.38 -0.003 10659.208
+  angles 0 -106.078 0
+ }
+ {
+  coords 11864.974 0.138 10666.498
+  angles 0 -70.084 0
+ }
+ {
+  coords 11863.527 0 10671.855
+  angles 0 -158.431 0
+ }
+ {
+  coords 11860.352 0.011 10673.35
+  angles 0 -150.896 0
+ }
+ {
+  coords 11867.704 0 10670.23
+  angles 0 -106.187 0
+ }
+ {
+  coords 11855.169 -0.062 10677.603
+  angles 0 -111.51 0
+ }
+ {
+  coords 11851.885 -0.02 10670.996
+  angles 0 74.44 0
+ }
+ {
+  coords 11853.014 0 10666.941
+  angles 0 75.124 0
+ }
+ {
+  coords 11857.272 -0.004 10675.271
+  angles 0 -147.07 0
+ }
+ {
+  coords 11850.379 0 10676.027
+  angles 0 72.374 0
+ }
+ {
+  coords 11852.202 0 10680.16
+  angles 0 163.943 0
+ }
+ {
+  coords 11890.109 0 10609.729
+  angles 0 -101.89 0
+ }
+}
+GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck/M923A1_wreck.et" {
+ coords 11844.934 8.253 10648.18
+}
+GenericEntity : "{7F8DB0D9FEE38305}Prefabs/Structures/Market/hut.et" {
+ coords 11859.434 7.648 10609.665
+ angles 0 35.641 0
+}
+SCR_DestructibleEntity : "{81AFC8110E569774}Prefabs/Models/tem_bike1_red.et" {
+ coords 11792.867 14.219 10631.095
+ angles 0 74.265 0
+}
+SCR_DestructibleBuildingEntity : "{81E7328251FBB54C}Prefabs/Structures/Statue/Army_Statue_T34.et" {
+ coords 11922.361 -0.097 10667.31
+ angles 0 35.729 0
+}
+GenericEntity : "{857C0558076EE658}Prefabs/Structures/Wreck/lada_red.et" {
+ coords 11816.519 12.694 10627.508
+ angles 0 75.153 0
+}
+SCR_DestructibleEntity : "{8F3C2CE67D6501A8}Prefabs/Models/tem_bike1.et" {
+ coords 11792.545 14.219 10631.822
+ angles 0 74.371 0
+}
+GenericEntity : "{916036C9D435EEBF}Prefabs/Structures/Wreck/uaz.et" {
+ coords 11824.716 10.913 10569.491
+ angles 0 0 -170.151
+}
+StaticModelEntity : "{93419ED290A0C29E}Prefabs/Models/tem_lada_wreck.et" {
+ coords 11817.298 12.457 10622.414
+ angles 0 -107.233 0
+}
+GenericEntity : "{954D5F7BAA9588F8}Prefabs/Structures/Market/kioks.et" {
+ coords 11862.904 8.594 10608.796
+ angles 0 -32.031 0
+}
+GenericEntity : "{A64867AC63D200FB}Prefabs/Structures/Wreck/volha_blue.et" {
+ coords 11814.004 12.654 10634.415
+ angles 0 75.438 0
+}
+GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
+ coords 11913.84 7.29 10580.653
+ angles 0 164.439 0
+}
+$grp GenericEntity : "{BCCE1BF4AD886040}Prefabs/Structures/BuildingsParts/Entry/Stairs_Military.et" {
+ {
+  coords 11773.963 13.94 10621.22
+  angles 0 -16.631 0
+ }
+ {
+  coords 11772.939 13.94 10624.646
+  angles 0 -16.631 0
+ }
+ {
+  coords 11773.542 13.94 10622.63
+  angles 0 -16.631 0
+ }
+}
+GenericEntity : "{C675725D9321F772}Prefabs/Models/tem_standbike.et" {
+ coords 11791.901 14.219 10631.634
+ angles 0 72.885 0
+}
+GenericEntity : "{D9E5ECE2F8648AC2}Prefabs/Structures/Wreck/bus_city.et" {
+ coords 11790.735 12.57 10729.375
+ angles 0 -139.863 0
+}
+Vehicle motorbike_green1 : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_green.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+   m_lockPilot 1
+   m_lockTurret 1
+   m_lockCargo 1
+  }
+  SCR_UniversalInventoryStorageComponent "{627403692385519F}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6274036923855183}" {
+     NumSlots 0
+    }
+   }
+  }
+ }
+ coords 11782.508 14.094 10661.327
+ angles 0 -15.006 0
+}
+Vehicle Ural4320_transport_CIV_randomized1 : "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et" {
+ components {
+  SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
+   m_bIsLocked 1
+   m_lockPilot 1
+   m_lockTurret 1
+   m_lockCargo 1
+  }
+ }
+ coords 11874.506 8.531 10583.189
+ angles 0 -15.285 0
+}
+GenericEntity : "{FA8AAF819FBC2DFD}Prefabs/Structures/Wreck/sedan.et" {
+ coords 11855.742 8.562 10617.107
+ angles 0 -105.836 0
+}

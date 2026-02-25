@@ -1,0 +1,35 @@
+SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/ApartmentBuilding_USSR_5I01.et" {
+ components {
+  PK_EntityProtectorComponent "{68B156113F09BCA9}" {
+  }
+ }
+ coords 11782.046 0.337 10635.482
+ angles 0 -107.544 0
+}
+GenericEntity : "{1592EC23A583FB04}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V2.et" {
+ coords 11789.449 14.214 10638.979
+ angles 0 0 89.568
+}
+GenericEntity : "{35D73C4CEF0B3E8F}Prefabs/Models/tem_vodka.et" {
+ coords 11789.767 14.188 10639.876
+ angles 0 147.209 0
+}
+GenericEntity : "{79C6D8C31947742A}Prefabs/Props/Garbage/Generic/LitterInterior_01/Single/LitterInterior_01_vodka_V1.et" {
+ coords 11789.224 14.673 10639.359
+ angles 88.35 -180 180
+}
+SCR_DestructibleBuildingEntity : "{97380F89AA02D20B}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/BusShed_E_01_blue.et" {
+ coords 11790.074 0 10638.269
+ angles 0 72.746 0
+}
+GenericEntity : "{AB50753990C87073}Prefabs/Props/S2/S2_Vodka/S2_Vodka.et" {
+ coords 11789.093 14.635 10639.404
+ angles 0 134.426 0
+}
+GenericEntity : "{BCE07A58672955B9}Prefabs/Props/Civilian/Bucket_01.et" {
+ coords 11790.533 14.187 10639.866
+}
+DecalEntity : "{CA8AB522F7C90A28}Prefabs/Decals/Miscellaneous/CigarButts_01.et" {
+ coords 11790.53 14.188 10639.894
+ angles -90 0 0
+}
