@@ -1,27 +1,22 @@
-PK_EntityDeleter {
- coords 11777.702 14.095 10629.208
- m_fRadius 40
- m_prefabFilterList {
-  "{13A5B407665CA54A}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/Furniture/ApartmentPrefab_USSR_5I01_furniture_01_flats_center.et"
-  "{AFC7C9FAF392DC8C}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/Furniture/ApartmentPrefab_USSR_5I01_furniture_01_flats_left.et"
-  "{E656D551F971B87B}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/Furniture/ApartmentPrefab_USSR_5I01_furniture_01_flats_right.et"
-  "{8183E7AB4751C489}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/Furniture/ApartmentPrefab_USSR_5I01_furniture_01.et"
-  "{468473FA5BC4773A}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_gray.et"
-  "{C6FE7446304BA13E}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_blue.et"
-  "{C6FE7446304BA13E}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_blue.et"
-  "{1CF957FFC406CF10}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_apartments_01.et"
-  "{63F46EABBBA97E09}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_apartments_02.et"
-  "{86682252B74CE962}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_apartments_03.et"
-  "{A75CCE62F61491A4}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_offices_01.et"
-  "{CB08FA824AD01E8A}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_offices_02.et"
-  "{B3303AB60A8AF6CD}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_utility_01.et"
-  "{DF640E56B64E79E3}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_utility_02.et"
-  "{3AF842AFBAABEE88}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/Furniture/ApartmentBuilding_USSR_5I01_furniture_utility_03.et"
-  "{47628891D5B44B63}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_6m.et"
-  "{9B7EDE0F53548C88}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_3m_Old.et"
-  "{AEB1A3D15A772F40}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_3m.et"
-  "{40A572C0B332F1A0}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_1m.et"
-  "{895C12D7154D9CE6}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_6m_Old.et"
-  "{5E657E157968B1A5}Prefabs/Structures/Walls/Pipe/PipeRailing_02/PipeRailing_02_End.et"
+$grp PK_EntityDeleter {
+ {
+  coords 11786.605 24.304 10616.996
+  angles 0 -15.934 0
+  m_fRadius 16
+ }
+ {
+  coords 11783.415 24.304 10628.174
+  angles 0 -15.934 0
+  m_fRadius 16
+ }
+ {
+  coords 11779.688 24.304 10641.231
+  angles 0 -15.934 0
+  m_fRadius 16
+ }
+ {
+  coords 11771.086 24.304 10665.619
+  angles 0 -15.934 0
+  m_fRadius 19
  }
 }

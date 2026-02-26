@@ -45,10 +45,18 @@ GenericEntity : "{1CACF9A5C3CBA652}Prefabs/Structures/Wreck/lada_old.et" {
 }
 $grp GenericEntity : "{26D1996382363D96}Prefabs/Structures/Wreck/old_bike.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C732464226}" {
+   }
+  }
   coords 11774.379 13.851 10661.424
   angles 0 -18.41 10.273
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C49EB28A22}" {
+   }
+  }
   coords 11792.193 14.219 10633.025
   angles 0 70.581 0
  }
@@ -57,6 +65,10 @@ StaticModelEntity : "{27D59F42E9D0C665}Prefabs/Structures/Infrastructure/Waterwo
  coords 11813.976 11.636 10674.627
 }
 SCR_DestructibleEntity : "{33788AFA51F4A4EC}Prefabs/Models/tem_bike2_red.et" {
+ components {
+  PK_EntityProtectorComponent "{68B4C8C4F8F5D473}" {
+  }
+ }
  coords 11789.23 14.188 10640.852
  angles 0 -38.98 0
 }
@@ -345,6 +357,10 @@ GenericEntity : "{857C0558076EE658}Prefabs/Structures/Wreck/lada_red.et" {
  angles 0 75.153 0
 }
 SCR_DestructibleEntity : "{8F3C2CE67D6501A8}Prefabs/Models/tem_bike1.et" {
+ components {
+  PK_EntityProtectorComponent "{68B4C8C77052911C}" {
+  }
+ }
  coords 11798.083 14.333 10622.571
  angles -1.665 90.638 -87.302
 }
@@ -366,15 +382,27 @@ GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
 }
 $grp GenericEntity : "{BCCE1BF4AD886040}Prefabs/Structures/BuildingsParts/Entry/Stairs_Military.et" {
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C72EC7B429}" {
+   }
+  }
   coords 11773.963 13.94 10621.22
   angles 0 -16.631 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C680ADD820}" {
+   }
+  }
   coords 11772.939 13.94 10624.646
   angles 0 -16.631 0
  }
  {
-  coords 11773.542 13.94 10622.63
+  components {
+   PK_EntityProtectorComponent "{68B4C8C6813E472A}" {
+   }
+  }
+  coords 11773.541 13.94 10622.631
   angles 0 -16.631 0
  }
 }
@@ -395,6 +423,10 @@ StaticModelEntity : "{C4EB729F1DF5EB3F}Prefabs/Structures/Military/Houses/ClubMi
  angles 0 -174.304 0
 }
 GenericEntity : "{C675725D9321F772}Prefabs/Models/tem_standbike.et" {
+ components {
+  PK_EntityProtectorComponent "{68B4C8C445C7228A}" {
+  }
+ }
  coords 11791.901 14.219 10631.634
  angles 0 72.885 0
 }
@@ -438,6 +470,8 @@ SCR_DestructibleBuildingEntity : "{E50AA3C83633B05A}Prefabs/Structures/Industria
 }
 Vehicle motorbike_green1 : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike/motorbike_green.et" {
  components {
+  PK_EntityProtectorComponent "{68B4C8C4FC22476B}" {
+  }
   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
    m_bIsLocked 1
    m_lockPilot 1

@@ -5,18 +5,30 @@ $grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 10
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C73B8B6DE7}" {
+   }
+  }
   coords 11794.294 31.215 10621.799
   angles -1.495 -106.74 91.769
   scale 10
   TerrainOnly 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4D5B41E3F}" {
+   }
+  }
   coords 11777.712 26.705 10625.162
   angles 4.62 70.935 -91.594
   scale 10
   TerrainOnly 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4D32C6355}" {
+   }
+  }
   coords 11772.274 18.628 10641.509
   angles 0 73.305 -90
   scale 10
@@ -71,6 +83,10 @@ $grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_
   TerrainOnly 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4CF1EF26B}" {
+   }
+  }
   coords 11789.794 32.939 10626.888
   angles -90 -180 -180
   scale 10
@@ -84,12 +100,20 @@ $grp DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 10
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C739864E1A}" {
+   }
+  }
   coords 11792.877 25.002 10628.19
   angles -4.236 -101.54 90.864
   scale 5
   TerrainOnly 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4F742F4E0}" {
+   }
+  }
   coords 11784.594 22.024 10652.303
   angles -3.549 -107.506 -42.199
   scale 5
@@ -111,6 +135,10 @@ $grp DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 5
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4F6931A10}" {
+   }
+  }
   coords 11788.338 21.98 10640.462
   angles -4.424 -106.082 -8.089
   scale 5
@@ -133,6 +161,10 @@ $grp DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 5
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4CB4D6F9E}" {
+   }
+  }
   coords 11778.838 32.799 10630.622
   angles -90 -180 -180
   scale 5
@@ -161,12 +193,20 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 10
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4C2C810A9}" {
+   }
+  }
   coords 11781.395 32.912 10651.6
   angles -90 -180 -180
   scale 10
   TerrainOnly 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4C1EDAE58}" {
+   }
+  }
   coords 11786.786 24.312 10609.963
   angles -2.971 -16.491 1.842
   scale 10
@@ -195,6 +235,10 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
   TerrainOnly 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4DE5A6A06}" {
+   }
+  }
   coords 11773.565 26.011 10659.998
   angles -3.862 160.19 -176.415
   scale 10
@@ -206,6 +250,10 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 10
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4DD70150D}" {
+   }
+  }
   coords 11769.689 31.546 10649.687
   angles 1.756 73.954 -90.505
   scale 10
@@ -222,6 +270,10 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 10
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4D6404A74}" {
+   }
+  }
   coords 11780.566 30.067 10615.281
   angles 0 77.187 59.138
   scale 10
@@ -244,6 +296,10 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
   scale 10
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4EAAC7E1B}" {
+   }
+  }
   coords 11788.782 14.157 10646.875
   angles -90 0 -111.15
   scale 10
@@ -260,6 +316,10 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
   TerrainOnly 0
  }
  {
+  components {
+   PK_EntityProtectorComponent "{68B4C8C4C91B4219}" {
+   }
+  }
   coords 11784.712 32.819 10621.979
   angles -90 0 178.135
   scale 10
