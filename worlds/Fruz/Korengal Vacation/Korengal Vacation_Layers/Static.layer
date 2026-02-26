@@ -97,26 +97,13 @@ GenericEntity : "{28D63631873AA636}Prefabs/Compositions/Slotted/SlotFlatSmall/Mo
   }
  }
 }
-SCR_AIGroup : "{3D708B262E8A46A3}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan Insurgents/P/GC_INS_Afghan_PHQ_P.et" {
- components {
-  AIFormationComponent "{507E9DC12F541FE6}" {
-   DefaultFormation "line"
-  }
-  PS_GroupCallsignAssigner "{68A976A757BDBC26}" {
-  }
- }
- coords 3364.491 310.16 446.282
- angles 0 -59.05 0
- m_aUnitPrefabSlots {
-  "{07D5D6C13F2065B1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_SL_P.et"
-  "{00F632BEF6E971C1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_P.et"
-  "{00F632BEF6E971C1}Prefabs/Characters/Factions/OPFOR/GC_INSURGENT/Afghan Insurgents/P/Character_GC_INS_Afghan_Rifleman_P.et"
- }
- m_sCustomNameSet "Mortar Squad"
-}
 Vehicle M1240A1_MATV_Base3 : "{530F3A12ABA1CD7A}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Base.et" {
  coords 1879.248 205.594 1362.242
  angles 0 -42.065 0
+}
+Vehicle S1203_transport_beige5 : "{543799AC5C52989C}Prefabs/Vehicles/Wheeled/S1203/S1203_transport_beige.et" {
+ coords 3333.213 311.082 439.623
+ angles 0 -159.824 0
 }
 GenericEntity StaticCrate : "{762430A240108C70}PrefabsEditable/Auto/Props/Military/AmmoBoxes/USSR/E_EquipmentBoxWooden_Ammunition_01_USSR.et" {
  components {
@@ -316,6 +303,15 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
    }
   }
  }
+}
+TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ coords 2359.008 160.976 1817.13
+ m_captureIterations 18
+ m_sendStatusMessages 1
+ m_locationName "the COP"
+ m_flagName "INS_CAP"
+ m_ownerFactionKey "GC_INSURGENT"
+ m_ratioThreshold 0.75
 }
 $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
  IP_A5 {

@@ -34,6 +34,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   ""\
   "Another crate contains a NSV, NSV tripod, and boxes of ammo for the NSV."\
   ""\
+  "The mortar section has enough rounds to last them the full operation. DO NOT START MORTARING UNTIL FREEZE TIME IS OVER."\
+  ""\
   "Teleports to various locations in the AO to simulate the fighters familiarity and conditioning to the terrain."\
   ""\
   "Tora Outskirts Insertion = 010 017"\
