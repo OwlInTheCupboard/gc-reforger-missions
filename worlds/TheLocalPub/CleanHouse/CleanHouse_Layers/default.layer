@@ -23,6 +23,7 @@ PS_GameModeCoop PS_GameMode_Lobby_GC1 : "{4CFD54745CD45673}Prefabs/MP/Modes/PS_G
  }
  coords 13294.985 0 9615.088
  m_iFreezeTime 240000
+ m_eJIPState Deny
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 13376.745 0 9703.868

@@ -29,7 +29,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
   "• The enemy is completely isolated and cut off from reinforcements and external support."\
   "• They are assessed to have limited capabilities, low morale, and dwindling supplies."\
-  "• However, fighters with no avenue of escape can become highly determined and unpredictable. Expect them to exploit every available advantage, even at significant cost, and to resist fiercely despite their situation."
+  "• However, fighters with no avenue of escape can become highly determined and unpredictable. Expect them to exploit every available advantage, even at significant cost, and to resist fiercely despite their situation."\
+  "• There is a PKM turret on the 3rd floor west facing balcony."
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
@@ -42,8 +43,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "We are elements of the 144th Guards Motor Rifle Division, 254th Guards Motor Rifle Regiment, consisting of 46 personnel."\
   "We are currently located at the staging area, preparing to step off toward the designated insertion points."\
   ""\
-  "After the setup timer has ended we can teleport to any of the insertion locations via the doors at our staging area."\
-  "(We also have a building at our staging area which is a copy of the target building)"\
+  "After the setup timer has ended, we may deploy to any designated insertion location via the doors at the staging area."\
+  "At the staging area, a mock-up model of the target building is available. This allows us to study the layout, plan our approach, and rehearse entry methods - including ladder placement and other breaching techniques prior to execution."\
   ""\
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
   "• We have total freedom of movement within the city. All other organized enemy resistance has been neutralized."\
@@ -92,7 +93,12 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Sharpshooter Team - 228"\
   ""\
   "<h2>FREQ/CHAN</h2>"\
-  "• All callsigns - 40hz"
+  "• All callsigns - 40hz"\
+  ""\
+  "<h2>PASSWORDS</h2>"\
+  "All can be changed at CO's discretion."\
+  "• <b>Challenge:</b> Pumpkin | <b>Password:</b> Bowl"\
+  "• Running password: 71"
   m_aVisibleForFactions {
    "RHS_AFRF"
   }

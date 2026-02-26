@@ -2,6 +2,7 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  OPFORAO {
   components {
    TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+    m_killTimer 5
     m_factionKeys {
      "GC_SEPARATIST"
     }
@@ -70,8 +71,8 @@ $grp PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit
  }
 }
 SCR_EditorRestrictionZoneEntity Setupzone : "{B2A519402E9AC209}PrefabsEditable/RestrictionZone/E_EditorRestrictionZoneLarge.et" {
- coords 10666.28 164.151 9567.092
- m_fWarnRadius 139
- m_fZoneRadius 140
- m_fZoneTeleportedRadius 141
+ coords 10666.28 164.151 9553.572
+ m_fWarnRadius 160
+ m_fZoneRadius 161
+ m_fZoneTeleportedRadius 162
 }

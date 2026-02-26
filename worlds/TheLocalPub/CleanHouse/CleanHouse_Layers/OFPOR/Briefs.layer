@@ -22,18 +22,20 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   coords 12834.062 0 11818.314
   m_sTitle "Comsig"
   m_sTextData "<h2>CALLSIGNS</h2>"\
-  "• HQ - 221H"\
-  "• 1st Squad - 221"\
-  "• 2nd Squad - 222"\
-  "• 3rd Squad - 223"\
-  "• 4th Squad - 224"\
-  "• 5th Squad - 225"\
-  "• 6th Squad - 226"\
-  "• 7th Squad - 227"\
-  "• Sharpshooter Team - 228"\
+  "• HQ - Cedr-32"\
+  "• 1st Squad - Cedr-33"\
+  "• 2nd Squad - Cedr-34"\
+  "• 3rd Squad - Cedr-35"\
+  ""\
   ""\
   "<h2>FREQ/CHAN</h2>"\
-  "• All callsigns - 40hz"
+  "• All callsigns - 40hz"\
+  ""\
+  ""\
+  "<h2>PASSWORDS</h2>"\
+  "All can be changed at CO's discretion."\
+  "• <b>Challenge:</b> Egg | <b>Password:</b> Weston"\
+  "• Running password: 99"
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }
@@ -67,6 +69,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• The apartment block provides strong defensive potential, with good sightlines and numerous fighting positions."\
   "• We maintain 360-degree coverage across five floors and a rooftop."\
   "• The building contains two internal stairwells and one external ladder, allowing access to each level and the roof. These routes provide both maneuver flexibility and fallback options during the defense."\
+  "• We have a PKM turret on the 3rd floor west facing balcony."\
   " "\
   "<h2>SERVICE & SUPPORT</h2> "\
   "All remaining equipment has been consolidated into a crate positioned next to the building."\

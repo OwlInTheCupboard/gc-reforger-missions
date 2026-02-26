@@ -20,23 +20,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A548059"
-  }
-  Building {
-   ID "65BCF8EE3A54807D"
-  }
-  Building {
-   ID "65BCF8EE3A54809B"
-  }
-  Building {
    ID "65BCF8EE3A5480B8"
    components {
     PK_EntityProtectorComponent "{68B4C8D4AEF32D11}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A5480D8"
   }
   Building {
    ID "65BCF8EE3A5480E6"
@@ -73,9 +61,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A548149"
-  }
-  Building {
    ID "65BCF8EE3A54816B"
    components {
     PK_EntityProtectorComponent "{68B4C8D67A26FB30}" {
@@ -102,12 +87,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D67EF0CCBF}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A5481A3"
-  }
-  Building {
-   ID "65BCF8EE3A5481B1"
   }
   Building {
    ID "65BCF8EE3A5481C2"
@@ -159,9 +138,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A54825E"
-  }
-  Building {
    ID "65BCF8EE3A54826D"
    components {
     PK_EntityProtectorComponent "{68B4C8D48909D81D}" {
@@ -181,15 +157,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D48C146FEA}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A5482A6"
-  }
-  Building {
-   ID "65BCF8EE3A5482DB"
-  }
-  Building {
-   ID "65BCF8EE3A5482FC"
   }
   Building {
    ID "65BCF8EE3A548310"
@@ -232,12 +199,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D4FF2084F2}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A5483A3"
-  }
-  Building {
-   ID "65BCF8EE3A5483C5"
   }
   Building {
    ID "65BCF8EE3A5483E2"
@@ -308,18 +269,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A5484FB"
-  }
-  Building {
-   ID "65BCF8EE3A54851C"
-  }
-  Building {
-   ID "65BCF8EE3A548528"
-  }
-  Building {
-   ID "65BCF8EE3A548532"
-  }
-  Building {
    ID "65BCF8EE3A54854E"
    components {
     PK_EntityProtectorComponent "{68B4C8D4CD4E85E5}" {
@@ -332,9 +281,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D4C33A229B}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A548586"
   }
   Building {
    ID "65BCF8EE3A5485BD"
@@ -356,9 +302,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D4C75061D3}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A5485EF"
   }
   Building {
    ID "65BCF8EE3A548613"
@@ -412,9 +355,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A5486A7"
-  }
-  Building {
    ID "65BCF8EE3A5486DA"
    components {
     PK_EntityProtectorComponent "{68B4C8D73368CE41}" {
@@ -429,17 +369,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A5486F2"
-  }
-  Building {
    ID "65BCF8EE3A548702"
    components {
     PK_EntityProtectorComponent "{68B4C8D737BA3E0C}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A548738"
   }
   Building {
    ID "65BCF8EE3A54875F"
@@ -463,9 +397,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A54878E"
-  }
-  Building {
    ID "65BCF8EE3A5487A5"
    components {
     PK_EntityProtectorComponent "{68B4C8D7183D49E3}" {
@@ -473,17 +404,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A5487DA"
-  }
-  Building {
    ID "65BCF8EE3A5487F0"
    components {
     PK_EntityProtectorComponent "{68B4C8D713A36074}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A548E01"
   }
   Building {
    ID "65BCF8EE3A548E1F"
@@ -500,17 +425,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A548E33"
-  }
-  Building {
    ID "65BCF8EE3A548E4A"
    components {
     PK_EntityProtectorComponent "{68B4C8D668DAFAB8}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A548E57"
   }
   Building {
    ID "65BCF8EE3A548E59"
@@ -527,20 +446,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A548E7C"
-  }
-  Building {
    ID "65BCF8EE3A548E84"
    components {
     PK_EntityProtectorComponent "{68B4C8D660B1709A}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A548E93"
-  }
-  Building {
-   ID "65BCF8EE3A548EB7"
   }
   Building {
    ID "65BCF8EE3A548FD8"
@@ -557,20 +467,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A54982C"
-  }
-  Building {
    ID "65BCF8EE3A549835"
    components {
     PK_EntityProtectorComponent "{68B4C8D71640CF21}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A549847"
-  }
-  Building {
-   ID "65BCF8EE3A54987A"
   }
   Building {
    ID "65BCF8EE3A549893"
@@ -615,17 +516,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A54994B"
-  }
-  Building {
    ID "65BCF8EE3A549952"
    components {
     PK_EntityProtectorComponent "{68B4C8D701549958}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A54996E"
   }
   Building {
    ID "65BCF8EE3A549986"
@@ -677,17 +572,11 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A549A64"
-  }
-  Building {
    ID "65BCF8EE3A549A99"
    components {
     PK_EntityProtectorComponent "{68B4C8D77084DCAE}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A549AA0"
   }
   Building {
    ID "65BCF8EE3A549AD8"
@@ -739,9 +628,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A549B91"
-  }
-  Building {
    ID "65BCF8EE3A549BAC"
    components {
     PK_EntityProtectorComponent "{68B4C8D76F9420D8}" {
@@ -782,9 +668,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D6B0A9A439}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A549C20"
   }
   Building {
    ID "65BCF8EE3A549C44"
@@ -829,9 +712,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
    }
   }
   Building {
-   ID "65BCF8EE3A549CE2"
-  }
-  Building {
    ID "65BCF8EE3A549D18"
    components {
     PK_EntityProtectorComponent "{68B4C8D75C87E0E6}" {
@@ -844,12 +724,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D75DDC6488}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A549D50"
-  }
-  Building {
-   ID "65BCF8EE3A549D6C"
   }
   Building {
    ID "65BCF8EE3A549D77"
@@ -892,9 +766,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D6B7317217}" {
     }
    }
-  }
-  Building {
-   ID "65BCF8EE3A549FE7"
   }
   GameEntity {
    ID "65C2BC9FDDCEBA8C"
@@ -3149,6 +3020,1119 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
      ID "568C83951A8094F3"
      components {
       PK_EntityProtectorComponent "{68B4C8D17B0B3F7B}" {
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "665EB1B43FEAFFF2"
+   components {
+    PK_EntityProtectorComponent "{68B559A93CD2AEA0}" {
+    }
+   }
+   {
+    GenericEntity {
+     ID "665EB1B75836F41D"
+     components {
+      PK_EntityProtectorComponent "{68B559A9F36F32F4}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B758376D20"
+       components {
+        PK_EntityProtectorComponent "{68B559A9F7A41779}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75836F447"
+     components {
+      PK_EntityProtectorComponent "{68B559A8397ED522}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "6252D1406C91063F"
+       components {
+        PK_EntityProtectorComponent "{68B559A83D274A2D}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "6252D1406C91065E"
+       components {
+        PK_EntityProtectorComponent "{68B559A83F68BB93}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75836F457"
+     components {
+      PK_EntityProtectorComponent "{68B559A9E7A48F82}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75836F46E"
+     components {
+      PK_EntityProtectorComponent "{68B559A951A89ABD}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75836F47F"
+     components {
+      PK_EntityProtectorComponent "{68B559A9ACE04DE1}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75836F4AB"
+     components {
+      PK_EntityProtectorComponent "{68B559A9B694FF3E}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75836F4BB"
+     components {
+      PK_EntityProtectorComponent "{68B559A9B5AA40B8}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758376D07"
+     components {
+      PK_EntityProtectorComponent "{68B559A81A54D5D1}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758376D14"
+     components {
+      PK_EntityProtectorComponent "{68B559A86A6E6B02}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "6252AE4CB186C829"
+       components {
+        PK_EntityProtectorComponent "{68B559A86EAF4C6F}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "6252AE4CB186C862"
+       components {
+        PK_EntityProtectorComponent "{68B559A868416850}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758377266"
+     components {
+      PK_EntityProtectorComponent "{68B559A87C2CC506}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758377277"
+     components {
+      PK_EntityProtectorComponent "{68B559A808D2761E}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75837A5A2"
+       components {
+        PK_EntityProtectorComponent "{68B559A802BABB52}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837728C"
+     components {
+      PK_EntityProtectorComponent "{68B559A806BBAE18}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75837728F"
+       components {
+        PK_EntityProtectorComponent "{68B559A807C80445}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758377292"
+     components {
+      PK_EntityProtectorComponent "{68B559A803180DAE}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583772AB"
+     components {
+      PK_EntityProtectorComponent "{68B559A8040FC76F}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583772BF"
+     components {
+      PK_EntityProtectorComponent "{68B559A87D0F38BF}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583772C2"
+     components {
+      PK_EntityProtectorComponent "{68B559A805799731}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583772CE"
+     components {
+      PK_EntityProtectorComponent "{68B559A87A42709F}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583772D7"
+     components {
+      PK_EntityProtectorComponent "{68B559A878B18264}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583772F5"
+     components {
+      PK_EntityProtectorComponent "{68B559A87E130E76}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A415"
+     components {
+      PK_EntityProtectorComponent "{68B559A83132FC74}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "6252D1406C91063F"
+       components {
+        PK_EntityProtectorComponent "{68B559A83435FA1C}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "6252D1406C91065E"
+       components {
+        PK_EntityProtectorComponent "{68B559A83783A102}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A424"
+     components {
+      PK_EntityProtectorComponent "{68B559A82F8D8B41}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A434"
+     components {
+      PK_EntityProtectorComponent "{68B559A8227EFC3C}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A438"
+     components {
+      PK_EntityProtectorComponent "{68B559A826BE85DB}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A44E"
+     components {
+      PK_EntityProtectorComponent "{68B559A9DB7AD30A}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A453"
+     components {
+      PK_EntityProtectorComponent "{68B559A9D9B7C051}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A466"
+     components {
+      PK_EntityProtectorComponent "{68B559A9D0B10AEF}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A46A"
+     components {
+      PK_EntityProtectorComponent "{68B559A9D156E09F}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A47F"
+     components {
+      PK_EntityProtectorComponent "{68B559A9D7157FB7}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A4B6"
+     components {
+      PK_EntityProtectorComponent "{68B559A9DFB42A5B}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75838311E"
+       components {
+        PK_EntityProtectorComponent "{68B559A9DD23D99A}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A4B9"
+     components {
+      PK_EntityProtectorComponent "{68B559A9A937AC33}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A583"
+     components {
+      PK_EntityProtectorComponent "{68B559A81153AE79}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A597"
+     components {
+      PK_EntityProtectorComponent "{68B559A80BABF724}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A5DE"
+     components {
+      PK_EntityProtectorComponent "{68B559A82D2CABF4}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A5ED"
+     components {
+      PK_EntityProtectorComponent "{68B559A810C58C5D}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75837A5FE"
+     components {
+      PK_EntityProtectorComponent "{68B559A817DBF944}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838312C"
+     components {
+      PK_EntityProtectorComponent "{68B559A9E4887315}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383132"
+     components {
+      PK_EntityProtectorComponent "{68B559A9D23480D1}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838313E"
+     components {
+      PK_EntityProtectorComponent "{68B559A9E50BCE94}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383149"
+     components {
+      PK_EntityProtectorComponent "{68B559A9EE8504B9}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838315A"
+     components {
+      PK_EntityProtectorComponent "{68B559A9E339F7E4}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383208"
+     components {
+      PK_EntityProtectorComponent "{68B559A981FB0506}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383211"
+     components {
+      PK_EntityProtectorComponent "{68B559A987EF545C}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838321D"
+     components {
+      PK_EntityProtectorComponent "{68B559A984237567}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383224"
+     components {
+      PK_EntityProtectorComponent "{68B559A9A0064F1E}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B758386161"
+       components {
+        PK_EntityProtectorComponent "{68B559A9A6C2D093}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383237"
+     components {
+      PK_EntityProtectorComponent "{68B559A9E1DF46B8}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383283"
+     components {
+      PK_EntityProtectorComponent "{68B559A9EF7710A7}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758383297"
+     components {
+      PK_EntityProtectorComponent "{68B559A9ED70E7BE}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583832B0"
+     components {
+      PK_EntityProtectorComponent "{68B559A957AD7B37}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583832BE"
+     components {
+      PK_EntityProtectorComponent "{68B559A9F1AA0559}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B7583832BF"
+       components {
+        PK_EntityProtectorComponent "{68B559A9F5CB4F38}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583832C3"
+     components {
+      PK_EntityProtectorComponent "{68B559A9F948639A}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583832CD"
+     components {
+      PK_EntityProtectorComponent "{68B559A9FDA511D5}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583832D7"
+     components {
+      PK_EntityProtectorComponent "{68B559A9E86440C2}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583832E5"
+     components {
+      PK_EntityProtectorComponent "{68B559A98560A3DA}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583832FA"
+     components {
+      PK_EntityProtectorComponent "{68B559A9FBF73D74}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583860C8"
+     components {
+      PK_EntityProtectorComponent "{68B559A9A77F37A7}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B758388361"
+       components {
+        PK_EntityProtectorComponent "{68B559A9A54A2614}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583860D9"
+     components {
+      PK_EntityProtectorComponent "{68B559A873A91EDD}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758386119"
+     components {
+      PK_EntityProtectorComponent "{68B559A871A917BD}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758386138"
+     components {
+      PK_EntityProtectorComponent "{68B559A99B75A3A0}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75838613B"
+       components {
+        PK_EntityProtectorComponent "{68B559A99EF14FA6}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758388317"
+     components {
+      PK_EntityProtectorComponent "{68B559A94E0C4A49}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "660AD28842094488"
+       components {
+        PK_EntityProtectorComponent "{68B559A9431D0B58}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "660AD2884209448A"
+       components {
+        PK_EntityProtectorComponent "{68B559A9428BDB84}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758388321"
+     components {
+      PK_EntityProtectorComponent "{68B559A9B7DABCDF}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758388333"
+     components {
+      PK_EntityProtectorComponent "{68B559A9AA481B54}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758388338"
+     components {
+      PK_EntityProtectorComponent "{68B559A9A8DE1940}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758388344"
+     components {
+      PK_EntityProtectorComponent "{68B559A9AD492E83}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838838E"
+     components {
+      PK_EntityProtectorComponent "{68B559A95BFDA0F4}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838839F"
+     components {
+      PK_EntityProtectorComponent "{68B559A9583CC411}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583883AB"
+     components {
+      PK_EntityProtectorComponent "{68B559A95E222D9A}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583883B7"
+     components {
+      PK_EntityProtectorComponent "{68B559A95C027CE8}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583883C1"
+     components {
+      PK_EntityProtectorComponent "{68B559A952E76690}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583883D6"
+     components {
+      PK_EntityProtectorComponent "{68B559A953CF3484}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7583883FA"
+     components {
+      PK_EntityProtectorComponent "{68B559A94058E4ED}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "660AD28842094488"
+       components {
+        PK_EntityProtectorComponent "{68B559A9BA28CD37}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "660AD2884209448A"
+       components {
+        PK_EntityProtectorComponent "{68B559A944F29B26}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758388473"
+     components {
+      PK_EntityProtectorComponent "{68B559A9754C090E}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75838E9DF"
+       components {
+        PK_EntityProtectorComponent "{68B559A90CEF5A35}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838847C"
+     components {
+      PK_EntityProtectorComponent "{68B559A95486F596}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838D12E"
+     components {
+      PK_EntityProtectorComponent "{68B559A95520BEB5}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838D13D"
+     components {
+      PK_EntityProtectorComponent "{68B559A90D0AD51E}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B758397E28"
+       components {
+        PK_EntityProtectorComponent "{68B559A90360A7C2}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838E980"
+     components {
+      PK_EntityProtectorComponent "{68B559A901B4F9FD}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75838D114"
+       components {
+        PK_EntityProtectorComponent "{68B559A9077A93FE}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838E993"
+     components {
+      PK_EntityProtectorComponent "{68B559A94A62A946}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838E9F2"
+     components {
+      PK_EntityProtectorComponent "{68B559A94B647818}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75838E9FF"
+     components {
+      PK_EntityProtectorComponent "{68B559A905412934}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75838E9E0"
+       components {
+        PK_EntityProtectorComponent "{68B559A9797B7875}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758397EC7"
+     components {
+      PK_EntityProtectorComponent "{68B559A94853E408}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B758397EE6"
+     components {
+      PK_EntityProtectorComponent "{68B559A96D2380AA}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B75839AFDF"
+       components {
+        PK_EntityProtectorComponent "{68B559A963F52E28}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE18"
+     components {
+      PK_EntityProtectorComponent "{68B559A9AFAD3A71}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE24"
+     components {
+      PK_EntityProtectorComponent "{68B559A929C7E689}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE33"
+     components {
+      PK_EntityProtectorComponent "{68B559A814584F61}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE47"
+     components {
+      PK_EntityProtectorComponent "{68B559A92E3B514F}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE48"
+     components {
+      PK_EntityProtectorComponent "{68B559A92C25168C}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE56"
+     components {
+      PK_EntityProtectorComponent "{68B559A922F1B411}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE65"
+     components {
+      PK_EntityProtectorComponent "{68B559A91DC69C93}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AE8A"
+     components {
+      PK_EntityProtectorComponent "{68B559A87490FCCC}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AECF"
+     components {
+      PK_EntityProtectorComponent "{68B559A86F0ED05A}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AED6"
+     components {
+      PK_EntityProtectorComponent "{68B559A875DA5161}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AEE0"
+     components {
+      PK_EntityProtectorComponent "{68B559A86DB5891E}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AEFC"
+     components {
+      PK_EntityProtectorComponent "{68B559A862041CF6}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AF87"
+     components {
+      PK_EntityProtectorComponent "{68B559A9145A33D2}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AF8A"
+     components {
+      PK_EntityProtectorComponent "{68B559A90A9194D8}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AF96"
+     components {
+      PK_EntityProtectorComponent "{68B559A9132A8052}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B75839AFBD"
+     components {
+      PK_EntityProtectorComponent "{68B559A908AFEDD1}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C139140C"
+     components {
+      PK_EntityProtectorComponent "{68B559A91FB904AA}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C139141D"
+     components {
+      PK_EntityProtectorComponent "{68B559A9118163DF}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1391425"
+     components {
+      PK_EntityProtectorComponent "{68B559A92167AE58}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "660E6460F664D3DC"
+       components {
+        PK_EntityProtectorComponent "{68B559A91BF775F8}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "660E646D1A515680"
+       components {
+        PK_EntityProtectorComponent "{68B559A91AEA1DC1}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "66749666BC2B843A"
+       components {
+        PK_EntityProtectorComponent "{68B559A924FDBE88}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1391436"
+     components {
+      PK_EntityProtectorComponent "{68B559A91CD98BA0}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13915A7"
+     components {
+      PK_EntityProtectorComponent "{68B559A9B9C77C13}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13915AF"
+     components {
+      PK_EntityProtectorComponent "{68B559A9BFB1471D}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13915C6"
+     components {
+      PK_EntityProtectorComponent "{68B559A9BCD94E85}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13915D3"
+     components {
+      PK_EntityProtectorComponent "{68B559A9B0CD6EE2}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13915ED"
+     components {
+      PK_EntityProtectorComponent "{68B559A916F25B73}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13915F4"
+     components {
+      PK_EntityProtectorComponent "{68B559A909178E76}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13915F9"
+     components {
+      PK_EntityProtectorComponent "{68B559A91738C1EF}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395084"
+     components {
+      PK_EntityProtectorComponent "{68B559A9F82E2588}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395095"
+     components {
+      PK_EntityProtectorComponent "{68B559A9CF9E34F0}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13950AE"
+     components {
+      PK_EntityProtectorComponent "{68B559A9BB5C9EB2}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13950B1"
+     components {
+      PK_EntityProtectorComponent "{68B559A9F2FCA411}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395713"
+     components {
+      PK_EntityProtectorComponent "{68B559A9CB8AA8A0}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395718"
+     components {
+      PK_EntityProtectorComponent "{68B559A8287AF9A8}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395723"
+     components {
+      PK_EntityProtectorComponent "{68B559A876487FFD}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395732"
+     components {
+      PK_EntityProtectorComponent "{68B559A8793DCB26}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395743"
+     components {
+      PK_EntityProtectorComponent "{68B559A9CDDCC7BA}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C1395755"
+     components {
+      PK_EntityProtectorComponent "{68B559A860DE20C6}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C139577F"
+     components {
+      PK_EntityProtectorComponent "{68B559A83B310CBF}" {
+      }
+     }
+    }
+    GenericEntity {
+     ID "665EB1B7C13957ED"
+     components {
+      PK_EntityProtectorComponent "{68B559A99DE20556}" {
+      }
+     }
+     {
+      GenericEntity {
+       ID "665EB1B7C1391591"
+       components {
+        PK_EntityProtectorComponent "{68B559A99524677A}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "665EB1B7C1391592"
+       components {
+        PK_EntityProtectorComponent "{68B559A997798110}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "665EB1B7C1391598"
+       components {
+        PK_EntityProtectorComponent "{68B559A993C898A3}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "665EB1B7C139159C"
+       components {
+        PK_EntityProtectorComponent "{68B559A991A979B8}" {
+        }
+       }
+      }
+      GenericEntity {
+       ID "665EB1B7C139159E"
+       components {
+        PK_EntityProtectorComponent "{68B559A996F7AD71}" {
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "66A294AFF747A9E6"
+     components {
+      PK_EntityProtectorComponent "{68B559A92365EFA2}" {
+      }
+     }
+    }
+    StaticModelEntity {
+     ID "66A292B1D756CA7C"
+     components {
+      PK_EntityProtectorComponent "{68B559A9A3F76512}" {
       }
      }
     }

@@ -10,7 +10,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 2
    }
   }
-  coords 10654.833 164.151 9558.862
+  coords 10654.833 164.151 9545.378
   angles 0 -0.161 0
   m_bSnapToTerrain 0
   m_sCustomNameSet "1st squad"
@@ -26,7 +26,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 3
    }
   }
-  coords 10668.219 164.151 9558.9
+  coords 10668.219 164.151 9545.416
   angles 0 -0.161 0
   m_bSnapToTerrain 0
   m_sCustomNameSet "2nd squad"
@@ -42,7 +42,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 4
    }
   }
-  coords 10679.781 164.151 9560.374
+  coords 10679.781 164.151 9546.89
   angles 0 -0.161 0
   m_bSnapToTerrain 0
   m_sCustomNameSet "3rd squad"
@@ -58,7 +58,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 6
    }
   }
-  coords 10654.401 164.151 9554.16
+  coords 10654.401 164.151 9540.676
   angles 0 -0.161 0
   m_bSnapToTerrain 0
   m_sCustomNameSet "4th squad"
@@ -74,7 +74,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 7
    }
   }
-  coords 10667.883 164.151 9554.15
+  coords 10667.883 164.151 9540.666
   angles 0 -0.161 0
   m_bSnapToTerrain 0
   m_sCustomNameSet "5th squad"
@@ -90,7 +90,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 8
    }
   }
-  coords 10679.833 164.151 9555.094
+  coords 10679.833 164.151 9541.609
   angles 0 -0.161 0
   m_bSnapToTerrain 0
   m_sCustomNameSet "6th squad"
@@ -106,7 +106,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 1
    }
   }
-  coords 10666.841 164.151 9573.335
+  coords 10666.841 164.151 9560.134
   angles 0 177.042 0
   m_aUnitPrefabSlots {
    "{530A911791D57BFB}worlds/TheLocalPub/CleanHouse/Prefabs/OPFOR/RHS_AFRF/MSV/Flora/P/Character_RHS_RF_MSV_Flora_PL_P.et"
@@ -128,7 +128,7 @@ $grp SCR_AIGroup : "{D05ABE9D4FCD367E}Prefabs/Groups/OPFOR/Russia/2000s/Motorise
     m_iSquadCallsign 10
    }
   }
-  coords 10673.451 164.151 9573.678
+  coords 10673.451 164.151 9560.193
   angles 0 177.042 0
   m_aUnitPrefabSlots {
    "{B3C496CCFA72D25E}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/Flora/Character_RHS_RF_MSV_Flora_SL.et"
