@@ -5,6 +5,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68A976A74C813A32}" {
+    m_iSquadCallsign 1
    }
   }
   coords 3324.602 310.745 432.306
@@ -17,7 +18,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68A976A7438079B8}" {
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 3317.897 310.178 415.056
@@ -30,7 +31,7 @@ $grp SCR_AIGroup : "{2F2E162C9B835EFB}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68A976A75C7CBB92}" {
-    m_iSquadCallsign 2
+    m_iSquadCallsign 3
    }
   }
   coords 3308.371 310 391.646
@@ -69,7 +70,6 @@ $grp SCR_AIGroup : "{3D708B262E8A46A3}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68A976A757BDBC26}" {
-    m_iSquadCallsign 6
    }
   }
   coords 3332.32 312.497 455.231
@@ -85,7 +85,7 @@ $grp SCR_AIGroup : "{3D708B262E8A46A3}Prefabs/Groups/OPFOR/GC_INSURGENT/Afghan I
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68A976A757BDBC26}" {
-    m_iSquadCallsign 7
+    m_iSquadCallsign 6
    }
   }
   coords 3364.491 310.16 446.282

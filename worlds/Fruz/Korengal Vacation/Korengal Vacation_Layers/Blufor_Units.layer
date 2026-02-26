@@ -4,7 +4,6 @@ SCR_AIGroup : "{50405007E4967EEE}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
    DefaultFormation "line"
   }
   PS_GroupCallsignAssigner "{68AE1D89EEFFF35E}" {
-   m_iSquadCallsign 6
   }
  }
  coords 2361.708 164.049 1863.651
@@ -24,6 +23,7 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantr
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68AE1D89E5F2C38A}" {
+    m_iSquadCallsign 1
    }
   }
   coords 2367.98 163.5 1865.652
@@ -46,7 +46,7 @@ $grp SCR_AIGroup : "{6E4EF673050EC9D3}Prefabs/Groups/BLUFOR/US/Army/2020/Infantr
     DefaultFormation "line"
    }
    PS_GroupCallsignAssigner "{68AE1D89E09D5CB1}" {
-    m_iSquadCallsign 1
+    m_iSquadCallsign 2
    }
   }
   coords 2367.948 163.95 1867.893
@@ -70,7 +70,7 @@ SCR_AIGroup : "{F6AD06DE653481AC}Prefabs/Groups/BLUFOR/US/Army/2020/Infantry/P/G
    DefaultFormation "line"
   }
   PS_GroupCallsignAssigner "{68AE1D89FAE13486}" {
-   m_iSquadCallsign 2
+   m_iSquadCallsign 3
   }
  }
  coords 2367.787 163.53 1869.878
