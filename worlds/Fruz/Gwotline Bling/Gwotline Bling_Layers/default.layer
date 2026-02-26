@@ -1,0 +1,82 @@
+SCR_AIWorld : "{0CB65E4CC0AFBCC0}Prefabs/SCR_AIWorld_Kunar.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{66AB6351F8DE57F6}" {
+     NavmeshFile "{935C52C1479660D1}NavMesh/Kunar_LowRes.nmn"
+    }
+   }
+  }
+ }
+ coords 2806.995 10 3163.747
+}
+PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 2809.147 10 3160.869
+}
+PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_GameMode_Lobby.et" {
+ coords 2812.845 10 3152.494
+ m_iFreezeTime 300000
+ {
+  SCR_FactionManager {
+   ID "5ED9088735FF2D8B"
+   Factions {
+    SCR_Faction "{5CC8DE37E1FF0F7A}" {
+     m_CallsignInfo SCR_FactionCallsignInfo "{5CC8BB97E017CDBC}" {
+      m_sCallsignGroupFormat " "
+     }
+    }
+   }
+  }
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 2997.891 10 3039.702
+ m_missionEvents {
+  TILW_MissionEvent "{68B37CDE5F297009}" {
+   m_name "US Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{68B37CDFD86729C0}" {
+     m_messageTitle "US Victory"
+     m_messageBody "90 Percent of the insurgent forces have been killed."
+    }
+   }
+   m_condition TILW_LiteralTerm "{68B37CDE549E68A0}" {
+    m_flagName "US"
+   }
+  }
+  TILW_MissionEvent "{68B37CDF96D16A36}" {
+   m_name "Insurgent Victory"
+   m_instructions {
+    TILW_SendMessageInstruction "{68B37CDFBE325557}" {
+     m_messageTitle "Insurgent Victory"
+     m_messageBody "90 Percent of the American Forces have been eliminated."
+    }
+   }
+   m_condition TILW_LiteralTerm "{68B37CDFBCE52628}" {
+    m_flagName "MUJ"
+   }
+  }
+  TILW_MissionEvent "{68B37C9E0BB288FC}" {
+   m_name "Time"
+   m_instructions {
+    TILW_SendMessageInstruction "{68B37C9FC1C4EF1B}" {
+     m_executionDelay 3900
+     m_messageTitle "Time Limit"
+     m_messageBody "60 Minutes have passed."
+    }
+   }
+  }
+ }
+ m_factionPlayersKilledFlags {
+  TILW_FactionPlayersKilledFlag "{68B37CDE1DC48AD3}" {
+   m_flagName "US"
+   m_factionKey "GC_MUJ"
+   m_casualtyRatio 0.9
+  }
+  TILW_FactionPlayersKilledFlag "{68B37CDE2723EF4F}" {
+   m_flagName "MUJ"
+   m_factionKey "RHS_USAF"
+   m_casualtyRatio 0.9
+  }
+ }
+}
