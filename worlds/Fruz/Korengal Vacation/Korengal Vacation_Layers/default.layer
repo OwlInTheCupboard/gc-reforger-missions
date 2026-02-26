@@ -24,7 +24,7 @@ PS_GameModeCoop PS_GameMode_Lobby1 : "{9C2001FE7A2F2281}Prefabs/MP/Modes/PS_Game
   }
  }
  coords 2708.845 102.72 1956.893
- m_iFreezeTime 90000
+ m_iFreezeTime 360000
 }
 TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
  coords 3301.475 310.118 413.789
@@ -66,21 +66,6 @@ TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramewor
    }
    m_condition TILW_LiteralTerm "{68A976A010619379}" {
     m_invertTerm 1
-   }
-  }
-  TILW_MissionEvent "{68AE1D83481169F3}" {
-   m_instructions {
-    TILW_SendMessageInstruction "{68AE1D836480B5D4}" {
-     m_messageTitle "COP Korengal has fell"
-     m_messageBody "Insurgent forces have taken the COP"
-     m_factionKeys {
-      "GC_INSURGENT"
-      "RHS_USAF"
-     }
-    }
-   }
-   m_condition TILW_LiteralTerm "{68AE1D83424C23C5}" {
-    m_flagName "INS_CAP"
    }
   }
  }
