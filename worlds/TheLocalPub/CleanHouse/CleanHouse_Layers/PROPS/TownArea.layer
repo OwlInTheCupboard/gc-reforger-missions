@@ -1,3 +1,117 @@
+$grp StaticModelEntity : "{0D1B4093098A0F9E}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_4m.et" {
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11797.668 -0.255 10612.429
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11796.462 -0.224 10616.242
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11795.256 -0.224 10620.056
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11794.05 -0.195 10623.869
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11791.014 -0.161 10633.468
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11789.808 -0.141 10637.281
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11788.602 -0.13 10641.095
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11792.22 -0.166 10629.654
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11786.268 -0.099 10648.476
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11785.062 -0.067 10652.289
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11783.855 -0.064 10656.103
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11787.474 -0.098 10644.662
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11782.664 -0.036 10659.867
+  angles 0 -107.55 0
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121A6228CD2D}" {
+   }
+  }
+  coords 11781.475 -0.028 10663.628
+  angles 0 -107.55 0
+ }
+}
 Vehicle S105_randomized1 : "{128253A267BE9424}Prefabs/Vehicles/Wheeled/S105/S105_randomized.et" {
  components {
   SCR_BaseLockComponent "{54D6FBC0EA806FE5}" {
@@ -344,6 +458,26 @@ StaticModelEntity : "{79E91C3F1C3A4EEC}Prefabs/Structures/Military/Houses/Apartm
  coords 12009.729 4.839 10556.486
  angles 0 81.025 0
 }
+$grp StaticModelEntity : "{7DD6D24A9BAE5A2D}Prefabs/Structures/Infrastructure/Pavements/ConcreteKerb_01_USSR/ConcreteKerb_01_USSR_2m.et" {
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121AE3093C96}" {
+   }
+  }
+  coords 11779.603 -0.115 10669.293
+  angles 0 70.656 -4.559
+  placement none
+ }
+ {
+  components {
+   PK_EntityProtectorComponent "{68B5121AE13D8627}" {
+   }
+  }
+  coords 11778.943 -0.115 10671.17
+  angles 0 70.656 -5.903
+  placement none
+ }
+}
 GenericEntity : "{7F8DB0D9FEE38305}Prefabs/Structures/Market/hut.et" {
  coords 11859.434 7.648 10609.665
  angles 0 35.641 0
@@ -375,6 +509,16 @@ StaticModelEntity : "{93419ED290A0C29E}Prefabs/Models/tem_lada_wreck.et" {
 GenericEntity : "{A64867AC63D200FB}Prefabs/Structures/Wreck/volha_blue.et" {
  coords 11803.342 12.654 10637.111
  angles 0 34.812 0
+}
+GenericEntity : "{B2B03F1CBE846171}Prefabs/Structures/Signs/Warnings/SignNoEntryBothDir_01.et" {
+ components {
+  PK_EntityProtectorComponent "{68B5121AE52EDEDE}" {
+  }
+  Hierarchy "{569AF601019A3DF3}" {
+   PivotID "socket_sign_01"
+  }
+ }
+ coords 11778.544 16.256 10668.95
 }
 GenericEntity : "{B67A4797AED7B3BC}Prefabs/Structures/Wreck/ikarus.et" {
  coords 11913.84 7.29 10580.653
@@ -486,8 +630,8 @@ Vehicle motorbike_green1 : "{E6E5E1E5DC66DD8C}Prefabs/Vehicles/Wheeled/Motorbike
    }
   }
  }
- coords 11782.508 14.094 10661.327
- angles 0 -15.006 0
+ coords 11784.438 14.656 10581.435
+ angles 0 14.164 0
 }
 Vehicle Ural4320_transport_CIV_randomized1 : "{EEAC3A94929A2B55}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_CIV_randomized.et" {
  components {

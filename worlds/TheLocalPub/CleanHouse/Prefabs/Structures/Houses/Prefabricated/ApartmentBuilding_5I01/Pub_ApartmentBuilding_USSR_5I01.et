@@ -21,24 +21,12 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548059"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4B5C7335A}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54807D"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4AA713E2C}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54809B"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4A8E19EEB}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5480B8"
@@ -49,10 +37,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5480D8"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4AF0828AB}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5480E6"
@@ -74,6 +58,12 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D4A378664F}" {
     }
    }
+   {
+    GenericEntity {
+     ID "6532D691F93E727A"
+     coords 0 0 0
+    }
+   }
   }
   Building {
    ID "65BCF8EE3A548146"
@@ -84,10 +74,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548149"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D6051C46C4}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54816B"
@@ -119,17 +105,9 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5481A3"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D67F1011FD}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5481B1"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D67C46348B}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5481C2"
@@ -182,10 +160,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A54825E"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D488902241}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54826D"
@@ -210,24 +184,12 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5482A6"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D482B7B939}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5482DB"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4834A036F}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5482FC"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D480735A9B}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548310"
@@ -273,17 +235,9 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5483A3"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4FC72C8A4}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5483C5"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4F1A9A20D}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5483E2"
@@ -298,6 +252,7 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D4F4EBE498}" {
     }
    }
+   coords 0 0 0
   }
   Building {
    ID "65BCF8EE3A548412"
@@ -315,10 +270,7 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548458"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4EE03BA5D}" {
-    }
-   }
+   coords 0 0 0
   }
   Building {
    ID "65BCF8EE3A54847F"
@@ -357,31 +309,15 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5484FB"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4DB7235F9}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54851C"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4D85B3A60}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548528"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4DEB02A78}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548532"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4D0DBA8A8}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54854E"
@@ -399,10 +335,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548586"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4C0608852}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5485BD"
@@ -427,10 +359,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5485EF"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D4C5A23651}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548613"
@@ -476,17 +404,15 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548694"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D73D191878}" {
+   {
+    GenericEntity {
+     ID "6532D691F17C87C7"
+     coords 0 0 0
     }
    }
   }
   Building {
    ID "65BCF8EE3A5486A7"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D73260BBE4}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5486DA"
@@ -504,10 +430,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5486F2"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D7368F6DBA}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548702"
@@ -518,10 +440,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548738"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D734B264D8}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54875F"
@@ -546,10 +464,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A54878E"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D727E9FE8B}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5487A5"
@@ -560,10 +474,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A5487DA"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D71D9131A5}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A5487F0"
@@ -574,10 +484,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548E01"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D677652A33}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548E1F"
@@ -595,10 +501,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548E33"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D66BBABCD3}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548E4A"
@@ -609,10 +511,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548E57"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D66983C682}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548E59"
@@ -630,10 +528,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548E7C"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D663BBBC48}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548E84"
@@ -644,17 +538,9 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A548E93"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D6618A85E8}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548EB7"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D666708A89}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A548FD8"
@@ -672,10 +558,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A54982C"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D711E61C43}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549835"
@@ -686,17 +568,9 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549847"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D71771624B}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A54987A"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D7141AE023}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549893"
@@ -742,10 +616,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A54994B"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D700C7E014}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549952"
@@ -756,10 +626,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A54996E"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D70722BF28}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549986"
@@ -812,10 +678,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549A64"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D77393A827}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549A99"
@@ -826,10 +688,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549AA0"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D771273B4B}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549AD8"
@@ -882,10 +740,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549B91"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D76EACA253}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549BAC"
@@ -931,10 +785,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549C20"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D6B6D6BB53}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549C44"
@@ -980,10 +830,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549CE2"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D75F80FF6A}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549D18"
@@ -1001,17 +847,9 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549D50"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D752F9058A}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549D6C"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D753C60AEF}" {
-    }
-   }
   }
   Building {
    ID "65BCF8EE3A549D77"
@@ -1057,10 +895,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
   }
   Building {
    ID "65BCF8EE3A549FE7"
-   components {
-    PK_EntityProtectorComponent "{68B4C8D6B40B05C9}" {
-    }
-   }
   }
   GameEntity {
    ID "65C2BC9FDDCEBA8C"
@@ -2289,9 +2123,6 @@ SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Pr
     PK_EntityProtectorComponent "{68B4C8D6A7BC87D4}" {
     }
    }
-  }
-  GenericEntity {
-   ID "65BCF8EE3A548F9B"
   }
   GenericEntity {
    ID "65BCF8EE3A548FAF"
