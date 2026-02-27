@@ -153,7 +153,7 @@ $grp DecalEntity : "{23547DEEEC8AB053}Prefabs/Decals/Blood/Decal_Blood_2.et" {
   angles -90 -180 -180
  }
  {
-  coords 11860.962 -0 10609.028
+  coords 11860.962 0 10609.028
   angles -90 -180 -180
  }
  {
@@ -294,7 +294,7 @@ $grp DecalEntity : "{3BD66CDD309673DB}Prefabs/Decals/Blood/BloodStain_Drops_01.e
   scale 2
  }
  {
-  coords 11825.023 -0 10525.31
+  coords 11825.023 0 10525.31
   angles -90 180 -159.982
   scale 2
  }
@@ -427,6 +427,84 @@ $grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_
   angles -0.173 -86.41 83.679
   scale 10
   TerrainOnly 0
+ }
+ {
+  coords 11910.539 19.601 10733.213
+  angles -60.571 89.391 -101.821
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11947.474 8.343 10790.645
+  angles 0 6.787 -90
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 12039.99 3.157 10940.213
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 12043.951 3.001 10765.984
+  angles -90 -126.175 0
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 12065.306 2.781 10821.275
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 12055.921 2.781 10933.94
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 12079.568 2.855 10843.631
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11958.183 6.657 10575.797
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 11898.753 9.99 10526.162
+  angles -77.742 -92.205 -11.554
+  scale 10
+ }
+ {
+  coords 11895.907 10.656 10498.761
+  angles -87.568 -90 90
+  scale 10
+ }
+ {
+  coords 11819.711 11.009 10569.865
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11825.977 16.134 10543.791
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11932.591 7.831 10556.429
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11865.652 8.093 10732.465
+  angles -90 0 -44.283
+  scale 10
+  Stretch 1.25
  }
 }
 $grp DecalEntity : "{626BC09329441A79}Prefabs/Decals/Blood/Decal_Blood_1.et" {
@@ -614,6 +692,112 @@ $grp DecalEntity : "{80B1153302345834}Prefabs/Decals/Miscellaneous/Decal_Damage_
   angles -90 -42.839 0
   scale 5
  }
+ {
+  coords 12013.375 2.844 10798.415
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 12101.877 2.657 10816.286
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 12094.314 2.743 10831.517
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 12066.594 2.782 10850.72
+  angles -90 -63.331 0
+  scale 5
+ }
+ {
+  coords 12113.795 2.657 10879.248
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 11950.635 5.653 10620.814
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 11923.697 5.438 10665.561
+  angles -9.861 -52.396 90
+  scale 5
+  TerrainOnly 0
+ }
+ {
+  coords 11924.299 5.093 10664.694
+  angles -90 -180 -180
+  scale 5
+  TerrainOnly 0
+ }
+ {
+  coords 11878.176 9.801 10664.333
+  angles -4.664 -107.143 90
+  scale 5
+  TerrainOnly 0
+ }
+ {
+  coords 11889.019 7.941 10599.719
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 11842.568 10.388 10611.6
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 11838.796 10.895 10608.651
+  angles -90 0 -89.97
+  scale 5
+ }
+ {
+  coords 11837.741 10.816 10613.611
+  angles -90 0 -89.97
+  scale 5
+ }
+ {
+  coords 11817.15 12.229 10547.508
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 11818.848 12.118 10552.547
+  angles -90 -180 -180
+  scale 5
+  TerrainOnly 0
+ }
+ {
+  coords 11815.317 12.156 10550.419
+  angles -90 -180 -180
+  scale 5
+ }
+ {
+  coords 11821.687 12.037 10548.407
+  angles -90 0 0
+  scale 5
+ }
+ {
+  coords 11826.089 17.672 10519.45
+  angles -86.268 7.933 -90
+  scale 5
+  Stretch 2
+ }
+ {
+  coords 11830.048 19.14 10738.529
+  angles -82.743 -89.97 0
+  scale 5
+  TerrainOnly 0
+ }
+ {
+  coords 11862.476 8.533 10658.019
+  angles -89.185 90 -90
+  scale 5
+ }
 }
 $grp DecalEntity : "{97A820CF29C72121}Prefabs/Decals/Blood/Decal_Blood_7.et" {
  {
@@ -622,7 +806,7 @@ $grp DecalEntity : "{97A820CF29C72121}Prefabs/Decals/Blood/Decal_Blood_7.et" {
   scale 4.8
  }
  {
-  coords 11882.108 -0 10584.162
+  coords 11882.108 0 10584.162
   angles -90 -180 -180
   scale 4.8
  }
@@ -909,7 +1093,7 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
  }
  {
   coords 11866.877 8.095 10750.673
-  angles -83.419 -90 90
+  angles -86.771 -90 90
   scale 10
  }
  {
@@ -926,6 +1110,121 @@ $grp DecalEntity : "{D1D104EBCB9C5E2D}Prefabs/Decals/Miscellaneous/Decal_Damage_
   }
   coords 11775.964 13.875 10616.441
   angles -86.964 -158.782 -80.732
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11936.267 10.059 10791.967
+  angles 2.817 7.063 0
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11934.189 10.059 10791.967
+  angles 2.817 97.063 0
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 12049.587 2.782 10857.586
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 12109.958 2.656 10864.359
+  angles -89.972 133.346 0
+  scale 10
+ }
+ {
+  coords 12084.848 7.861 10884.516
+  angles -90 78.905 0
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11980.082 5.884 10613.43
+  angles -90 -44.743 0
+  scale 10
+ }
+ {
+  coords 11934.337 9.006 10634.471
+  angles -90 -112.697 0
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11886.488 7.859 10647.381
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11919.475 7.658 10559.281
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 11868.163 12.88 10472.842
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 11803.412 13.447 10596.115
+  angles -6.289 -108.307 92.076
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11814.536 11.324 10575.43
+  angles -81.438 -90 90
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11893.686 8.531 10555.952
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 11938.576 14.535 10558.604
+  angles -90 -180 -180
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11961.447 7.727 10480.58
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 12001.953 4.357 10598.424
+  angles -82.588 -90 90
+  scale 10
+ }
+ {
+  coords 12014.55 2.156 10619.145
+  angles -90 0 -78.295
+  scale 10
+ }
+ {
+  coords 11908.506 14.443 10709.603
+  angles 1.863 7.14 0.233
+  scale 10
+  TerrainOnly 0
+ }
+ {
+  coords 11810.634 12.212 10711.098
+  angles -90 -180 -180
+  scale 10
+ }
+ {
+  coords 11813.657 10.949 10702.693
+  angles -86.492 -90 90
+  scale 10
+ }
+ {
+  coords 11872.984 13.229 10664.42
+  angles 1.987 165.141 179.473
   scale 10
   TerrainOnly 0
  }
