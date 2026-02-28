@@ -29,7 +29,7 @@ $grp PK_EntityDeleter {
   m_excludePrefabsInList 1
  }
  {
-  coords 10662.587 167.862 9601.771
+  coords 7908.004 167.862 5391.076
   angles 0 -15.934 0
   m_fRadius 35
  }

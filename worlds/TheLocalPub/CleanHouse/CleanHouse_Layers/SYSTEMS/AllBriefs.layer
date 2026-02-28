@@ -6,7 +6,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "This isolated element represents the last organized resistance in the area. Russian forces must eliminate this holdout in order to fully secure the city and consolidate control."\
   ""\
   "<h2>Notes</h2>"\
-  "• Setup timer: Russia Federation(RU) = 5min"
+  "• Setup timer: Russian Federation (RU) = 4mins"
   m_bEmptyFactionVisibility 1
  }
  MN {
@@ -20,7 +20,8 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• Destroy 90% of the Russian force causing them to withdraw."\
   ""\
   "<h2>Notes</h2>"\
-  "• Setup timer: Blufor = 4mins"
+  "• Setup timer: Russian Federation (RU) = 4mins"\
+  "• JIP: Deny - There is no TP option to your squad."
   m_bEmptyFactionVisibility 1
   m_bShowForAnyFaction 1
   m_iOrder 10

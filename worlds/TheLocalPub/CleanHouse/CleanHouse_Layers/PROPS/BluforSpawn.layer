@@ -4,7 +4,7 @@ $grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platfor
    PK_EntityProtectorComponent "{68B517F43CD7D860}" {
    }
   }
-  coords 10612.653 143.514 9611.214
+  coords 7858.07 143.514 5400.518
   angles 0 0 0
   scale 10
  }
@@ -13,7 +13,7 @@ $grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platfor
    PK_EntityProtectorComponent "{68B517F43EFC511E}" {
    }
   }
-  coords 10708.416 143.513 9611.215
+  coords 7953.833 143.513 5400.519
   angles 0 0 0
   scale 10
  }
@@ -22,7 +22,7 @@ $grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platfor
    PK_EntityProtectorComponent "{68B517F43238F461}" {
    }
   }
-  coords 10612.652 143.512 9514.55
+  coords 7858.069 143.512 5303.854
   angles 0 0 0
   scale 10
  }
@@ -31,7 +31,7 @@ $grp GenericEntity : "{04104BBB4BAA8833}Prefabs/Infrastructure/Platforms/Platfor
    PK_EntityProtectorComponent "{68B517F430B0CA38}" {
    }
   }
-  coords 10708.415 143.512 9514.55
+  coords 7953.832 143.511 5303.854
   angles 0 0 0
   scale 10
  }
@@ -42,11 +42,11 @@ GenericEntity BlueDoor : "{10C374FEF33ED4C6}Prefabs/Structures/BuildingParts/Doo
    Enabled 0
   }
  }
- coords 10646.276 164.15 9555.274
+ coords 7891.693 164.15 5344.579
  angles 0 90 0
 }
 GenericEntity RedDoor : "{9EB592E7C7CD1C0F}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B.et" {
- coords 10646.378 164.15 9545.218
+ coords 7891.795 164.15 5334.522
  angles 0 90 0
  {
   GenericEntity {
@@ -61,39 +61,39 @@ GenericEntity RedDoor : "{9EB592E7C7CD1C0F}Prefabs/Structures/BuildingParts/Door
 }
 $grp GenericEntity : "{AC0BE9625BFD0470}Prefabs/Models/ind/tem_ind_canalwall1.et" {
  {
-  coords 10566.746 159.303 9661.329
+  coords 7812.163 159.303 5450.632
  }
  {
-  coords 10751.17 159.303 9661.329
+  coords 7996.587 159.303 5450.632
  }
  {
-  coords 10666.917 159.303 9659.385
+  coords 7912.334 159.303 5448.689
   angles 0 -90 0
  }
  {
-  coords 10666.916 159.303 9461.213
+  coords 7912.333 159.303 5250.517
   angles 0 -90 0
  }
  {
-  coords 10569.417 159.303 9461.213
+  coords 7814.834 159.303 5250.517
   angles 0 -90 0
  }
  {
-  coords 10568.417 159.303 9659.385
+  coords 7813.834 159.303 5448.689
   angles 0 -90 0
  }
  {
-  coords 10751.17 159.303 9562.17
+  coords 7996.587 159.303 5351.474
  }
  {
-  coords 10566.746 159.303 9562.329
+  coords 7812.163 159.303 5351.632
  }
  {
-  coords 10569.417 159.303 9461.213
+  coords 7814.834 159.303 5250.517
   angles 0 -90 0
  }
  {
-  coords 10666.916 159.303 9461.213
+  coords 7912.333 159.303 5250.517
   angles 0 -90 0
  }
 }
@@ -144,7 +144,7 @@ GenericEntity EquipmentBox : "{C2D5FBC0BB90544A}PrefabsEditable/Auto/Props/Milit
  coords 10669.535 164.152 9554.237
 }
 GenericEntity : "{C5E5467213DB03DA}PrefabsEditable/Auto/EffectsModuleEntities/E_EffectModule_DirectionArrow_Multiple.et" {
- coords 10646.793 168 9552.571
+ coords 7892.21 168 5341.875
  angles -49.591 90 0
 }
 GenericEntity WhiteDoor : "{E2C75A974A146D9F}Prefabs/Structures/BuildingParts/Doors/Door_Village_E_A_RIGHT_INT_COV_B.et" {
@@ -156,11 +156,11 @@ GenericEntity WhiteDoor : "{E2C75A974A146D9F}Prefabs/Structures/BuildingParts/Do
    Enabled 0
   }
  }
- coords 10646.442 164.15 9558.287
+ coords 7891.859 164.15 5347.59
  angles 0 -90 0
 }
 GenericEntity GreenDoor : "{FCDC72F096DACBDC}Prefabs/Structures/BuildingParts/Doors/DoorSet_LighthouseMedium_top.et" {
- coords 10646.442 164.15 9550.264
+ coords 7891.859 164.15 5339.567
  angles 0 90 0
  {
   GenericEntity {

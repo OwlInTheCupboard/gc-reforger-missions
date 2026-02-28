@@ -29,7 +29,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
     }
    }
   }
-  coords 10646.545 165.612 9545.198
+  coords 7891.962 165.612 5334.501
  }
  EastTP {
   components {
@@ -47,7 +47,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
     }
    }
   }
-  coords 10646.545 165.612 9550.275
+  coords 7891.962 165.612 5339.58
  }
  SouthTP {
   components {
@@ -65,7 +65,7 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
     }
    }
   }
-  coords 10646.545 165.612 9554.591
+  coords 7891.962 165.612 5343.895
  }
  WestTP {
   components {
@@ -83,6 +83,6 @@ $grp GenericEntity : "{5B462DF843A26368}Prefabs/Utils/Interactions/TILW_Teleport
     }
    }
   }
-  coords 10646.545 165.612 9558.917
+  coords 7891.962 165.612 5348.221
  }
 }

@@ -5,6 +5,14 @@ GenericEntity : "{0011A3CBD1B1212A}Prefabs/Props/Garbage/Military/Ammo/GarbageAm
  }
  coords 11777.406 15.628 10623.914
 }
+SCR_DestructibleBuildingEntity : "{013D2AF70D4715C5}Prefabs/Models/props/tem_cover2.et" {
+ components {
+  PK_EntityProtectorComponent "{68B8C9CAC9E331D4}" {
+  }
+ }
+ coords 11785.013 18.606 10647.859
+ angles 0 -108.454 0
+}
 GenericEntity : "{0164749D6EAA4518}Prefabs/Props/Furniture/Bed_01.et" {
  components {
   PK_EntityProtectorComponent "{68B517DA1445DA98}" {
@@ -359,7 +367,7 @@ SCR_DestructibleBuildingEntity : "{3299E6F34CE40185}Prefabs/Structures/Agricultu
   PK_EntityProtectorComponent "{68B517DA567218BB}" {
   }
  }
- coords 11777.549 -0.187 10665.43
+ coords 11777.549 0 10665.43
  angles 0 -17.127 0
  {
   GenericEntity {
@@ -598,14 +606,6 @@ GenericEntity : "{6C57BFFFA642C60C}Prefabs/Compositions/Misc/SubCompositions/Cra
   }
  }
 }
-SCR_DestructibleBuildingEntity : "{6D691E17B1839AEB}Prefabs/Models/props/tem_cover1.et" {
- components {
-  PK_EntityProtectorComponent "{68B567343AFCDE76}" {
-  }
- }
- coords 11785.013 18.759 10647.859
- angles 0 -108.454 0
-}
 GenericEntity : "{72E42BEAFED9B5A7}Prefabs/Props/Garbage/Bins/GarbageContainer_01.et" {
  coords 11760.115 14.479 10629.449
 }
@@ -670,7 +670,7 @@ $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_
    PK_EntityProtectorComponent "{68B56735EFB2F110}" {
    }
   }
-  coords 11772.455 32.879 10655.764
+  coords 11772.491 32.879 10655.743
   angles 0 82.657 0
  }
  {
