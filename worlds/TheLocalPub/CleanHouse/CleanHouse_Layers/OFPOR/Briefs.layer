@@ -69,12 +69,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "• The apartment block provides strong defensive potential, with good sightlines and numerous fighting positions."\
   "• We maintain 360-degree coverage across five floors and a rooftop."\
   "• The building contains two internal stairwells and one external ladder, allowing access to each level and the roof. These routes provide both maneuver flexibility and fallback options during the defense."\
-  "• We have a PKM turret on the 3rd floor west facing balcony."\
-  " "\
-  "<h2>SERVICE & SUPPORT</h2> "\
-  "All remaining equipment has been consolidated into a crate positioned next to the building."\
-  "Available supplies include:"\
-  ""
+  "• We have a PKM turret on the 3rd floor west facing balcony."
   m_aVisibleForFactions {
    "GC_SEPARATIST"
   }
