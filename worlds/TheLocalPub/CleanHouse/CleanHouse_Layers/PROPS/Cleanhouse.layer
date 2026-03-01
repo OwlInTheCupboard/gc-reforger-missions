@@ -1538,8 +1538,8 @@ $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_
    PK_EntityProtectorComponent "{68B56731E9A15591}" {
    }
   }
-  coords 11784.447 32.902 10642.276
-  angles 0 165.447 0
+  coords 11786.332 32.902 10642.766
+  angles 0 -14.553 -2.148
  }
  {
   components {
@@ -1921,8 +1921,8 @@ $grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_
    PK_EntityProtectorComponent "{68B56731EBFF6200}" {
    }
   }
-  coords 11786.199 32.961 10642.828
-  angles 0 -17.395 0
+  coords 11784.579 32.892 10642.214
+  angles 0.106 162.607 2.145
  }
  {
   components {
