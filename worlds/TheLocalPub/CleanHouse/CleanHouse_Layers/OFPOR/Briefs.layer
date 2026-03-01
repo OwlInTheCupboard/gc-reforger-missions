@@ -47,6 +47,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   m_sTextData "<h2>COMPOSITION & DISPOSITION</h2> "\
   "Enemy forces consist of elements of the 144th Guards Motor Rifle Division, 254th Guards Motor Rifle Regiment."\
   "They are dispersed throughout the city of Kamensk, having secured all areas except this building and its immediate surroundings."\
+  ""\
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
   "• The enemy has total freedom of movement within the city. With no remaining resistance outside this position, they can take their time to plan, coordinate, and prepare their assault without fear of disruption."\
   "• They are able to establish overwatch positions, including sniper teams and support elements, in surrounding buildings and maintain sustained pressure over time, gradually degrading our defenses."\
@@ -68,7 +69,7 @@ $grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescripti
   "<h2>STRENGTHS & CAPABILITIES</h2> "\
   "• The apartment block provides strong defensive potential, with good sightlines and numerous fighting positions."\
   "• We maintain 360-degree coverage across five floors and a rooftop."\
-  "• The building contains two internal stairwells and one external ladder, allowing access to each level and the roof. These routes provide both maneuver flexibility and fallback options during the defense."\
+  "• The building contains two internal stairwells and one external ladder, allowing access to each level and the roof."\
   "• We have a PKM turret on the 3rd floor west facing balcony."
   m_aVisibleForFactions {
    "GC_SEPARATIST"

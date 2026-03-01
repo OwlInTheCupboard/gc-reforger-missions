@@ -35,6 +35,7 @@ $grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker
   m_aVisibleForFactions {
    "RHS_AFRF"
   }
+  m_iZOrder 10000
  }
  SouthInsert2 {
   coords 11901.983 5 10258.322
