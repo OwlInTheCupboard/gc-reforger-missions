@@ -1,7 +1,9 @@
 PolylineShapeEntity BuildingMarker : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
  components {
   TILW_MapShapeComponent "{6508F5526836BC09}" {
+   m_color 0.423 0.423 0.423 1
    m_drawLine 1
+   m_lineColor 0.205 0.205 0.205 1
    m_lineWidth 1
   }
  }
@@ -19,5 +21,27 @@ PolylineShapeEntity BuildingMarker : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_M
   ShapePoint "{68C29EBD361AE1CF}" {
    Position -20.906 14.077 -1865.866
   }
+ }
+}
+$grp PS_ManualMarker : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ Intel1 {
+  coords 4670.786 0 3761.737
+  angles 0 90 0
+  m_sImageSet "{AD134BD52338BBB5}worlds/TheLocalPub/CleanHouse/Images/ApartmentPhoto1.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 5000
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
+ }
+ Intel2 {
+  coords 4670.786 0 10273.253
+  angles 0 90 0
+  m_sImageSet "{F3FB62969CB535BA}worlds/TheLocalPub/CleanHouse/Images/ApartmentPhoto2.edds"
+  m_sImageSetGlow ""
+  m_sQuadName ""
+  m_fWorldSize 5000
+  m_bVisibleForEmptyFaction 1
+  m_bShowForAnyFaction 1
  }
 }
