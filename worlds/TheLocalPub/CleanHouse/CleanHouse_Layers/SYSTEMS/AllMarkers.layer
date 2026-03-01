@@ -1,0 +1,23 @@
+PolylineShapeEntity BuildingMarker : "{A0468F86F76FCEE7}Prefabs/Logic/Map/TILW_MapShape.et" {
+ components {
+  TILW_MapShapeComponent "{6508F5526836BC09}" {
+   m_drawLine 1
+   m_lineWidth 1
+  }
+ }
+ coords 11801.835 0 12530.783
+ Points {
+  ShapePoint "{68C29EBAC3BCF902}" {
+   Position -35.566 13.587 -1870.199
+  }
+  ShapePoint "{68C29EBAC75C6632}" {
+   Position -19.199 13.875 -1922.208
+  }
+  ShapePoint "{68C29EBD330E2DBD}" {
+   Position -4.805 14.313 -1917.672
+  }
+  ShapePoint "{68C29EBD361AE1CF}" {
+   Position -20.906 14.077 -1865.866
+  }
+ }
+}
